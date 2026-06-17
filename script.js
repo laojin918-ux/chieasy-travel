@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'China Consultation': 'Консультация по Китаю',
       '45 minutes · €149': '45 минут · €149',
       'Route logic, apps, payments, hotels, transport and first-trip questions.': 'Логика маршрута, приложения, оплата, отели, транспорт и вопросы первой поездки.',
-      'Pay with Revolut': 'Оплатить через Revolut',
+      'Pay with Revolut': 'Оплатить по СБП',
       'Years of China experience': 'лет опыта в Китае',
       'Cities explored': 'городов изучено',
       'Languages: EN / RU / ES / PT / CN': 'Языки: EN / RU / ES / PT / CN',
@@ -72,8 +72,8 @@ document.addEventListener('DOMContentLoaded', () => {
       'Hotels & transport': 'Отели и транспорт',
       'First-trip strategy': 'Стратегия первой поездки',
       '45 minutes': '45 минут',
-      'Online call. Secure payment via Revolut.': 'Онлайн-звонок. Безопасная оплата через Revolut.',
-      'After payment, message us on WhatsApp to choose a time for the call.': 'После оплаты напишите нам в WhatsApp, чтобы выбрать время звонка.',
+      'Online call. Secure payment via Revolut.': 'Онлайн-консультация. Оплата по СБП для русскоязычной версии.',
+      'After payment, message us on WhatsApp to choose a time for the call.': 'После оплаты напишите нам в WhatsApp, чтобы выбрать удобное время консультации.',
       'Swipe sideways': 'Листайте в сторону',
       'Ready-Made Trip Ideas': 'Готовые идеи маршрутов',
       'Start with a route. Then we customize it.': 'Начните с маршрута. Потом мы адаптируем его под вас.',
@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Ready to plan China properly?': 'Готовы спланировать Китай правильно?',
       'Start Trip Quiz': 'Начать анкету',
       'WhatsApp Our Team': 'Написать в WhatsApp',
-      '€149 Call': 'Звонок €149',
+      '€149 Call': 'Разбор поездки',
       'Plan Trip': 'План поездки',
       'Privacy': 'Приватность',
       'Terms': 'Условия',
@@ -1035,6 +1035,10 @@ document.addEventListener('DOMContentLoaded', () => {
       'We help travelers solve payments, routes, hotels, transport, local support and unique experiences before they arrive.': 'Мы заранее собираем всю систему поездки: маршрут, отели, транспорт, оплату, локальные контакты и впечатления, ради которых действительно стоит лететь в Китай.',
       'China Consultation': 'Частная консультация по Китаю',
       'Route logic, apps, payments, hotels, transport and first-trip questions.': 'Маршрут, приложения, оплата, отели, транспорт и решения, которые экономят время и нервы до поездки.',
+      'Pay with Revolut': 'Оплатить по СБП',
+      'Online call. Secure payment via Revolut.': 'Онлайн-консультация. Оплата по СБП для русскоязычной версии.',
+      'After payment, message us on WhatsApp to choose a time for the call.': 'После оплаты напишите нам в WhatsApp, чтобы выбрать удобное время консультации.',
+      '€149 Call': 'Разбор поездки',
       'Need clarity before booking the full route?': 'Хотите понять Китай до того, как бронировать поездку?',
       'Book a focused 45-minute consultation and leave with a realistic China plan: where to go, what to avoid, which apps to prepare, how to think about transport, hotels, payments and timing.': 'За 45 минут разберём вашу поездку как travel-консьерж: куда ехать, что исключить, какие приложения подготовить, где жить, как двигаться между городами и как не потерять время на месте.',
       'Route review': 'Аудит маршрута',
@@ -1313,7 +1317,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     ru: {
       school: 'https://www.chieasy.online/ru',
-      payment: 'https://revolut.me/kingkongoff?currency=EUR&amount=12999'
+      payment: 'https://wa.me/79173679853?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%BF%D0%BB%D0%B0%D1%82%D0%B8%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8E%20%D0%BF%D0%BE%20%D0%9A%D0%B8%D1%82%D0%B0%D1%8E%20%D0%B7%D0%B0%2012%20999%20%E2%82%BD%20%D0%BF%D0%BE%20%D0%A1%D0%91%D0%9F'
     }
   };
 
@@ -1328,7 +1332,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'hero-cta': 'Консультация 45 минут · 12 999 ₽',
       'hero-card': '45 минут · 12 999 ₽',
       'consultation-price': '12 999 ₽',
-      'sticky-call': 'Звонок 12 999 ₽'
+      'sticky-call': 'Разбор поездки'
     },
     es: {
       'hero-cta': 'Consulta 45 min · €149',
