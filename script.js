@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Routes': 'Маршруты',
       'Experiences': 'Впечатления',
       'Video': 'Видео',
-      'FAQ': 'FAQ',
+      'FAQ': 'Вопросы',
       'Custom China Travel Company': 'Индивидуальные путешествия по Китаю',
       'Discover the China Most Travelers Never See': 'Откройте Китай, который большинство туристов не видит',
       'Custom routes, private tours and premium experiences across China — built by a team founded on 12 years of real China experience.': 'Индивидуальные маршруты, частные туры и премиум-впечатления по Китаю — от команды с 12 годами реального опыта в Китае.',
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
       '45 minutes': '45 минут',
       'Online call. Secure payment via Revolut.': 'Онлайн-консультация. Оплата по СБП для русскоязычной версии.',
       'After payment, message us on WhatsApp to choose a time for the call.': 'После оплаты напишите нам в WhatsApp, чтобы выбрать удобное время консультации.',
-      'Swipe sideways': 'Листайте в сторону',
+      'Swipe sideways': 'Листайте карточки',
       'Ready-Made Trip Ideas': 'Готовые идеи маршрутов',
       'Start with a route. Then we customize it.': 'Начните с маршрута. Потом мы адаптируем его под вас.',
       'These are sample route concepts. Dates, hotels, transport, guides and experiences are adjusted to your travel style.': 'Это примеры маршрутов. Даты, отели, транспорт, гиды и впечатления настраиваются под ваш стиль путешествия.',
@@ -127,11 +127,11 @@ document.addEventListener('DOMContentLoaded', () => {
       'Signature Stays': 'Особенные отели',
       'Founder Story': 'История основателя',
       'Built by someone who made China his everyday life.': 'Создано человеком, для которого Китай стал повседневной жизнью.',
-      'Chieasy Online School': 'Chieasy Online School',
-      'Visit Chieasy School': 'Перейти в Chieasy School',
-      'Featured Video': 'Видео',
+      'Chieasy Online School': 'Онлайн-школа Chieasy',
+      'Visit Chieasy School': 'Открыть школу Chieasy',
+      'Featured Video': 'Видео о Китае',
       'Start here before visiting China.': 'Начните здесь перед поездкой в Китай.',
-      'Open on YouTube': 'Открыть на YouTube',
+      'Open on YouTube': 'Смотреть на YouTube',
       'Traveler Notes': 'Запросы путешественников',
       'What people usually need help with.': 'С чем обычно нужна помощь.',
       'Plan Your Trip': 'Спланировать поездку',
@@ -194,9 +194,9 @@ document.addEventListener('DOMContentLoaded', () => {
       ,'Close route details': 'Закрыть детали маршрута'
       ,'Education and travel network': 'Образовательная и travel-сеть'
       ,'China travel video': 'Видео о путешествиях по Китаю'
-      ,'Local': 'Локально'
+      ,'Local': 'Свои'
       ,'VIP': 'VIP'
-      ,'Active': 'Активный'
+      ,'Active': 'Активный маршрут'
       ,'Custom': 'Индивидуально'
       ,'Popular Places': 'Популярные места'
       ,'Route highlights': 'Главное по маршруту'
@@ -218,7 +218,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ,"Studied Chinese at Shenzhen University and finished a bachelor's degree in Chinese, inside the Chinese student environment.": 'Учился китайскому в Shenzhen University и закончил бакалавриат на китайском в китайской студенческой среде.'
       ,'Admissions Support': 'Помощь с поступлением'
       ,'We also help students understand study opportunities in China, university applications and the practical side of moving there.': 'Мы также помогаем студентам разобраться с учёбой в Китае, поступлением в университеты и практической стороной переезда.'
-      ,'Travel Network': 'Travel-сеть'
+      ,'Travel Network': 'Партнёрская сеть'
       ,'See how we talk about China before you travel with us.': 'Посмотрите, как мы говорим о Китае до вашей поездки.'
       ,'Direct, practical and based on real experience living, studying and traveling across China.': 'Прямо, практично и на основе реального опыта жизни, учёбы и путешествий по Китаю.'
       ,'First China Trip': 'Первая поездка в Китай'
@@ -251,7 +251,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Routes': 'Rutas',
       'Experiences': 'Experiencias',
       'Video': 'Video',
-      'FAQ': 'FAQ',
+      'FAQ': 'Preguntas',
       'Custom China Travel Company': 'Viajes personalizados por China',
       'Discover the China Most Travelers Never See': 'Descubre la China que la mayoría de viajeros no ve',
       'Custom routes, private tours and premium experiences across China — built by a team founded on 12 years of real China experience.': 'Rutas personalizadas, tours privados y experiencias premium por China, creadas por un equipo con 12 años de experiencia real en el país.',
@@ -353,7 +353,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Routes': 'Roteiros',
       'Experiences': 'Experiências',
       'Video': 'Vídeo',
-      'FAQ': 'FAQ',
+      'FAQ': 'Dúvidas',
       'Custom China Travel Company': 'Viagens personalizadas pela China',
       'Discover the China Most Travelers Never See': 'Descubra a China que a maioria dos viajantes não vê',
       'Custom routes, private tours and premium experiences across China — built by a team founded on 12 years of real China experience.': 'Roteiros personalizados, tours privados e experiências premium pela China, criados por uma equipe com 12 anos de experiência real no país.',
@@ -563,7 +563,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Shanghai → Zhangjiajie → Chongqing. A powerful first route mixing modern China, nature and a crazy megacity.': 'Шанхай → Чжанцзяцзе → Чунцин. Сильный первый маршрут: современный Китай, природа и безумный мегаполис.',
       'Zhangjiajie → Tianmen Mountain → Furong. Nature, cliffs, waterfalls and optional helicopter experiences.': 'Чжанцзяцзе → Тяньмэнь → Фужун. Природа, скалы, водопады и опциональные полёты на вертолёте.',
       'Yangshuo → Zhangjiajie → Yunnan. Rivers, karst mountains, ancient towns and dramatic scenery.': 'Яншо → Чжанцзяцзе → Юньнань. Реки, карстовые горы, древние города и драматичные виды.',
-      'Hong Kong → Macau → Guangzhou → Shenzhen. South China, skyline, food, business and history.': 'Гонконг → Макао → Гуанчжоу → Шэньчжэнь. Южный Китай, skyline, еда, бизнес и история.',
+      'Hong Kong → Macau → Guangzhou → Shenzhen. South China, skyline, food, business and history.': 'Гонконг → Макао → Гуанчжоу → Шэньчжэнь. Южный Китай: панорамы, еда, бизнес и история.',
       'Beijing → Nanjing → Changsha → Xi\'an. Ancient capitals, city walls, temples and big historical questions.': 'Пекин → Нанкин → Чанша → Сиань. Древние столицы, стены, храмы и большая история.',
       'Taishan → Huashan → Hengshan → Songshan. Cliffs, temples, sunrise routes and active China.': 'Тайшань → Хуашань → Хэншань → Суншань. Скалы, храмы, рассветы и активный Китай.',
       'Qingdao → Chongqing → Shenzhen → Hong Kong. Neon cities, layered roads and future-facing China.': 'Циндао → Чунцин → Шэньчжэнь → Гонконг. Неоновые города, многоуровневые дороги и Китай будущего.',
@@ -582,11 +582,11 @@ document.addEventListener('DOMContentLoaded', () => {
       'We suggest cities, transport logic, hotels and experiences.': 'Мы предлагаем города, транспортную логику, отели и впечатления.',
       'Private tours, drivers, tickets, apps, hotels and premium options.': 'Частные туры, водители, билеты, приложения, отели и премиум-опции.',
       'You travel with a clearer route and local help when needed.': 'Вы путешествуете с понятным маршрутом и локальной помощью при необходимости.',
-      'For travelers who want more than sightseeing: aerial views, private boats, event logistics, premium stays and high-touch local support.': 'Для тех, кто хочет больше, чем sightseeing: виды с воздуха, частные лодки, организация событий, премиум-отели и внимательная локальная поддержка.',
+      'For travelers who want more than sightseeing: aerial views, private boats, event logistics, premium stays and high-touch local support.': 'Для тех, кто хочет больше, чем осмотр достопримечательностей: виды с воздуха, частные лодки, организация событий, премиум-отели и внимательная локальная поддержка.',
       'Selected scenic flights over Zhangjiajie, mountains or dramatic landscapes when available.': 'Выбранные обзорные полёты над Чжанцзяцзе, горами или драматичными пейзажами, когда доступны.',
       'Li River, city night cruises or quiet nature routes arranged around the destination.': 'Река Ли, ночные городские круизы или спокойные природные маршруты вокруг направления.',
       'Private dinners, business visits, creator shoots, group arrivals and on-ground coordination.': 'Частные ужины, бизнес-визиты, съёмки для контента, групповые приезды и координация на месте.',
-      'Boutique hotels, cliffside views, premium rooms and scenic stays that fit the route.': 'Бутик-отели, виды со скал, премиум-номера и красивые stays по маршруту.',
+      'Boutique hotels, cliffside views, premium rooms and scenic stays that fit the route.': 'Бутик-отели, виды со скал, премиум-номера и проживание, которое красиво дополняет маршрут.',
       'Ilya moved to China in 2015, studied Chinese at Shenzhen University and later completed a bachelor\'s degree in Chinese together with Chinese classmates. Chieasy started from language and culture, then grew into education, admissions support and now custom China travel.': 'Илья переехал в Китай в 2015 году, учил китайский в Shenzhen University, а затем закончил бакалавриат на китайском вместе с китайскими студентами. Chieasy начался с языка и культуры, затем вырос в образование, помощь с поступлением и теперь — в индивидуальные путешествия по Китаю.',
       'Opened in 2020. Students from around the world can join online Chinese, Spanish and English lessons at any time.': 'Открыта в 2020 году. Студенты со всего мира могут в любой момент записаться на онлайн-уроки китайского, испанского и английского.',
       'Recent cooperation with Ctrip and travel conferences helps us see new routes, hotels and experience formats before they become obvious.': 'Сотрудничество с Ctrip и поездки на travel-конференции помогают нам видеть новые маршруты, отели и форматы впечатлений раньше, чем они становятся очевидными.',
@@ -682,7 +682,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Route logic, apps, payments, hotels, transport and first-trip questions.': 'Lógica de ruta, apps, pagos, hoteles, transporte y dudas del primer viaje.',
       'Local': 'Local',
       '45 minutes': '45 minutos',
-      'Swipe sideways': 'Desliza hacia el lado',
+      'Swipe sideways': 'Desliza las tarjetas',
       '7–10 days': '7–10 días',
       '5–7 days': '5–7 días',
       '7–9 days': '7–9 días',
@@ -690,7 +690,7 @@ document.addEventListener('DOMContentLoaded', () => {
       '8 days': '8 días',
       '4–5 days': '4–5 días',
       '6–9 days': '6–9 días',
-      'Hong Kong → Macau → Guangzhou → Shenzhen. South China, skyline, food, business and history.': 'Hong Kong → Macao → Guangzhou → Shenzhen. Sur de China, skyline, comida, negocios e historia.',
+      'Hong Kong → Macau → Guangzhou → Shenzhen. South China, skyline, food, business and history.': 'Hong Kong → Macao → Guangzhou → Shenzhen. Sur de China: vistas urbanas, gastronomía, negocios e historia.',
       'Beijing → Nanjing → Changsha → Xi\'an. Ancient capitals, city walls, temples and big historical questions.': 'Pekín → Nanjing → Changsha → Xi\'an. Capitales antiguas, murallas, templos y grandes historias.',
       'Taishan → Huashan → Hengshan → Songshan. Cliffs, temples, sunrise routes and active China.': 'Taishan → Huashan → Hengshan → Songshan. Acantilados, templos, amaneceres y una China activa.',
       'Qingdao → Chongqing → Shenzhen → Hong Kong. Neon cities, layered roads and future-facing China.': 'Qingdao → Chongqing → Shenzhen → Hong Kong. Ciudades de neón, carreteras elevadas y la China del futuro.',
@@ -797,7 +797,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Route logic, apps, payments, hotels, transport and first-trip questions.': 'Lógica do roteiro, apps, pagamentos, hotéis, transporte e dúvidas da primeira viagem.',
       'Local': 'Local',
       '45 minutes': '45 minutos',
-      'Swipe sideways': 'Deslize para o lado',
+      'Swipe sideways': 'Deslize os cartões',
       '7–10 days': '7–10 dias',
       '5–7 days': '5–7 dias',
       '7–9 days': '7–9 dias',
@@ -805,7 +805,7 @@ document.addEventListener('DOMContentLoaded', () => {
       '8 days': '8 dias',
       '4–5 days': '4–5 dias',
       '6–9 days': '6–9 dias',
-      'Hong Kong → Macau → Guangzhou → Shenzhen. South China, skyline, food, business and history.': 'Hong Kong → Macau → Guangzhou → Shenzhen. Sul da China, skyline, comida, negócios e história.',
+      'Hong Kong → Macau → Guangzhou → Shenzhen. South China, skyline, food, business and history.': 'Hong Kong → Macau → Guangzhou → Shenzhen. Sul da China: vistas urbanas, gastronomia, negócios e história.',
       'Beijing → Nanjing → Changsha → Xi\'an. Ancient capitals, city walls, temples and big historical questions.': 'Pequim → Nanjing → Changsha → Xi\'an. Capitais antigas, muralhas, templos e grandes histórias.',
       'Taishan → Huashan → Hengshan → Songshan. Cliffs, temples, sunrise routes and active China.': 'Taishan → Huashan → Hengshan → Songshan. Penhascos, templos, nascer do sol e uma China ativa.',
       'Qingdao → Chongqing → Shenzhen → Hong Kong. Neon cities, layered roads and future-facing China.': 'Qingdao → Chongqing → Shenzhen → Hong Kong. Cidades de neon, estradas em camadas e a China do futuro.',
@@ -926,7 +926,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Qingdao → Chongqing → Shenzhen → Hong Kong. Neon cities, layered roads and future-facing China.': '青岛 → 重庆 → 深圳 → 香港。霓虹城市、立体道路和面向未来的中国。',
       'Guangzhou → Chengdu → Xi\'an. Cantonese food, Sichuan spice, markets and unexpected flavors.': '广州 → 成都 → 西安。粤菜、四川辣味、市场和意想不到的味道。',
       'Dali → Lijiang → Shangri-La. Ancient towns, snow mountains, lakes, tea culture and slower China.': '大理 → 丽江 → 香格里拉。古城、雪山、湖泊、茶文化和更慢节奏的中国。',
-      'Active': '当前',
+      'Active': '轻徒步',
       'Custom': '定制',
       'Popular Places': '热门地点',
       'Route highlights': '路线亮点',
@@ -1029,6 +1029,16 @@ document.addEventListener('DOMContentLoaded', () => {
   const PREMIUM_COPY_TRANSLATIONS = {
     ru: {
       'Custom China Travel Company': 'Частный travel-консьерж по Китаю',
+      'FAQ': 'Вопросы',
+      'Local': 'Свои',
+      'Partners across China': 'контакты по всему Китаю',
+      'Active': 'Активный маршрут',
+      'Swipe sideways': 'Листайте карточки',
+      'Chieasy Online School': 'Онлайн-школа Chieasy',
+      'Visit Chieasy School': 'Открыть школу Chieasy',
+      'Chieasy School': 'Школа Chieasy',
+      'Featured Video': 'Видео о Китае',
+      'Open on YouTube': 'Смотреть на YouTube',
       'Discover the China Most Travelers Never See': 'Китай,\nкоторый не найти\nв обычном туре',
       'Custom routes, private tours and premium experiences across China — built by a team founded on 12 years of real China experience.': 'Индивидуальные маршруты, частная поддержка и редкие впечатления по Китаю — с командой, которая знает страну изнутри, а не по туристическим шаблонам.',
       'Not a standard tour. A smarter China route.': 'Не турпакет. Персональный маршрут с логикой, комфортом и вкусом.',
@@ -1096,6 +1106,11 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     es: {
       'Custom China Travel Company': 'Concierge privado de viajes por China',
+      'FAQ': 'Preguntas',
+      'Active': 'Aventura',
+      'Swipe sideways': 'Desliza las tarjetas',
+      'Chieasy Online School': 'Escuela online Chieasy',
+      'Visit Chieasy School': 'Visitar la escuela Chieasy',
       'Discover the China Most Travelers Never See': 'Descubre una China que no se encuentra en un itinerario genérico',
       'Custom routes, private tours and premium experiences across China — built by a team founded on 12 years of real China experience.': 'Rutas privadas, apoyo local y experiencias selectas por China, diseñadas por un equipo que conoce el país desde dentro.',
       'Not a standard tour. A smarter China route.': 'No es un paquete turístico. Es una ruta privada con criterio, comodidad y estilo.',
@@ -1157,6 +1172,11 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     pt: {
       'Custom China Travel Company': 'Concierge privado de viagens pela China',
+      'FAQ': 'Dúvidas',
+      'Active': 'Aventura',
+      'Swipe sideways': 'Deslize os cartões',
+      'Chieasy Online School': 'Escola online Chieasy',
+      'Visit Chieasy School': 'Visitar a escola Chieasy',
       'Discover the China Most Travelers Never See': 'Descubra uma China que não cabe em um roteiro genérico',
       'Custom routes, private tours and premium experiences across China — built by a team founded on 12 years of real China experience.': 'Roteiros privados, apoio local e experiências selecionadas pela China, desenhados por uma equipe que conhece o país por dentro.',
       'Not a standard tour. A smarter China route.': 'Não é um pacote turístico. É um roteiro privado com critério, conforto e estilo.',
@@ -1218,6 +1238,8 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     cn: {
       'Custom China Travel Company': '中国高端私人旅行顾问',
+      'Active': '轻徒步',
+      'Swipe sideways': '左右滑动卡片',
       'Discover the China Most Travelers Never See': '看见不属于普通行程的中国',
       'Custom routes, private tours and premium experiences across China — built by a team founded on 12 years of real China experience.': '以真实中国经验为基础，为你定制私人路线、本地支持与高端体验。',
       'Not a standard tour. A smarter China route.': '不是标准旅游团，而是一条更有判断力、更舒适的私人路线。',
