@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Fly Above the Avatar Mountains': 'Полет над горами Аватара',
       'Waterfall Cliff Hotels': 'Отели у скал и водопадов',
       'Ride Across the Grasslands': 'Поездка по степям',
-      'Yangshuo River Experience': 'Река Яншо',
+      'Yangshuo River Experience': 'Река в Яншо',
       'Chongqing After Dark': 'Чунцин после заката',
       'Why Chieasy Travel?': 'Почему Chieasy Travel?',
       'Standard tours are built for everyone. Our routes are built for you.': 'Стандартные туры делают для всех. Наши маршруты — под вас.',
