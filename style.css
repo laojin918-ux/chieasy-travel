@@ -1157,6 +1157,19 @@ h1,h2,h3,h4,
 .final-cta{
   overflow-wrap:break-word;
 }
+.experience-grid .road-trip-card{
+  justify-content:flex-start;
+  background:
+    linear-gradient(180deg,rgba(0,0,0,.74),rgba(0,0,0,.22) 42%,rgba(0,0,0,.06) 74%,rgba(0,0,0,.2)),
+    var(--bg);
+  background-size:cover;
+  background-position:center;
+}
+.experience-grid .road-trip-card h3,
+.experience-grid .road-trip-card p{
+  max-width:82%;
+  text-shadow:0 3px 18px rgba(0,0,0,.45);
+}
 html[lang="ru"],
 html[lang="es"],
 html[lang="pt"]{
