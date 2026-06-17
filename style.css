@@ -1123,6 +1123,25 @@ h1,h2,h3,h4,
 .consultation-price strong{
   line-height:.96;
 }
+.hero-v5 h1,
+.section-head h2,
+.compare h2,
+.addons-head h2,
+.founder-copy h2,
+.quiz-intro h2,
+.final-cta h2,
+.video-copy h3{
+  white-space:pre-line;
+  text-wrap:balance;
+}
+.section-head,
+.compare>div:first-child,
+.addons-head>div:first-child,
+.founder-copy,
+.quiz-intro,
+.final-cta{
+  overflow-wrap:break-word;
+}
 html[lang="ru"],
 html[lang="es"],
 html[lang="pt"]{
@@ -1165,6 +1184,10 @@ html[lang="ru"] h2,
 html[lang="es"] h2,
 html[lang="pt"] h2{
   font-size:clamp(32px,4.4vw,58px);
+}
+html[lang="ru"] h2{
+  font-size:clamp(30px,3.7vw,48px);
+  line-height:1.08;
 }
 html[lang="zh-CN"] h2{
   font-size:clamp(30px,4vw,54px);
@@ -1233,6 +1256,9 @@ html[lang="ru"] .addons-head h2,
 html[lang="es"] .addons-head h2,
 html[lang="pt"] .addons-head h2{
   font-size:clamp(38px,5vw,64px);
+}
+html[lang="ru"] .addons-head h2{
+  font-size:clamp(32px,4vw,52px);
 }
 html[lang="zh-CN"] .addons-head h2{
   font-size:clamp(34px,4.6vw,58px);
@@ -1346,6 +1372,9 @@ html[lang="zh-CN"] .partner-logo{
   html[lang="pt"] h2,
   html[lang="zh-CN"] h2{
     font-size:clamp(28px,8.6vw,42px);
+  }
+  html[lang="ru"] h2{
+    font-size:clamp(27px,7.4vw,38px);
   }
   html[lang="ru"] .btn,
   html[lang="es"] .btn,
