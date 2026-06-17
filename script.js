@@ -1335,11 +1335,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const LANGUAGE_LINKS = {
     en: {
       school: 'https://www.chieasy.online/en',
-      payment: 'https://revolut.me/kingkongoff?currency=EUR&amount=14900'
+      payment: 'https://revolut.me/kingkongoff?currency=EUR&amount=14900',
+      video: 'https://youtu.be/4837e_teFuw'
     },
     ru: {
       school: 'https://www.chieasy.online/ru',
-      payment: 'https://wa.me/79173679853?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%BF%D0%BB%D0%B0%D1%82%D0%B8%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8E%20%D0%BF%D0%BE%20%D0%9A%D0%B8%D1%82%D0%B0%D1%8E%20%D0%B7%D0%B0%2012%20999%20%E2%82%BD%20%D0%BF%D0%BE%20%D0%A1%D0%91%D0%9F'
+      payment: 'https://wa.me/79173679853?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%BF%D0%BB%D0%B0%D1%82%D0%B8%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8E%20%D0%BF%D0%BE%20%D0%9A%D0%B8%D1%82%D0%B0%D1%8E%20%D0%B7%D0%B0%2012%20999%20%E2%82%BD%20%D0%BF%D0%BE%20%D0%A1%D0%91%D0%9F',
+      video: 'https://youtu.be/4837e_teFuw?si=GmO4Z7-1Qh7ztrIw'
     }
   };
 
@@ -1435,6 +1437,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     document.querySelectorAll('[data-payment-link]').forEach(link => {
       link.setAttribute('href', activeLinks.payment);
+    });
+    document.querySelectorAll('[data-video-link]').forEach(link => {
+      link.setAttribute('href', activeLinks.video || LANGUAGE_LINKS.en.video);
     });
 
     const activePriceText = LANGUAGE_PRICE_TEXT[activeLang] || LANGUAGE_PRICE_TEXT.en;
