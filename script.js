@@ -181,6 +181,69 @@ document.addEventListener('DOMContentLoaded', () => {
       'Cookie notice': 'Cookie',
       'Accept': 'Принять',
       'Privacy Policy': 'Политика приватности'
+      ,'Chieasy Travel — Custom China Trips & Premium Experiences': 'Chieasy Travel — индивидуальные путешествия и премиум-впечатления в Китае'
+      ,'7–10 days': '7–10 дней'
+      ,'5–7 days': '5–7 дней'
+      ,'7–9 days': '7–9 дней'
+      ,'8–12 days': '8–12 дней'
+      ,'8 days': '8 дней'
+      ,'4–5 days': '4–5 дней'
+      ,'6–9 days': '6–9 дней'
+      ,'Open menu': 'Открыть меню'
+      ,'Language switcher': 'Переключатель языка'
+      ,'Close route details': 'Закрыть детали маршрута'
+      ,'Education and travel network': 'Образовательная и travel-сеть'
+      ,'China travel video': 'Видео о путешествиях по Китаю'
+      ,'Local': 'Локально'
+      ,'VIP': 'VIP'
+      ,'Active': 'Активный'
+      ,'Custom': 'Индивидуально'
+      ,'Popular Places': 'Популярные места'
+      ,'Route highlights': 'Главное по маршруту'
+      ,'Plan this route': 'Спланировать этот маршрут'
+      ,'Keep exploring': 'Смотреть дальше'
+      ,'Pick a route': 'Выберите маршрут'
+      ,'Add premium access': 'Добавьте премиум-доступ'
+      ,'Travel with support': 'Путешествуйте с поддержкой'
+      ,'Aerial': 'С воздуха'
+      ,'Water': 'Вода'
+      ,'Events': 'События'
+      ,'Comfort': 'Комфорт'
+      ,'Since 2015': 'С 2015'
+      ,'living, studying and traveling across China': 'жизнь, учёба и путешествия по Китаю'
+      ,'Since 2020': 'С 2020'
+      ,'online language school, enrollment anytime': 'онлайн-школа языков, запись в любой момент'
+      ,'China since 2015': 'Китай с 2015'
+      ,'China Education': 'Образование в Китае'
+      ,"Studied Chinese at Shenzhen University and finished a bachelor's degree in Chinese, inside the Chinese student environment.": 'Учился китайскому в Shenzhen University и закончил бакалавриат на китайском в китайской студенческой среде.'
+      ,'Admissions Support': 'Помощь с поступлением'
+      ,'We also help students understand study opportunities in China, university applications and the practical side of moving there.': 'Мы также помогаем студентам разобраться с учёбой в Китае, поступлением в университеты и практической стороной переезда.'
+      ,'Travel Network': 'Travel-сеть'
+      ,'See how we talk about China before you travel with us.': 'Посмотрите, как мы говорим о Китае до вашей поездки.'
+      ,'Direct, practical and based on real experience living, studying and traveling across China.': 'Прямо, практично и на основе реального опыта жизни, учёбы и путешествий по Китаю.'
+      ,'First China Trip': 'Первая поездка в Китай'
+      ,'“China looks incredible, but online information feels scattered. I need a route that makes sense, not just a list of cities.”': '«Китай выглядит невероятно, но информация в интернете разрозненная. Мне нужен маршрут с логикой, а не просто список городов».'
+      ,'Route idea: Shanghai → Zhangjiajie → Chongqing': 'Идея маршрута: Шанхай → Чжанцзяцзе → Чунцин'
+      ,'Creator Route': 'Маршрут для контента'
+      ,'“I want cinematic places, night views and nature, but I do not know where the best viewpoints and timing are.”': '«Мне нужны кинематографичные места, ночные виды и природа, но я не знаю лучшие точки и тайминг».'
+      ,'Route idea: Chongqing → Zhangjiajie → Yangshuo': 'Идея маршрута: Чунцин → Чжанцзяцзе → Яншо'
+      ,'Premium Nature': 'Премиум-природа'
+      ,'“We want beautiful landscapes, boutique stays and comfort, without turning the trip into a rushed checklist.”': '«Мы хотим красивые пейзажи, бутик-отели и комфорт, но без ощущения гонки по чеклисту».'
+      ,'Route idea: Yunnan → Yangshuo → Zhangjiajie': 'Идея маршрута: Юньнань → Яншо → Чжанцзяцзе'
+      ,'Business + Travel': 'Бизнес + путешествие'
+      ,'“I am combining meetings, conferences and travel. I need local logic, transport clarity and time to actually enjoy China.”': '«Я совмещаю встречи, конференции и путешествие. Нужна локальная логика, понятный транспорт и время действительно насладиться Китаем».'
+      ,'Route idea: Shenzhen → Guangzhou → Hong Kong': 'Идея маршрута: Шэньчжэнь → Гуанчжоу → Гонконг'
+      ,'Don’t fill this out:': 'Не заполняйте это:'
+      ,'Visa requirements depend on your passport, route, travel dates and the cities you plan to visit. We can help you understand what to verify for your specific trip, but final visa decisions always depend on official authorities.': 'Визовые требования зависят от паспорта, маршрута, дат и городов. Мы поможем понять, что проверить для вашей поездки, но окончательное решение всегда за официальными органами.'
+      ,'Is China difficult for first-time visitors?': 'Сложно ли впервые ехать в Китай?'
+      ,'China is rewarding, but it works differently from Europe, North America and Southeast Asia. Mobile payments, apps, hotels and transport require preparation. With the right setup, travel becomes much easier.': 'Китай очень интересный, но устроен иначе, чем Европа, Северная Америка и Юго-Восточная Азия. Мобильные платежи, приложения, отели и транспорт требуют подготовки. С правильной настройкой путешествие становится намного проще.'
+      ,'Can I travel around China without speaking Chinese?': 'Можно ли путешествовать по Китаю без китайского?'
+      ,'Yes, but the route and app setup matter. A well-planned trip can prevent most communication problems before they happen.': 'Да, но важны маршрут и подготовка приложений. Хороший план предотвращает большую часть проблем с коммуникацией заранее.'
+      ,'Can you arrange unique or extreme experiences?': 'Можете организовать необычные или экстремальные впечатления?'
+      ,'Depending on location and season, yes. This can include helicopter flights, horseback riding, private boats, sunrise routes, special hotels and creator-focused routes.': 'В зависимости от места и сезона — да. Это могут быть полёты на вертолёте, верховая езда, частные лодки, маршруты на рассвет, особенные отели и маршруты для контента.'
+      ,'Can your team help before I arrive?': 'Может ли команда помочь до моего приезда?'
+      ,'Yes. We can help with route planning, hotel areas, transport logic, WeChat and Alipay preparation, eSIM suggestions and general travel strategy.': 'Да. Мы можем помочь с маршрутом, районами отелей, транспортной логикой, подготовкой WeChat и Alipay, eSIM и общей стратегией поездки.'
+      ,'Custom China Travel Company • Private Tours • Premium Experiences • Local Partners Across China': 'Индивидуальные путешествия по Китаю • Частные туры • Премиум-впечатления • Локальные партнёры по всему Китаю'
     },
     es: {
       'Home': 'Inicio',
@@ -611,6 +674,358 @@ document.addEventListener('DOMContentLoaded', () => {
     Object.assign(TRANSLATIONS[lang], EXTRA_TRANSLATIONS[lang]);
   });
 
+  const COMPLETION_TRANSLATIONS = {
+    es: {
+      'Chieasy Travel — Custom China Trips & Premium Experiences': 'Chieasy Travel — viajes personalizados y experiencias premium en China',
+      'China Consultation': 'Consulta sobre China',
+      '45 minutes · €149': '45 minutos · €149',
+      'Route logic, apps, payments, hotels, transport and first-trip questions.': 'Lógica de ruta, apps, pagos, hoteles, transporte y dudas del primer viaje.',
+      'Local': 'Local',
+      '45 minutes': '45 minutos',
+      'Swipe sideways': 'Desliza hacia el lado',
+      '7–10 days': '7–10 días',
+      '5–7 days': '5–7 días',
+      '7–9 days': '7–9 días',
+      '8–12 days': '8–12 días',
+      '8 days': '8 días',
+      '4–5 days': '4–5 días',
+      '6–9 days': '6–9 días',
+      'Hong Kong → Macau → Guangzhou → Shenzhen. South China, skyline, food, business and history.': 'Hong Kong → Macao → Guangzhou → Shenzhen. Sur de China, skyline, comida, negocios e historia.',
+      'Beijing → Nanjing → Changsha → Xi\'an. Ancient capitals, city walls, temples and big historical questions.': 'Pekín → Nanjing → Changsha → Xi\'an. Capitales antiguas, murallas, templos y grandes historias.',
+      'Taishan → Huashan → Hengshan → Songshan. Cliffs, temples, sunrise routes and active China.': 'Taishan → Huashan → Hengshan → Songshan. Acantilados, templos, amaneceres y una China activa.',
+      'Qingdao → Chongqing → Shenzhen → Hong Kong. Neon cities, layered roads and future-facing China.': 'Qingdao → Chongqing → Shenzhen → Hong Kong. Ciudades de neón, carreteras elevadas y la China del futuro.',
+      'Guangzhou → Chengdu → Xi\'an. Cantonese food, Sichuan spice, markets and unexpected flavors.': 'Guangzhou → Chengdu → Xi\'an. Cocina cantonesa, picante de Sichuan, mercados y sabores inesperados.',
+      'Dali → Lijiang → Shangri-La. Ancient towns, snow mountains, lakes, tea culture and slower China.': 'Dali → Lijiang → Shangri-La. Pueblos antiguos, montañas nevadas, lagos, té y una China más lenta.',
+      'Active': 'Activo',
+      'Custom': 'Personalizado',
+      'Popular Places': 'Lugares populares',
+      'Route highlights': 'Puntos clave de la ruta',
+      'Plan this route': 'Planificar esta ruta',
+      'Keep exploring': 'Seguir explorando',
+      'Fly Above the Avatar Mountains': 'Volar sobre las montañas Avatar',
+      'Waterfall Cliff Hotels': 'Hoteles entre cascadas y acantilados',
+      'Ride Across the Grasslands': 'Cruzar las praderas a caballo',
+      'Inner Mongolia horses, yurts and sunset routes.': 'Caballos, yurtas y rutas al atardecer en Mongolia Interior.',
+      'Desert highways, mountains and remote landscapes.': 'Carreteras del desierto, montañas y paisajes remotos.',
+      'Yangshuo River Experience': 'Experiencia en el río de Yangshuo',
+      'Chongqing After Dark': 'Chongqing de noche',
+      'Cyberpunk viewpoints, neon streets and night photography.': 'Miradores cyberpunk, calles de neón y fotografía nocturna.',
+      'Standard Tour': 'Tour estándar',
+      'Fixed itinerary': 'Itinerario fijo',
+      'Custom route': 'Ruta personalizada',
+      'Tourist hotspots': 'Puntos turísticos típicos',
+      'Hidden gems + essentials': 'Lugares secretos + imprescindibles',
+      'Large groups': 'Grupos grandes',
+      'Private planning': 'Planificación privada',
+      'Generic guide': 'Guía genérico',
+      'China specialist network': 'Red de especialistas en China',
+      'Limited flexibility': 'Flexibilidad limitada',
+      'Trip designed around you': 'Viaje diseñado para ti',
+      'Tell Us About Your Trip': 'Cuéntanos tu viaje',
+      'Share your dates, travel style, interests and budget.': 'Comparte fechas, estilo de viaje, intereses y presupuesto.',
+      'Get Your Custom Route': 'Recibe tu ruta personalizada',
+      'We suggest cities, transport logic, hotels and experiences.': 'Proponemos ciudades, lógica de transporte, hoteles y experiencias.',
+      'Arrange The Details': 'Organizamos los detalles',
+      'Private tours, drivers, tickets, apps, hotels and premium options.': 'Tours privados, conductores, entradas, apps, hoteles y opciones premium.',
+      'Travel With Support': 'Viaja con apoyo',
+      'You travel with a clearer route and local help when needed.': 'Viajas con una ruta más clara y ayuda local cuando la necesites.',
+      'Pick a route': 'Elige una ruta',
+      'Add premium access': 'Añade acceso premium',
+      'Travel with support': 'Viaja con apoyo',
+      'Aerial': 'Aéreo',
+      'Selected scenic flights over Zhangjiajie, mountains or dramatic landscapes when available.': 'Vuelos panorámicos seleccionados sobre Zhangjiajie, montañas o paisajes dramáticos cuando estén disponibles.',
+      'Water': 'Agua',
+      'Li River, city night cruises or quiet nature routes arranged around the destination.': 'Río Li, cruceros nocturnos urbanos o rutas tranquilas de naturaleza según el destino.',
+      'Events': 'Eventos',
+      'Private dinners, business visits, creator shoots, group arrivals and on-ground coordination.': 'Cenas privadas, visitas de negocios, rodajes para creadores, llegadas de grupos y coordinación local.',
+      'Comfort': 'Comodidad',
+      'Boutique hotels, cliffside views, premium rooms and scenic stays that fit the route.': 'Hoteles boutique, vistas desde acantilados, habitaciones premium y estancias escénicas que encajan con la ruta.',
+      'Since 2015': 'Desde 2015',
+      'living, studying and traveling across China': 'viviendo, estudiando y viajando por China',
+      'Since 2020': 'Desde 2020',
+      'online language school, enrollment anytime': 'escuela online de idiomas, inscripción en cualquier momento',
+      'China since 2015': 'China desde 2015',
+      'China Education': 'Educación en China',
+      "Studied Chinese at Shenzhen University and finished a bachelor's degree in Chinese, inside the Chinese student environment.": 'Estudió chino en Shenzhen University y terminó una licenciatura en chino dentro del entorno estudiantil chino.',
+      'Admissions Support': 'Apoyo para admisiones',
+      'We also help students understand study opportunities in China, university applications and the practical side of moving there.': 'También ayudamos a estudiantes a entender oportunidades de estudio en China, solicitudes universitarias y la parte práctica de mudarse.',
+      'Travel Network': 'Red de viajes',
+      'Recent cooperation with Ctrip and travel conferences helps us see new routes, hotels and experience formats before they become obvious.': 'La cooperación reciente con Ctrip y conferencias de turismo nos ayuda a ver nuevas rutas, hoteles y formatos de experiencia antes de que sean obvios.',
+      'See how we talk about China before you travel with us.': 'Mira cómo hablamos de China antes de viajar con nosotros.',
+      'Direct, practical and based on real experience living, studying and traveling across China.': 'Directo, práctico y basado en experiencia real viviendo, estudiando y viajando por China.',
+      'Open on YouTube': 'Abrir en YouTube',
+      'First China Trip': 'Primer viaje a China',
+      '“China looks incredible, but online information feels scattered. I need a route that makes sense, not just a list of cities.”': '«China parece increíble, pero la información online está dispersa. Necesito una ruta con sentido, no solo una lista de ciudades».',
+      'Route idea: Shanghai → Zhangjiajie → Chongqing': 'Idea de ruta: Shanghái → Zhangjiajie → Chongqing',
+      'Creator Route': 'Ruta para creadores',
+      '“I want cinematic places, night views and nature, but I do not know where the best viewpoints and timing are.”': '«Quiero lugares cinematográficos, vistas nocturnas y naturaleza, pero no sé cuáles son los mejores miradores ni los horarios».',
+      'Route idea: Chongqing → Zhangjiajie → Yangshuo': 'Idea de ruta: Chongqing → Zhangjiajie → Yangshuo',
+      'Premium Nature': 'Naturaleza premium',
+      '“We want beautiful landscapes, boutique stays and comfort, without turning the trip into a rushed checklist.”': '«Queremos paisajes bonitos, hoteles boutique y comodidad, sin convertir el viaje en una lista apresurada».',
+      'Route idea: Yunnan → Yangshuo → Zhangjiajie': 'Idea de ruta: Yunnan → Yangshuo → Zhangjiajie',
+      'Business + Travel': 'Negocios + viaje',
+      '“I am combining meetings, conferences and travel. I need local logic, transport clarity and time to actually enjoy China.”': '«Estoy combinando reuniones, conferencias y viaje. Necesito lógica local, transporte claro y tiempo para disfrutar China».',
+      'Route idea: Shenzhen → Guangzhou → Hong Kong': 'Idea de ruta: Shenzhen → Guangzhou → Hong Kong',
+      'Don’t fill this out:': 'No rellenes esto:',
+      'Name': 'Nombre',
+      'WhatsApp / Telegram': 'WhatsApp / Telegram',
+      'Things most travelers ask before visiting China': 'Lo que más preguntan los viajeros antes de visitar China',
+      'Do I need a visa for China?': '¿Necesito visa para China?',
+      'Visa requirements depend on your passport, route, travel dates and the cities you plan to visit. We can help you understand what to verify for your specific trip, but final visa decisions always depend on official authorities.': 'Los requisitos de visa dependen de tu pasaporte, ruta, fechas y ciudades. Podemos ayudarte a entender qué verificar, pero la decisión final siempre depende de las autoridades oficiales.',
+      'Is China difficult for first-time visitors?': '¿China es difícil para una primera visita?',
+      'China is rewarding, but it works differently from Europe, North America and Southeast Asia. Mobile payments, apps, hotels and transport require preparation. With the right setup, travel becomes much easier.': 'China merece mucho la pena, pero funciona distinto a Europa, Norteamérica y el Sudeste Asiático. Pagos móviles, apps, hoteles y transporte requieren preparación. Con la configuración correcta, viajar es mucho más fácil.',
+      'Can I travel around China without speaking Chinese?': '¿Puedo viajar por China sin hablar chino?',
+      'Yes, but the route and app setup matter. A well-planned trip can prevent most communication problems before they happen.': 'Sí, pero la ruta y la configuración de apps importan. Un viaje bien planificado evita la mayoría de problemas de comunicación antes de que ocurran.',
+      'Can you arrange unique or extreme experiences?': '¿Podéis organizar experiencias únicas o extremas?',
+      'Depending on location and season, yes. This can include helicopter flights, horseback riding, private boats, sunrise routes, special hotels and creator-focused routes.': 'Según el lugar y la temporada, sí. Puede incluir helicópteros, caballos, barcos privados, rutas al amanecer, hoteles especiales y rutas para creadores.',
+      'Can your team help before I arrive?': '¿Vuestro equipo puede ayudar antes de mi llegada?',
+      'Yes. We can help with route planning, hotel areas, transport logic, WeChat and Alipay preparation, eSIM suggestions and general travel strategy.': 'Sí. Podemos ayudar con planificación de ruta, zonas de hoteles, lógica de transporte, preparación de WeChat y Alipay, eSIM y estrategia general.',
+      'Custom China Travel Company • Private Tours • Premium Experiences • Local Partners Across China': 'Viajes personalizados por China • Tours privados • Experiencias premium • Socios locales en China',
+      'Chieasy School': 'Chieasy School',
+      'Cookie notice': 'Aviso de cookies',
+      'Privacy Policy': 'Política de privacidad',
+      'Open menu': 'Abrir menú',
+      'Language switcher': 'Selector de idioma',
+      'Close route details': 'Cerrar detalles de ruta',
+      'Education and travel network': 'Red de educación y viajes',
+      'China travel video': 'Video de viajes por China'
+    },
+    pt: {
+      'Chieasy Travel — Custom China Trips & Premium Experiences': 'Chieasy Travel — viagens personalizadas e experiências premium na China',
+      'China Consultation': 'Consultoria sobre a China',
+      '45 minutes · €149': '45 minutos · €149',
+      'Route logic, apps, payments, hotels, transport and first-trip questions.': 'Lógica do roteiro, apps, pagamentos, hotéis, transporte e dúvidas da primeira viagem.',
+      'Local': 'Local',
+      '45 minutes': '45 minutos',
+      'Swipe sideways': 'Deslize para o lado',
+      '7–10 days': '7–10 dias',
+      '5–7 days': '5–7 dias',
+      '7–9 days': '7–9 dias',
+      '8–12 days': '8–12 dias',
+      '8 days': '8 dias',
+      '4–5 days': '4–5 dias',
+      '6–9 days': '6–9 dias',
+      'Hong Kong → Macau → Guangzhou → Shenzhen. South China, skyline, food, business and history.': 'Hong Kong → Macau → Guangzhou → Shenzhen. Sul da China, skyline, comida, negócios e história.',
+      'Beijing → Nanjing → Changsha → Xi\'an. Ancient capitals, city walls, temples and big historical questions.': 'Pequim → Nanjing → Changsha → Xi\'an. Capitais antigas, muralhas, templos e grandes histórias.',
+      'Taishan → Huashan → Hengshan → Songshan. Cliffs, temples, sunrise routes and active China.': 'Taishan → Huashan → Hengshan → Songshan. Penhascos, templos, nascer do sol e uma China ativa.',
+      'Qingdao → Chongqing → Shenzhen → Hong Kong. Neon cities, layered roads and future-facing China.': 'Qingdao → Chongqing → Shenzhen → Hong Kong. Cidades de neon, estradas em camadas e a China do futuro.',
+      'Guangzhou → Chengdu → Xi\'an. Cantonese food, Sichuan spice, markets and unexpected flavors.': 'Guangzhou → Chengdu → Xi\'an. Comida cantonesa, tempero de Sichuan, mercados e sabores inesperados.',
+      'Dali → Lijiang → Shangri-La. Ancient towns, snow mountains, lakes, tea culture and slower China.': 'Dali → Lijiang → Shangri-La. Vilas antigas, montanhas nevadas, lagos, cultura do chá e uma China mais lenta.',
+      'Active': 'Ativo',
+      'Custom': 'Personalizado',
+      'Popular Places': 'Lugares populares',
+      'Route highlights': 'Destaques do roteiro',
+      'Plan this route': 'Planejar este roteiro',
+      'Keep exploring': 'Continuar explorando',
+      'Fly Above the Avatar Mountains': 'Voar sobre as Montanhas Avatar',
+      'Waterfall Cliff Hotels': 'Hotéis entre cachoeiras e penhascos',
+      'Ride Across the Grasslands': 'Cavalgar pelas pradarias',
+      'Inner Mongolia horses, yurts and sunset routes.': 'Cavalos, yurts e rotas ao pôr do sol na Mongólia Interior.',
+      'Desert highways, mountains and remote landscapes.': 'Estradas do deserto, montanhas e paisagens remotas.',
+      'Yangshuo River Experience': 'Experiência no rio de Yangshuo',
+      'Chongqing After Dark': 'Chongqing à noite',
+      'Cyberpunk viewpoints, neon streets and night photography.': 'Mirantes cyberpunk, ruas de neon e fotografia noturna.',
+      'Standard Tour': 'Tour padrão',
+      'Fixed itinerary': 'Itinerário fixo',
+      'Custom route': 'Roteiro personalizado',
+      'Tourist hotspots': 'Pontos turísticos comuns',
+      'Hidden gems + essentials': 'Lugares secretos + essenciais',
+      'Large groups': 'Grupos grandes',
+      'Private planning': 'Planejamento privado',
+      'Generic guide': 'Guia genérico',
+      'China specialist network': 'Rede de especialistas em China',
+      'Limited flexibility': 'Flexibilidade limitada',
+      'Trip designed around you': 'Viagem desenhada para você',
+      'Tell Us About Your Trip': 'Conte-nos sobre sua viagem',
+      'Share your dates, travel style, interests and budget.': 'Compartilhe datas, estilo de viagem, interesses e orçamento.',
+      'Get Your Custom Route': 'Receba seu roteiro personalizado',
+      'We suggest cities, transport logic, hotels and experiences.': 'Sugerimos cidades, lógica de transporte, hotéis e experiências.',
+      'Arrange The Details': 'Organizamos os detalhes',
+      'Private tours, drivers, tickets, apps, hotels and premium options.': 'Tours privados, motoristas, ingressos, apps, hotéis e opções premium.',
+      'Travel With Support': 'Viaje com apoio',
+      'You travel with a clearer route and local help when needed.': 'Você viaja com um roteiro mais claro e ajuda local quando precisar.',
+      'Pick a route': 'Escolha um roteiro',
+      'Add premium access': 'Adicione acesso premium',
+      'Travel with support': 'Viaje com apoio',
+      'Aerial': 'Aéreo',
+      'Selected scenic flights over Zhangjiajie, mountains or dramatic landscapes when available.': 'Voos panorâmicos selecionados sobre Zhangjiajie, montanhas ou paisagens dramáticas quando disponíveis.',
+      'Water': 'Água',
+      'Li River, city night cruises or quiet nature routes arranged around the destination.': 'Rio Li, cruzeiros noturnos urbanos ou rotas tranquilas de natureza de acordo com o destino.',
+      'Events': 'Eventos',
+      'Private dinners, business visits, creator shoots, group arrivals and on-ground coordination.': 'Jantares privados, visitas de negócios, gravações para criadores, chegadas de grupos e coordenação local.',
+      'Comfort': 'Conforto',
+      'Boutique hotels, cliffside views, premium rooms and scenic stays that fit the route.': 'Hotéis boutique, vistas de penhascos, quartos premium e estadias cênicas que combinam com o roteiro.',
+      'Since 2015': 'Desde 2015',
+      'living, studying and traveling across China': 'vivendo, estudando e viajando pela China',
+      'Since 2020': 'Desde 2020',
+      'online language school, enrollment anytime': 'escola online de idiomas, matrícula a qualquer momento',
+      'China since 2015': 'China desde 2015',
+      'China Education': 'Educação na China',
+      "Studied Chinese at Shenzhen University and finished a bachelor's degree in Chinese, inside the Chinese student environment.": 'Estudou chinês na Shenzhen University e concluiu uma graduação em chinês dentro do ambiente estudantil chinês.',
+      'Admissions Support': 'Apoio em admissões',
+      'We also help students understand study opportunities in China, university applications and the practical side of moving there.': 'Também ajudamos estudantes a entender oportunidades de estudo na China, candidaturas universitárias e a parte prática da mudança.',
+      'Travel Network': 'Rede de viagens',
+      'Recent cooperation with Ctrip and travel conferences helps us see new routes, hotels and experience formats before they become obvious.': 'A cooperação recente com a Ctrip e conferências de turismo nos ajuda a ver novas rotas, hotéis e formatos de experiência antes de se tornarem óbvios.',
+      'See how we talk about China before you travel with us.': 'Veja como falamos sobre a China antes de viajar conosco.',
+      'Direct, practical and based on real experience living, studying and traveling across China.': 'Direto, prático e baseado em experiência real vivendo, estudando e viajando pela China.',
+      'Open on YouTube': 'Abrir no YouTube',
+      'First China Trip': 'Primeira viagem à China',
+      '“China looks incredible, but online information feels scattered. I need a route that makes sense, not just a list of cities.”': '“A China parece incrível, mas a informação online é dispersa. Preciso de um roteiro que faça sentido, não só uma lista de cidades.”',
+      'Route idea: Shanghai → Zhangjiajie → Chongqing': 'Ideia de roteiro: Xangai → Zhangjiajie → Chongqing',
+      'Creator Route': 'Roteiro para criadores',
+      '“I want cinematic places, night views and nature, but I do not know where the best viewpoints and timing are.”': '“Quero lugares cinematográficos, vistas noturnas e natureza, mas não sei quais são os melhores mirantes nem o timing.”',
+      'Route idea: Chongqing → Zhangjiajie → Yangshuo': 'Ideia de roteiro: Chongqing → Zhangjiajie → Yangshuo',
+      'Premium Nature': 'Natureza premium',
+      '“We want beautiful landscapes, boutique stays and comfort, without turning the trip into a rushed checklist.”': '“Queremos paisagens bonitas, hotéis boutique e conforto, sem transformar a viagem numa lista corrida.”',
+      'Route idea: Yunnan → Yangshuo → Zhangjiajie': 'Ideia de roteiro: Yunnan → Yangshuo → Zhangjiajie',
+      'Business + Travel': 'Negócios + viagem',
+      '“I am combining meetings, conferences and travel. I need local logic, transport clarity and time to actually enjoy China.”': '“Estou combinando reuniões, conferências e viagem. Preciso de lógica local, transporte claro e tempo para realmente aproveitar a China.”',
+      'Route idea: Shenzhen → Guangzhou → Hong Kong': 'Ideia de roteiro: Shenzhen → Guangzhou → Hong Kong',
+      'Don’t fill this out:': 'Não preencha isto:',
+      'Name': 'Nome',
+      'WhatsApp / Telegram': 'WhatsApp / Telegram',
+      'Things most travelers ask before visiting China': 'O que os viajantes mais perguntam antes de visitar a China',
+      'Do I need a visa for China?': 'Preciso de visto para a China?',
+      'Visa requirements depend on your passport, route, travel dates and the cities you plan to visit. We can help you understand what to verify for your specific trip, but final visa decisions always depend on official authorities.': 'Os requisitos de visto dependem do passaporte, roteiro, datas e cidades. Podemos ajudar a entender o que verificar, mas a decisão final sempre depende das autoridades oficiais.',
+      'Is China difficult for first-time visitors?': 'A China é difícil para quem vai pela primeira vez?',
+      'China is rewarding, but it works differently from Europe, North America and Southeast Asia. Mobile payments, apps, hotels and transport require preparation. With the right setup, travel becomes much easier.': 'A China vale muito a pena, mas funciona diferente da Europa, América do Norte e Sudeste Asiático. Pagamentos móveis, apps, hotéis e transporte exigem preparação. Com a configuração certa, viajar fica muito mais fácil.',
+      'Can I travel around China without speaking Chinese?': 'Posso viajar pela China sem falar chinês?',
+      'Yes, but the route and app setup matter. A well-planned trip can prevent most communication problems before they happen.': 'Sim, mas o roteiro e a configuração dos apps importam. Uma viagem bem planejada evita a maioria dos problemas de comunicação antes que aconteçam.',
+      'Can you arrange unique or extreme experiences?': 'Vocês podem organizar experiências únicas ou extremas?',
+      'Depending on location and season, yes. This can include helicopter flights, horseback riding, private boats, sunrise routes, special hotels and creator-focused routes.': 'Dependendo do local e da temporada, sim. Pode incluir helicópteros, cavalos, barcos privados, rotas ao nascer do sol, hotéis especiais e roteiros para criadores.',
+      'Can your team help before I arrive?': 'A equipe pode ajudar antes da minha chegada?',
+      'Yes. We can help with route planning, hotel areas, transport logic, WeChat and Alipay preparation, eSIM suggestions and general travel strategy.': 'Sim. Podemos ajudar com planejamento de roteiro, áreas de hotéis, lógica de transporte, preparação de WeChat e Alipay, sugestões de eSIM e estratégia geral.',
+      'Custom China Travel Company • Private Tours • Premium Experiences • Local Partners Across China': 'Viagens personalizadas pela China • Tours privados • Experiências premium • Parceiros locais na China',
+      'Chieasy School': 'Chieasy School',
+      'Cookie notice': 'Aviso de cookies',
+      'Privacy Policy': 'Política de privacidade',
+      'Open menu': 'Abrir menu',
+      'Language switcher': 'Seletor de idioma',
+      'Close route details': 'Fechar detalhes do roteiro',
+      'Education and travel network': 'Rede de educação e viagens',
+      'China travel video': 'Vídeo de viagens pela China'
+    },
+    cn: {
+      'Chieasy Travel — Custom China Trips & Premium Experiences': 'Chieasy Travel — 中国定制旅行与高端体验',
+      'China Consultation': '中国旅行咨询',
+      '45 minutes · €149': '45 分钟 · €149',
+      'Route logic, apps, payments, hotels, transport and first-trip questions.': '路线逻辑、应用、支付、酒店、交通和第一次来中国的问题。',
+      'Local': '本地',
+      '45 minutes': '45 分钟',
+      'Swipe sideways': '左右滑动',
+      '7–10 days': '7–10 天',
+      '5–7 days': '5–7 天',
+      '7–9 days': '7–9 天',
+      '8–12 days': '8–12 天',
+      '8 days': '8 天',
+      '4–5 days': '4–5 天',
+      '6–9 days': '6–9 天',
+      'Hong Kong → Macau → Guangzhou → Shenzhen. South China, skyline, food, business and history.': '香港 → 澳门 → 广州 → 深圳。华南、天际线、美食、商务与历史。',
+      'Beijing → Nanjing → Changsha → Xi\'an. Ancient capitals, city walls, temples and big historical questions.': '北京 → 南京 → 长沙 → 西安。古都、城墙、寺庙和中国历史。',
+      'Taishan → Huashan → Hengshan → Songshan. Cliffs, temples, sunrise routes and active China.': '泰山 → 华山 → 衡山 → 嵩山。悬崖、寺庙、日出路线和更有运动感的中国。',
+      'Qingdao → Chongqing → Shenzhen → Hong Kong. Neon cities, layered roads and future-facing China.': '青岛 → 重庆 → 深圳 → 香港。霓虹城市、立体道路和面向未来的中国。',
+      'Guangzhou → Chengdu → Xi\'an. Cantonese food, Sichuan spice, markets and unexpected flavors.': '广州 → 成都 → 西安。粤菜、四川辣味、市场和意想不到的味道。',
+      'Dali → Lijiang → Shangri-La. Ancient towns, snow mountains, lakes, tea culture and slower China.': '大理 → 丽江 → 香格里拉。古城、雪山、湖泊、茶文化和更慢节奏的中国。',
+      'Active': '当前',
+      'Custom': '定制',
+      'Popular Places': '热门地点',
+      'Route highlights': '路线亮点',
+      'Plan this route': '规划这条路线',
+      'Keep exploring': '继续浏览',
+      'Fly Above the Avatar Mountains': '飞越阿凡达山',
+      'Waterfall Cliff Hotels': '瀑布与悬崖酒店',
+      'Ride Across the Grasslands': '骑马穿越草原',
+      'Inner Mongolia horses, yurts and sunset routes.': '内蒙古的马、蒙古包和日落路线。',
+      'Desert highways, mountains and remote landscapes.': '沙漠公路、山脉和偏远风景。',
+      'Yangshuo River Experience': '阳朔河流体验',
+      'Chongqing After Dark': '夜晚的重庆',
+      'Cyberpunk viewpoints, neon streets and night photography.': '赛博朋克视角、霓虹街道和夜景摄影。',
+      'Standard Tour': '标准团',
+      'Fixed itinerary': '固定行程',
+      'Custom route': '定制路线',
+      'Tourist hotspots': '常规景点',
+      'Hidden gems + essentials': '小众地点 + 必看重点',
+      'Large groups': '大团',
+      'Private planning': '私人规划',
+      'Generic guide': '普通导游',
+      'China specialist network': '中国专家网络',
+      'Limited flexibility': '灵活度有限',
+      'Trip designed around you': '围绕你设计的旅行',
+      'Tell Us About Your Trip': '告诉我们你的旅行',
+      'Share your dates, travel style, interests and budget.': '分享日期、旅行风格、兴趣和预算。',
+      'Get Your Custom Route': '获取定制路线',
+      'We suggest cities, transport logic, hotels and experiences.': '我们会建议城市、交通逻辑、酒店和体验。',
+      'Arrange The Details': '安排细节',
+      'Private tours, drivers, tickets, apps, hotels and premium options.': '私人旅行、司机、门票、应用、酒店和高端选项。',
+      'Travel With Support': '带着支持旅行',
+      'You travel with a clearer route and local help when needed.': '你会带着更清晰的路线出发，并在需要时获得本地帮助。',
+      'Pick a route': '选择路线',
+      'Add premium access': '加入高端体验',
+      'Travel with support': '带支持旅行',
+      'Aerial': '空中',
+      'Selected scenic flights over Zhangjiajie, mountains or dramatic landscapes when available.': '在可安排时，选择张家界、山地或震撼景观的观光飞行。',
+      'Water': '水上',
+      'Li River, city night cruises or quiet nature routes arranged around the destination.': '根据目的地安排漓江、城市夜游或安静的自然水路。',
+      'Events': '活动',
+      'Private dinners, business visits, creator shoots, group arrivals and on-ground coordination.': '私人晚宴、商务拜访、创作者拍摄、团队抵达和现场协调。',
+      'Comfort': '舒适',
+      'Boutique hotels, cliffside views, premium rooms and scenic stays that fit the route.': '精品酒店、悬崖景观、高端房型和适合路线的景观住宿。',
+      'Since 2015': '自 2015 年',
+      'living, studying and traveling across China': '在中国生活、学习和旅行',
+      'Since 2020': '自 2020 年',
+      'online language school, enrollment anytime': '在线语言学校，随时可报名',
+      'China since 2015': '2015 年起在中国',
+      'China Education': '中国教育',
+      "Studied Chinese at Shenzhen University and finished a bachelor's degree in Chinese, inside the Chinese student environment.": '在深圳大学学习中文，并在中国学生环境中用中文完成本科。',
+      'Admissions Support': '申请支持',
+      'We also help students understand study opportunities in China, university applications and the practical side of moving there.': '我们也帮助学生了解中国学习机会、大学申请和搬到中国的实际问题。',
+      'Travel Network': '旅行网络',
+      'Recent cooperation with Ctrip and travel conferences helps us see new routes, hotels and experience formats before they become obvious.': '近期与 Ctrip 的合作以及旅行会议让我们更早看到新的路线、酒店和体验形式。',
+      'See how we talk about China before you travel with us.': '在和我们旅行前，先看看我们如何讲中国。',
+      'Direct, practical and based on real experience living, studying and traveling across China.': '直接、实用，并基于在中国生活、学习和旅行的真实经验。',
+      'Open on YouTube': '在 YouTube 打开',
+      'First China Trip': '第一次中国旅行',
+      '“China looks incredible, but online information feels scattered. I need a route that makes sense, not just a list of cities.”': '“中国看起来很精彩，但网上信息太分散。我需要一条有逻辑的路线，而不是城市清单。”',
+      'Route idea: Shanghai → Zhangjiajie → Chongqing': '路线想法：上海 → 张家界 → 重庆',
+      'Creator Route': '创作者路线',
+      '“I want cinematic places, night views and nature, but I do not know where the best viewpoints and timing are.”': '“我想要电影感地点、夜景和自然，但不知道哪里视角最好、时间怎么安排。”',
+      'Route idea: Chongqing → Zhangjiajie → Yangshuo': '路线想法：重庆 → 张家界 → 阳朔',
+      'Premium Nature': '高端自然路线',
+      '“We want beautiful landscapes, boutique stays and comfort, without turning the trip into a rushed checklist.”': '“我们想要漂亮风景、精品住宿和舒适感，但不想把旅行变成赶场打卡。”',
+      'Route idea: Yunnan → Yangshuo → Zhangjiajie': '路线想法：云南 → 阳朔 → 张家界',
+      'Business + Travel': '商务 + 旅行',
+      '“I am combining meetings, conferences and travel. I need local logic, transport clarity and time to actually enjoy China.”': '“我会把会议、商务和旅行结合起来。需要本地逻辑、清晰交通，也需要时间真正享受中国。”',
+      'Route idea: Shenzhen → Guangzhou → Hong Kong': '路线想法：深圳 → 广州 → 香港',
+      'Don’t fill this out:': '不要填写这里：',
+      'Name': '姓名',
+      'WhatsApp / Telegram': 'WhatsApp / Telegram',
+      'Things most travelers ask before visiting China': '旅行者来中国前最常问的问题',
+      'Do I need a visa for China?': '我需要中国签证吗？',
+      'Visa requirements depend on your passport, route, travel dates and the cities you plan to visit. We can help you understand what to verify for your specific trip, but final visa decisions always depend on official authorities.': '签证要求取决于你的护照、路线、日期和计划访问的城市。我们可以帮你了解需要核实什么，但最终签证决定始终由官方机构作出。',
+      'Is China difficult for first-time visitors?': '第一次来中国会很难吗？',
+      'China is rewarding, but it works differently from Europe, North America and Southeast Asia. Mobile payments, apps, hotels and transport require preparation. With the right setup, travel becomes much easier.': '中国很值得来，但运行方式不同于欧洲、北美和东南亚。移动支付、应用、酒店和交通都需要提前准备。设置正确后，旅行会轻松很多。',
+      'Can I travel around China without speaking Chinese?': '不会中文可以在中国旅行吗？',
+      'Yes, but the route and app setup matter. A well-planned trip can prevent most communication problems before they happen.': '可以，但路线和应用设置很重要。计划好的旅行可以提前避免大多数沟通问题。',
+      'Can you arrange unique or extreme experiences?': '你们能安排特别或极限体验吗？',
+      'Depending on location and season, yes. This can include helicopter flights, horseback riding, private boats, sunrise routes, special hotels and creator-focused routes.': '取决于地点和季节，可以。这包括直升机、骑马、私人船只、日出路线、特色酒店和创作者路线。',
+      'Can your team help before I arrive?': '你们团队能在我到达前帮忙吗？',
+      'Yes. We can help with route planning, hotel areas, transport logic, WeChat and Alipay preparation, eSIM suggestions and general travel strategy.': '可以。我们可以帮你规划路线、选择酒店区域、梳理交通逻辑、准备微信和支付宝、建议 eSIM，并制定整体旅行策略。',
+      'Custom China Travel Company • Private Tours • Premium Experiences • Local Partners Across China': '中国定制旅行公司 • 私人旅行 • 高端体验 • 中国本地合作伙伴',
+      'Chieasy School': 'Chieasy 学校',
+      'Cookie notice': 'Cookie 提示',
+      'Privacy Policy': '隐私政策',
+      'Open menu': '打开菜单',
+      'Language switcher': '语言切换',
+      'Close route details': '关闭路线详情',
+      'Education and travel network': '教育与旅行网络',
+      'China travel video': '中国旅行视频'
+    }
+  };
+
+  Object.keys(COMPLETION_TRANSLATIONS).forEach(lang => {
+    Object.assign(TRANSLATIONS[lang], COMPLETION_TRANSLATIONS[lang]);
+  });
+
   const PLACEHOLDER_TRANSLATIONS = {
     ru: {
       'Month / exact dates': 'Месяц / точные даты',
@@ -680,6 +1095,15 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!element.dataset.originalPlaceholder) element.dataset.originalPlaceholder = element.getAttribute('placeholder');
       const original = element.dataset.originalPlaceholder;
       element.setAttribute('placeholder', activeLang === 'en' ? original : PLACEHOLDER_TRANSLATIONS[activeLang]?.[original] || original);
+    });
+
+    ['aria-label', 'title'].forEach(attribute => {
+      document.querySelectorAll(`[${attribute}]`).forEach(element => {
+        const dataKey = `original${attribute.replace(/(^|-)([a-z])/g, (_, _dash, letter) => letter.toUpperCase())}`;
+        if (!element.dataset[dataKey]) element.dataset[dataKey] = element.getAttribute(attribute);
+        const original = element.dataset[dataKey];
+        element.setAttribute(attribute, translateString(original, activeLang));
+      });
     });
   }
 
@@ -844,6 +1268,28 @@ document.addEventListener('DOMContentLoaded', () => {
   const routeModalTitle = document.getElementById('routeModalTitle');
   const routeModalText = document.getElementById('routeModalText');
   const routePlaceGrid = document.getElementById('routePlaceGrid');
+  const localizedRouteModalCards = {
+    ru: [
+      ['Маршрут', 'Мы адаптируем города, порядок, темп и транспорт под ваши даты и стиль поездки.'],
+      ['Популярные места', 'Покажем главные точки, красивые остановки и места, которые логично добавить именно к этому маршруту.'],
+      ['Премиум-опции', 'Можно добавить частного водителя, лодки, вертолёт, необычные отели, съёмки или локальную поддержку.']
+    ],
+    es: [
+      ['Ruta', 'Adaptamos ciudades, orden, ritmo y transporte a tus fechas y estilo de viaje.'],
+      ['Lugares populares', 'Mostramos puntos clave, paradas bonitas y lugares que encajan con esta ruta.'],
+      ['Opciones premium', 'Podemos añadir conductor privado, barcos, helicóptero, hoteles especiales, rodajes o apoyo local.']
+    ],
+    pt: [
+      ['Roteiro', 'Adaptamos cidades, ordem, ritmo e transporte às suas datas e estilo de viagem.'],
+      ['Lugares populares', 'Mostramos pontos principais, paradas bonitas e lugares que fazem sentido para este roteiro.'],
+      ['Opções premium', 'Podemos adicionar motorista privado, barcos, helicóptero, hotéis especiais, filmagens ou apoio local.']
+    ],
+    cn: [
+      ['路线', '我们会根据你的日期和旅行风格调整城市、顺序、节奏和交通。'],
+      ['热门地点', '我们会选择主要景点、好看的停留点，以及适合这条路线的补充地点。'],
+      ['高端选项', '可以加入私人司机、船只、直升机、特色酒店、拍摄安排或本地支持。']
+    ]
+  };
 
   function closeRouteModal() {
     if (!routeModal) return;
@@ -855,15 +1301,28 @@ document.addEventListener('DOMContentLoaded', () => {
   function openRouteModal(routeKey) {
     const data = routeDetails[routeKey];
     if (!routeModal || !data) return;
-    routeModalTitle.textContent = data.title;
-    routeModalText.textContent = data.text;
-    routePlaceGrid.innerHTML = data.places.map(([name, tag, description]) => `
-      <article class="route-place">
-        <span>${tag}</span>
-        <h4>${name}</h4>
-        <p>${description}</p>
-      </article>
-    `).join('');
+    const activeLang = localStorage.getItem('chieasyLanguage') || 'en';
+    routeModalTitle.textContent = translateString(data.title, activeLang);
+    if (activeLang === 'en') {
+      routeModalText.textContent = data.text;
+      routePlaceGrid.innerHTML = data.places.map(([name, tag, description]) => `
+        <article class="route-place">
+          <span>${tag}</span>
+          <h4>${name}</h4>
+          <p>${description}</p>
+        </article>
+      `).join('');
+    } else {
+      const cards = localizedRouteModalCards[activeLang] || localizedRouteModalCards.ru;
+      routeModalText.textContent = translateString('These are sample route concepts. Dates, hotels, transport, guides and experiences are adjusted to your travel style.', activeLang);
+      routePlaceGrid.innerHTML = cards.map(([tag, description]) => `
+        <article class="route-place">
+          <span>${tag}</span>
+          <h4>${translateString(data.title, activeLang)}</h4>
+          <p>${description}</p>
+        </article>
+      `).join('');
+    }
     routeModal.classList.add('open');
     routeModal.setAttribute('aria-hidden', 'false');
     document.body.classList.add('modal-open');
