@@ -687,10 +687,12 @@ body.modal-open{
   margin-top:24px;
 }
 .team-proof span{
-  display:flex;
+  display:grid;
+  grid-template-columns:max-content 1fr;
   align-items:center;
-  gap:12px;
-  padding:14px 16px;
+  gap:18px;
+  min-height:72px;
+  padding:16px 20px;
   border-radius:18px;
   background:#fff;
   border:1px solid var(--line);
@@ -701,8 +703,16 @@ body.modal-open{
 .team-proof strong{
   color:var(--orange-dark);
   text-transform:uppercase;
-  letter-spacing:.1em;
+  letter-spacing:.08em;
   font-size:11px;
+  white-space:nowrap;
+}
+.team-proof em{
+  margin:0;
+  color:var(--muted);
+  font-style:normal;
+  line-height:1.25;
+  overflow-wrap:break-word;
 }
 .partner-strip{
   display:grid;
