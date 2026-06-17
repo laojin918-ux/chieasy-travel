@@ -233,20 +233,17 @@
   transition:transform .22s ease,box-shadow .22s ease,filter .22s ease;
 }
 .route-card:after{
-  content:"+";
+  content:"";
   position:absolute;
   right:22px;
   top:22px;
   width:42px;
   height:42px;
-  display:grid;
-  place-items:center;
   border-radius:50%;
-  background:rgba(255,255,255,.18);
-  color:#fff;
-  font-size:28px;
-  line-height:1;
-  font-weight:950;
+  background:
+    linear-gradient(#fff,#fff) center/18px 5px no-repeat,
+    linear-gradient(#fff,#fff) center/5px 18px no-repeat,
+    rgba(255,255,255,.18);
   opacity:0;
   transform:translateY(-4px);
   transition:opacity .2s ease,transform .2s ease,background .2s ease;
@@ -261,7 +258,10 @@
 .route-card:focus-visible:after{
   opacity:1;
   transform:translateY(0);
-  background:rgba(216,74,42,.86);
+  background:
+    linear-gradient(#fff,#fff) center/18px 5px no-repeat,
+    linear-gradient(#fff,#fff) center/5px 18px no-repeat,
+    rgba(216,74,42,.86);
 }
 .route-card:focus-visible{
   outline:3px solid rgba(216,74,42,.45);
