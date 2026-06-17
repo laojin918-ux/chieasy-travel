@@ -1053,6 +1053,50 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
+  const LANGUAGE_LINKS = {
+    en: {
+      school: 'https://www.chieasy.online/en',
+      payment: 'https://revolut.me/kingkongoff?currency=EUR&amount=14900'
+    },
+    ru: {
+      school: 'https://www.chieasy.online/ru',
+      payment: 'https://revolut.me/kingkongoff?currency=EUR&amount=12999'
+    }
+  };
+
+  const LANGUAGE_PRICE_TEXT = {
+    en: {
+      'hero-cta': '45-min Consultation · €149',
+      'hero-card': '45 minutes · €149',
+      'consultation-price': '€149',
+      'sticky-call': '€149 Call'
+    },
+    ru: {
+      'hero-cta': 'Консультация 45 минут · 12 999 ₽',
+      'hero-card': '45 минут · 12 999 ₽',
+      'consultation-price': '12 999 ₽',
+      'sticky-call': 'Звонок 12 999 ₽'
+    },
+    es: {
+      'hero-cta': 'Consulta 45 min · €149',
+      'hero-card': '45 minutos · €149',
+      'consultation-price': '€149',
+      'sticky-call': 'Llamada €149'
+    },
+    pt: {
+      'hero-cta': 'Consultoria 45 min · €149',
+      'hero-card': '45 minutos · €149',
+      'consultation-price': '€149',
+      'sticky-call': 'Chamada €149'
+    },
+    cn: {
+      'hero-cta': '45 分钟咨询 · €149',
+      'hero-card': '45 分钟 · €149',
+      'consultation-price': '€149',
+      'sticky-call': '€149 咨询'
+    }
+  };
+
   const originalTextNodes = new WeakMap();
   function shouldSkipTranslationNode(node) {
     const parent = node.parentElement;
@@ -1104,6 +1148,20 @@ document.addEventListener('DOMContentLoaded', () => {
         const original = element.dataset[dataKey];
         element.setAttribute(attribute, translateString(original, activeLang));
       });
+    });
+
+    const activeLinks = LANGUAGE_LINKS[activeLang] || LANGUAGE_LINKS.en;
+    document.querySelectorAll('[data-school-link]').forEach(link => {
+      link.setAttribute('href', activeLinks.school);
+    });
+    document.querySelectorAll('[data-payment-link]').forEach(link => {
+      link.setAttribute('href', activeLinks.payment);
+    });
+
+    const activePriceText = LANGUAGE_PRICE_TEXT[activeLang] || LANGUAGE_PRICE_TEXT.en;
+    document.querySelectorAll('[data-price-text]').forEach(element => {
+      const key = element.dataset.priceText;
+      if (activePriceText[key]) element.textContent = activePriceText[key];
     });
   }
 
