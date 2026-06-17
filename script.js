@@ -194,6 +194,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ,'Close route details': 'Закрыть детали маршрута'
       ,'Education and travel network': 'Образовательная и travel-сеть'
       ,'China travel video': 'Видео о путешествиях по Китаю'
+      ,'Ilya at a travel conference in China': 'Илья на travel-конференции в Китае'
       ,'Local': 'Свои'
       ,'VIP': 'VIP'
       ,'Active': 'Активный маршрут'
@@ -788,7 +789,8 @@ document.addEventListener('DOMContentLoaded', () => {
       'Language switcher': 'Selector de idioma',
       'Close route details': 'Cerrar detalles de ruta',
       'Education and travel network': 'Red de educación y viajes',
-      'China travel video': 'Video de viajes por China'
+      'China travel video': 'Video de viajes por China',
+      'Ilya at a travel conference in China': 'Ilya en una conferencia de turismo en China'
     },
     pt: {
       'Chieasy Travel — Custom China Trips & Premium Experiences': 'Chieasy Travel — viagens personalizadas e experiências premium na China',
@@ -903,7 +905,8 @@ document.addEventListener('DOMContentLoaded', () => {
       'Language switcher': 'Seletor de idioma',
       'Close route details': 'Fechar detalhes do roteiro',
       'Education and travel network': 'Rede de educação e viagens',
-      'China travel video': 'Vídeo de viagens pela China'
+      'China travel video': 'Vídeo de viagens pela China',
+      'Ilya at a travel conference in China': 'Ilya em uma conferência de turismo na China'
     },
     cn: {
       'Chieasy Travel — Custom China Trips & Premium Experiences': 'Chieasy Travel — 中国定制旅行与高端体验',
@@ -1019,6 +1022,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Close route details': '关闭路线详情',
       'Education and travel network': '教育与旅行网络',
       'China travel video': '中国旅行视频'
+      ,'Ilya at a travel conference in China': 'Ilya 在中国旅行会议现场'
     }
   };
 

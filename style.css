@@ -876,12 +876,13 @@ body.modal-open{
 }
 .founder-panel{
   display:grid;
-  grid-template-columns:.78fr 1fr;
+  grid-template-columns:1fr;
   gap:18px;
-  align-items:stretch;
+  align-items:start;
 }
 .founder-photo{
-  min-height:530px;
+  min-height:clamp(390px,38vw,560px);
+  aspect-ratio:16/10;
   display:flex;
   align-items:flex-end;
   padding:22px;
@@ -889,7 +890,7 @@ body.modal-open{
   overflow:hidden;
   background:linear-gradient(0deg,rgba(0,0,0,.68),rgba(0,0,0,.05)),var(--bg);
   background-size:cover;
-  background-position:center;
+  background-position:center 42%;
   box-shadow:var(--shadow);
 }
 .founder-photo span{
@@ -904,7 +905,7 @@ body.modal-open{
   text-transform:uppercase;
 }
 .founder-grid{
-  grid-template-columns:1fr;
+  grid-template-columns:repeat(2,minmax(0,1fr));
 }
 .founder-grid article{
   min-height:0;
@@ -928,6 +929,8 @@ body.modal-open{
   .network-grid article{min-height:210px}
   .founder-photo{
     min-height:420px;
+    aspect-ratio:4/5;
+    background-position:center top;
   }
 }
 
