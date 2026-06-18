@@ -186,6 +186,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ,'Public Offer': 'Публичная оферта'
       ,'Payment Rules': 'Правила оплаты'
       ,'Refund Policy': 'Политика возврата'
+      ,'Responsibility': 'Ответственность'
       ,'Legal Documents': 'Юридические документы'
       ,'Open full document': 'Открыть полный документ'
       ,'Close': 'Закрыть'
@@ -802,6 +803,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Public Offer': 'Oferta pública',
       'Payment Rules': 'Reglas de pago',
       'Refund Policy': 'Política de reembolso',
+      'Responsibility': 'Responsabilidad',
       'Legal Documents': 'Documentos legales',
       'Open full document': 'Abrir documento completo',
       'Close': 'Cerrar',
@@ -927,6 +929,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Public Offer': 'Oferta pública',
       'Payment Rules': 'Regras de pagamento',
       'Refund Policy': 'Política de reembolso',
+      'Responsibility': 'Responsabilidade',
       'Legal Documents': 'Documentos legais',
       'Open full document': 'Abrir documento completo',
       'Close': 'Fechar',
@@ -1052,6 +1055,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Public Offer': '公开报价',
       'Payment Rules': '付款规则',
       'Refund Policy': '退款政策',
+      'Responsibility': '责任说明',
       'Legal Documents': '法律文件',
       'Open full document': '打开完整文件',
       'Close': '关闭',
@@ -1561,6 +1565,18 @@ document.addEventListener('DOMContentLoaded', () => {
         es: ['Política de reembolso', 'Condiciones de reembolso, gastos organizativos, costes ya incurridos y plazos de revisión de solicitudes.'],
         pt: ['Política de reembolso', 'Condições de reembolso, taxa organizacional, custos já incorridos e prazos de análise do pedido.'],
         cn: ['退款政策', '退款条件、组织服务费、已发生费用以及退款申请审核时间。']
+      }
+    },
+    liability: {
+      localDocs: {
+        ru: 'assets/legal/liability-ru.html'
+      },
+      content: {
+        en: ['Responsibility', 'Disclaimer and limitation of responsibility for routes, suppliers, visa matters, transport risks and force majeure.'],
+        ru: ['Ответственность', 'Отказ от ответственности, статус компании, независимые поставщики, визовые вопросы, транспортные риски и форс-мажор.'],
+        es: ['Responsabilidad', 'Aviso legal y límites de responsabilidad sobre rutas, proveedores, visados, transporte y fuerza mayor.'],
+        pt: ['Responsabilidade', 'Disclaimer e limites de responsabilidade sobre roteiros, fornecedores, vistos, transporte e força maior.'],
+        cn: ['责任说明', '关于路线、供应商、签证、交通风险和不可抗力的免责声明与责任限制。']
       }
     }
   };
