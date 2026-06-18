@@ -417,6 +417,12 @@
       <a href="#routes">Routes</a>
       <a href="https://www.chieasy.online/en" target="_blank" rel="noopener" data-school-link>Chieasy School</a>
     </nav>
+    <nav class="legal-tabs" aria-label="Legal documents">
+      <a class="legal-tab" href="https://www.chieasy.online/privacy-chieasy" target="_blank" rel="noopener" data-legal-key="privacy">Privacy Policy</a>
+      <a class="legal-tab" href="https://www.chieasy.online/agreement-chieasy" target="_blank" rel="noopener" data-legal-key="agreement">User Agreement</a>
+      <a class="legal-tab" href="https://www.chieasy.online/contract-chieasy" target="_blank" rel="noopener" data-legal-key="offer">Public Offer</a>
+      <a class="legal-tab" href="https://www.chieasy.online/payment-methods" target="_blank" rel="noopener" data-legal-key="payments">Payment Rules</a>
+    </nav>
     <div class="social-links" aria-label="Social links">
       <a class="social-link" href="https://youtu.be/4837e_teFuw" target="_blank" rel="noopener" aria-label="YouTube">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.6 7.2a3 3 0 0 0-2.1-2.1C17.7 4.6 12 4.6 12 4.6s-5.7 0-7.5.5a3 3 0 0 0-2.1 2.1A31 31 0 0 0 2 12a31 31 0 0 0 .4 4.8 3 3 0 0 0 2.1 2.1c1.8.5 7.5.5 7.5.5s5.7 0 7.5-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 22 12a31 31 0 0 0-.4-4.8ZM10 15.4V8.6l5.8 3.4L10 15.4Z"/></svg>
@@ -434,6 +440,20 @@
     </div>
   </div>
 </footer>
+
+<div class="legal-modal" id="legalModal" aria-hidden="true">
+  <div class="legal-modal-backdrop" data-close-legal-modal></div>
+  <div class="legal-modal-panel" role="dialog" aria-modal="true" aria-labelledby="legalModalTitle">
+    <button class="legal-modal-close" type="button" aria-label="Close legal popup" data-close-legal-modal>×</button>
+    <p class="eyebrow">Legal Documents</p>
+    <h3 id="legalModalTitle">Privacy Policy</h3>
+    <p id="legalModalText">Review the official document before booking or paying for services.</p>
+    <div class="legal-modal-actions">
+      <a class="btn primary" id="legalModalLink" href="https://www.chieasy.online/privacy-chieasy" target="_blank" rel="noopener">Open full document</a>
+      <button class="btn secondary" type="button" data-close-legal-modal>Close</button>
+    </div>
+  </div>
+</div>
 
 <div class="cookie-banner" id="cookieBanner" role="dialog" aria-label="Cookie notice">
   <div><strong>Cookie notice</strong><p>We use cookies to improve website performance and understand how visitors use the site.</p></div>

@@ -181,7 +181,14 @@ document.addEventListener('DOMContentLoaded', () => {
       'Chieasy School': 'Chieasy School',
       'Cookie notice': 'Cookie',
       'Accept': 'Принять',
-      'Privacy Policy': 'Политика приватности'
+      'Privacy Policy': 'Политика конфиденциальности'
+      ,'User Agreement': 'Пользовательское соглашение'
+      ,'Public Offer': 'Публичная оферта'
+      ,'Payment Rules': 'Правила оплаты'
+      ,'Legal Documents': 'Юридические документы'
+      ,'Open full document': 'Открыть полный документ'
+      ,'Close legal popup': 'Закрыть юридический попап'
+      ,'Review the official document before booking or paying for services.': 'Ознакомьтесь с официальным документом перед бронированием или оплатой услуг.'
       ,'Chieasy Travel — Custom China Trips & Premium Experiences': 'Chieasy Travel — индивидуальные путешествия и премиум-впечатления в Китае'
       ,'7–10 days': '7–10 дней'
       ,'5–7 days': '5–7 дней'
@@ -789,6 +796,13 @@ document.addEventListener('DOMContentLoaded', () => {
       'Chieasy School': 'Chieasy School',
       'Cookie notice': 'Aviso de cookies',
       'Privacy Policy': 'Política de privacidad',
+      'User Agreement': 'Acuerdo de usuario',
+      'Public Offer': 'Oferta pública',
+      'Payment Rules': 'Reglas de pago',
+      'Legal Documents': 'Documentos legales',
+      'Open full document': 'Abrir documento completo',
+      'Close legal popup': 'Cerrar ventana legal',
+      'Review the official document before booking or paying for services.': 'Revisa el documento oficial antes de reservar o pagar servicios.',
       'Open menu': 'Abrir menú',
       'Language switcher': 'Selector de idioma',
       'Close route details': 'Cerrar detalles de ruta',
@@ -905,6 +919,13 @@ document.addEventListener('DOMContentLoaded', () => {
       'Chieasy School': 'Chieasy School',
       'Cookie notice': 'Aviso de cookies',
       'Privacy Policy': 'Política de privacidade',
+      'User Agreement': 'Acordo do usuário',
+      'Public Offer': 'Oferta pública',
+      'Payment Rules': 'Regras de pagamento',
+      'Legal Documents': 'Documentos legais',
+      'Open full document': 'Abrir documento completo',
+      'Close legal popup': 'Fechar janela legal',
+      'Review the official document before booking or paying for services.': 'Leia o documento oficial antes de reservar ou pagar pelos serviços.',
       'Open menu': 'Abrir menu',
       'Language switcher': 'Seletor de idioma',
       'Close route details': 'Fechar detalhes do roteiro',
@@ -1021,6 +1042,13 @@ document.addEventListener('DOMContentLoaded', () => {
       'Chieasy School': 'Chieasy 学校',
       'Cookie notice': 'Cookie 提示',
       'Privacy Policy': '隐私政策',
+      'User Agreement': '用户协议',
+      'Public Offer': '公开报价',
+      'Payment Rules': '付款规则',
+      'Legal Documents': '法律文件',
+      'Open full document': '打开完整文件',
+      'Close legal popup': '关闭法律弹窗',
+      'Review the official document before booking or paying for services.': '预订或付款前，请查看官方文件。',
       'Open menu': '打开菜单',
       'Language switcher': '语言切换',
       'Close route details': '关闭路线详情',
@@ -1461,11 +1489,91 @@ document.addEventListener('DOMContentLoaded', () => {
     button.addEventListener('click', () => {
       applyLanguage(button.dataset.lang);
       closeRouteModal();
+      closeLegalModal();
     });
   });
 
   const savedLanguage = localStorage.getItem('chieasyLanguage') || 'en';
   applyLanguage(savedLanguage);
+
+  const legalDocuments = {
+    privacy: {
+      url: 'https://www.chieasy.online/privacy-chieasy',
+      content: {
+        en: ['Privacy Policy', 'How personal data, cookies, inquiries and communication are processed when you use Chieasy services.'],
+        ru: ['Политика конфиденциальности', 'Как обрабатываются персональные данные, cookies, заявки и переписка при использовании сервисов Chieasy.'],
+        es: ['Política de privacidad', 'Cómo se procesan datos personales, cookies, solicitudes y comunicación al usar los servicios de Chieasy.'],
+        pt: ['Política de privacidade', 'Como dados pessoais, cookies, pedidos e comunicações são tratados ao usar os serviços Chieasy.'],
+        cn: ['隐私政策', '说明使用 Chieasy 服务时，个人信息、Cookie、咨询请求和沟通内容如何被处理。']
+      }
+    },
+    agreement: {
+      url: 'https://www.chieasy.online/agreement-chieasy',
+      content: {
+        en: ['User Agreement', 'The general rules for using the website, requesting services and communicating with Chieasy.'],
+        ru: ['Пользовательское соглашение', 'Общие правила использования сайта, отправки заявок на услуги и взаимодействия с Chieasy.'],
+        es: ['Acuerdo de usuario', 'Las reglas generales para usar el sitio, solicitar servicios y comunicarse con Chieasy.'],
+        pt: ['Acordo do usuário', 'As regras gerais para usar o site, solicitar serviços e comunicar com a Chieasy.'],
+        cn: ['用户协议', '使用网站、提交服务请求以及与 Chieasy 沟通的一般规则。']
+      }
+    },
+    offer: {
+      url: 'https://www.chieasy.online/contract-chieasy',
+      content: {
+        en: ['Public Offer', 'Commercial terms for services, paid consultations, bookings and client obligations.'],
+        ru: ['Публичная оферта', 'Коммерческие условия оказания услуг, платных консультаций, бронирований и обязательств клиента.'],
+        es: ['Oferta pública', 'Condiciones comerciales de servicios, consultas pagadas, reservas y obligaciones del cliente.'],
+        pt: ['Oferta pública', 'Condições comerciais de serviços, consultorias pagas, reservas e obrigações do cliente.'],
+        cn: ['公开报价', '关于服务、付费咨询、预订和客户义务的商业条款。']
+      }
+    },
+    payments: {
+      url: 'https://www.chieasy.online/payment-methods',
+      content: {
+        en: ['Payment Rules', 'Available payment methods, confirmation steps, transaction logic and payment-related conditions.'],
+        ru: ['Правила оплаты', 'Доступные способы оплаты, подтверждение платежей, логика транзакций и условия, связанные с оплатой.'],
+        es: ['Reglas de pago', 'Métodos de pago disponibles, confirmación, lógica de transacciones y condiciones relacionadas con pagos.'],
+        pt: ['Regras de pagamento', 'Métodos de pagamento disponíveis, confirmação, lógica de transações e condições relacionadas ao pagamento.'],
+        cn: ['付款规则', '可用付款方式、确认步骤、交易逻辑以及与付款相关的条件。']
+      }
+    }
+  };
+
+  const legalModal = document.getElementById('legalModal');
+  const legalModalTitle = document.getElementById('legalModalTitle');
+  const legalModalText = document.getElementById('legalModalText');
+  const legalModalLink = document.getElementById('legalModalLink');
+
+  function closeLegalModal() {
+    if (!legalModal) return;
+    legalModal.classList.remove('open');
+    legalModal.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('modal-open');
+  }
+
+  function openLegalModal(key) {
+    const documentData = legalDocuments[key];
+    if (!legalModal || !documentData) return;
+    const activeLang = localStorage.getItem('chieasyLanguage') || 'en';
+    const [title, text] = documentData.content[activeLang] || documentData.content.en;
+    closeRouteModal();
+    legalModalTitle.textContent = title;
+    legalModalText.textContent = text;
+    legalModalLink.setAttribute('href', documentData.url);
+    legalModal.classList.add('open');
+    legalModal.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('modal-open');
+  }
+
+  document.querySelectorAll('[data-legal-key]').forEach(link => {
+    link.addEventListener('click', event => {
+      event.preventDefault();
+      openLegalModal(link.dataset.legalKey);
+    });
+  });
+  document.querySelectorAll('[data-close-legal-modal]').forEach(control => {
+    control.addEventListener('click', closeLegalModal);
+  });
 
   const routeDetails = {
     'first-time': {
@@ -1652,6 +1760,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const data = routeDetails[routeKey];
     if (!routeModal || !data) return;
     const activeLang = localStorage.getItem('chieasyLanguage') || 'en';
+    closeLegalModal();
     routeModalTitle.textContent = translateString(data.title, activeLang);
     if (activeLang === 'en') {
       routeModalText.textContent = data.text;
@@ -1701,7 +1810,10 @@ document.addEventListener('DOMContentLoaded', () => {
     control.addEventListener('click', closeRouteModal);
   });
   document.addEventListener('keydown', event => {
-    if (event.key === 'Escape') closeRouteModal();
+    if (event.key === 'Escape') {
+      closeRouteModal();
+      closeLegalModal();
+    }
   });
 
   let step = 1;
