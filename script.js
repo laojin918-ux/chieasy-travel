@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Inner Mongolia Escape': 'Побег во Внутреннюю Монголию',
       'Content Creator Route': 'Маршрут для контента',
       'Gastro Tour': 'Гастро-тур',
-      'Yunnan Explorer Route': 'Исследование Юньнани',
+      'Yunnan Explorer Route': 'Исследование Юньнаня',
       'China Bucket List Experiences': 'Впечатления мечты в Китае',
       'Not just places. Experiences people remember.': 'Не просто места. А впечатления, которые запоминаются.',
       'Fly Above the Avatar Mountains': 'Полет над горами Аватара',
