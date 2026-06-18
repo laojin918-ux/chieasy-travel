@@ -185,7 +185,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ,'User Agreement': 'Пользовательское соглашение'
       ,'Public Offer': 'Публичная оферта'
       ,'Payment Rules': 'Правила оплаты'
-      ,'Refund Policy': 'Политика возврата'
+      ,'Refund Policy': 'Политика возвратов'
       ,'Responsibility': 'Ответственность'
       ,'Legal Documents': 'Юридические документы'
       ,'Open full document': 'Открыть полный документ'
@@ -1561,7 +1561,7 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       content: {
         en: ['Refund Policy', 'Refund conditions, organizational fees, actually incurred expenses and request review timelines.'],
-        ru: ['Политика возврата', 'Порядок возврата денежных средств, удержания организационного сбора, фактически понесенных расходов и сроки рассмотрения заявления.'],
+        ru: ['Политика возвратов', 'Порядок отмены услуг и возврата денежных средств, включая сроки отмены, фактические расходы, организационные услуги, chargeback и претензионный порядок.'],
         es: ['Política de reembolso', 'Condiciones de reembolso, gastos organizativos, costes ya incurridos y plazos de revisión de solicitudes.'],
         pt: ['Política de reembolso', 'Condições de reembolso, taxa organizacional, custos já incorridos e prazos de análise do pedido.'],
         cn: ['退款政策', '退款条件、组织服务费、已发生费用以及退款申请审核时间。']
