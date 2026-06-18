@@ -185,8 +185,10 @@ document.addEventListener('DOMContentLoaded', () => {
       ,'User Agreement': 'Пользовательское соглашение'
       ,'Public Offer': 'Публичная оферта'
       ,'Payment Rules': 'Правила оплаты'
+      ,'Refund Policy': 'Политика возврата'
       ,'Legal Documents': 'Юридические документы'
       ,'Open full document': 'Открыть полный документ'
+      ,'Close': 'Закрыть'
       ,'Close legal popup': 'Закрыть юридический попап'
       ,'Review the official document before booking or paying for services.': 'Ознакомьтесь с официальным документом перед бронированием или оплатой услуг.'
       ,'Chieasy Travel — Custom China Trips & Premium Experiences': 'Chieasy Travel — индивидуальные путешествия и премиум-впечатления в Китае'
@@ -799,8 +801,10 @@ document.addEventListener('DOMContentLoaded', () => {
       'User Agreement': 'Acuerdo de usuario',
       'Public Offer': 'Oferta pública',
       'Payment Rules': 'Reglas de pago',
+      'Refund Policy': 'Política de reembolso',
       'Legal Documents': 'Documentos legales',
       'Open full document': 'Abrir documento completo',
+      'Close': 'Cerrar',
       'Close legal popup': 'Cerrar ventana legal',
       'Review the official document before booking or paying for services.': 'Revisa el documento oficial antes de reservar o pagar servicios.',
       'Open menu': 'Abrir menú',
@@ -922,8 +926,10 @@ document.addEventListener('DOMContentLoaded', () => {
       'User Agreement': 'Acordo do usuário',
       'Public Offer': 'Oferta pública',
       'Payment Rules': 'Regras de pagamento',
+      'Refund Policy': 'Política de reembolso',
       'Legal Documents': 'Documentos legais',
       'Open full document': 'Abrir documento completo',
+      'Close': 'Fechar',
       'Close legal popup': 'Fechar janela legal',
       'Review the official document before booking or paying for services.': 'Leia o documento oficial antes de reservar ou pagar pelos serviços.',
       'Open menu': 'Abrir menu',
@@ -1045,8 +1051,10 @@ document.addEventListener('DOMContentLoaded', () => {
       'User Agreement': '用户协议',
       'Public Offer': '公开报价',
       'Payment Rules': '付款规则',
+      'Refund Policy': '退款政策',
       'Legal Documents': '法律文件',
       'Open full document': '打开完整文件',
+      'Close': '关闭',
       'Close legal popup': '关闭法律弹窗',
       'Review the official document before booking or paying for services.': '预订或付款前，请查看官方文件。',
       'Open menu': '打开菜单',
@@ -1499,6 +1507,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const legalDocuments = {
     privacy: {
       url: 'https://www.chieasy.online/privacy-chieasy',
+      localDocs: {
+        ru: 'assets/legal/privacy-ru.html'
+      },
       content: {
         en: ['Privacy Policy', 'How personal data, cookies, inquiries and communication are processed when you use Chieasy services.'],
         ru: ['Политика конфиденциальности', 'Как обрабатываются персональные данные, cookies, заявки и переписка при использовании сервисов Chieasy.'],
@@ -1519,6 +1530,9 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     offer: {
       url: 'https://www.chieasy.online/contract-chieasy',
+      localDocs: {
+        ru: 'assets/legal/offer-ru.html'
+      },
       content: {
         en: ['Public Offer', 'Commercial terms for services, paid consultations, bookings and client obligations.'],
         ru: ['Публичная оферта', 'Коммерческие условия оказания услуг, платных консультаций, бронирований и обязательств клиента.'],
@@ -1536,6 +1550,18 @@ document.addEventListener('DOMContentLoaded', () => {
         pt: ['Regras de pagamento', 'Métodos de pagamento disponíveis, confirmação, lógica de transações e condições relacionadas ao pagamento.'],
         cn: ['付款规则', '可用付款方式、确认步骤、交易逻辑以及与付款相关的条件。']
       }
+    },
+    refund: {
+      localDocs: {
+        ru: 'assets/legal/refund-ru.html'
+      },
+      content: {
+        en: ['Refund Policy', 'Refund conditions, organizational fees, actually incurred expenses and request review timelines.'],
+        ru: ['Политика возврата', 'Порядок возврата денежных средств, удержания организационного сбора, фактически понесенных расходов и сроки рассмотрения заявления.'],
+        es: ['Política de reembolso', 'Condiciones de reembolso, gastos organizativos, costes ya incurridos y plazos de revisión de solicitudes.'],
+        pt: ['Política de reembolso', 'Condições de reembolso, taxa organizacional, custos já incorridos e prazos de análise do pedido.'],
+        cn: ['退款政策', '退款条件、组织服务费、已发生费用以及退款申请审核时间。']
+      }
     }
   };
 
@@ -1543,11 +1569,16 @@ document.addEventListener('DOMContentLoaded', () => {
   const legalModalTitle = document.getElementById('legalModalTitle');
   const legalModalText = document.getElementById('legalModalText');
   const legalModalLink = document.getElementById('legalModalLink');
+  const legalModalFrame = document.getElementById('legalModalFrame');
 
   function closeLegalModal() {
     if (!legalModal) return;
     legalModal.classList.remove('open');
     legalModal.setAttribute('aria-hidden', 'true');
+    if (legalModalFrame) {
+      legalModalFrame.hidden = true;
+      legalModalFrame.removeAttribute('src');
+    }
     document.body.classList.remove('modal-open');
   }
 
@@ -1556,10 +1587,29 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!legalModal || !documentData) return;
     const activeLang = localStorage.getItem('chieasyLanguage') || 'en';
     const [title, text] = documentData.content[activeLang] || documentData.content.en;
+    const localDoc = documentData.localDocs?.[activeLang];
     closeRouteModal();
     legalModalTitle.textContent = title;
-    legalModalText.textContent = text;
-    legalModalLink.setAttribute('href', documentData.url);
+    if (localDoc && legalModalFrame) {
+      legalModalText.hidden = true;
+      legalModalText.textContent = '';
+      legalModalFrame.hidden = false;
+      legalModalFrame.setAttribute('src', localDoc);
+      legalModalLink.hidden = true;
+    } else {
+      legalModalText.hidden = false;
+      legalModalText.textContent = text;
+      if (legalModalFrame) {
+        legalModalFrame.hidden = true;
+        legalModalFrame.removeAttribute('src');
+      }
+      if (documentData.url) {
+        legalModalLink.hidden = false;
+        legalModalLink.setAttribute('href', documentData.url);
+      } else {
+        legalModalLink.hidden = true;
+      }
+    }
     legalModal.classList.add('open');
     legalModal.setAttribute('aria-hidden', 'false');
     document.body.classList.add('modal-open');

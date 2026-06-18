@@ -334,17 +334,29 @@
   font-size:clamp(34px,4vw,56px);
 }
 .legal-modal-panel{
-  width:min(680px,100%);
+  width:min(920px,100%);
 }
 .legal-modal-panel h3{
-  max-width:560px;
+  max-width:760px;
   font-size:clamp(34px,4.2vw,58px);
 }
 .legal-modal-panel>p:not(.eyebrow){
-  max-width:560px;
+  max-width:760px;
   color:var(--muted);
   font-size:18px;
   line-height:1.58;
+}
+.legal-modal-frame{
+  width:100%;
+  height:min(560px,58vh);
+  margin-top:18px;
+  border:1px solid var(--line);
+  border-radius:22px;
+  background:#fff;
+  box-shadow:0 14px 38px rgba(30,23,19,.07);
+}
+.legal-modal-frame[hidden]{
+  display:none;
 }
 .route-modal-panel>p:not(.eyebrow){
   max-width:780px;
