@@ -1170,6 +1170,19 @@ h1,h2,h3,h4,
   max-width:82%;
   text-shadow:0 3px 18px rgba(0,0,0,.45);
 }
+.experience-grid .helicopter-card{
+  background:
+    linear-gradient(90deg,rgba(0,0,0,.74),rgba(0,0,0,.32) 42%,rgba(0,0,0,.04) 76%),
+    linear-gradient(0deg,rgba(0,0,0,.56),rgba(0,0,0,.06) 58%),
+    var(--bg);
+  background-size:cover;
+  background-position:76% center;
+}
+.experience-grid .helicopter-card h3,
+.experience-grid .helicopter-card p{
+  max-width:64%;
+  text-shadow:0 3px 18px rgba(0,0,0,.5);
+}
 .video-poster{
   position:relative;
   display:flex;
