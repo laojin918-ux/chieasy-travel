@@ -1158,10 +1158,9 @@ h1,h2,h3,h4,
   overflow-wrap:break-word;
 }
 .experience-grid .road-trip-card{
-  justify-content:center;
+  justify-content:flex-start;
   background:
-    linear-gradient(90deg,rgba(0,0,0,.68),rgba(0,0,0,.22) 52%,rgba(0,0,0,.06)),
-    linear-gradient(0deg,rgba(0,0,0,.26),rgba(0,0,0,.1) 42%,rgba(0,0,0,.2)),
+    linear-gradient(180deg,rgba(0,0,0,.76),rgba(0,0,0,.26) 42%,rgba(0,0,0,.06) 74%,rgba(0,0,0,.18)),
     var(--bg);
   background-size:cover;
   background-position:center;
@@ -1172,10 +1171,10 @@ h1,h2,h3,h4,
   text-shadow:0 3px 18px rgba(0,0,0,.45);
 }
 .experience-grid .helicopter-card{
-  justify-content:center;
+  justify-content:flex-start;
   background:
-    linear-gradient(90deg,rgba(0,0,0,.7),rgba(0,0,0,.28) 44%,rgba(0,0,0,.02) 76%),
-    linear-gradient(0deg,rgba(0,0,0,.34),rgba(0,0,0,.04) 58%),
+    linear-gradient(180deg,rgba(0,0,0,.76),rgba(0,0,0,.24) 44%,rgba(0,0,0,.06) 76%),
+    linear-gradient(90deg,rgba(0,0,0,.55),rgba(0,0,0,.08) 68%),
     var(--bg);
   background-size:cover;
   background-position:76% center;
