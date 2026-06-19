@@ -1607,6 +1607,10 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     refund: {
       localDocs: {
+        en: 'assets/legal/refund-eu.html',
+        es: 'assets/legal/refund-eu.html',
+        pt: 'assets/legal/refund-eu.html',
+        cn: 'assets/legal/refund-eu.html',
         ru: 'assets/legal/refund-ru.html'
       },
       content: {
