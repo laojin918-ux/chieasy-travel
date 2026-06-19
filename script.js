@@ -190,6 +190,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ,'Payment Rules': 'Правила оплаты'
       ,'Refund Policy': 'Политика возвратов'
       ,'Responsibility': 'Ответственность'
+      ,'Disclaimer': 'Disclaimer'
       ,'Legal Documents': 'Юридические документы'
       ,'Open full document': 'Открыть полный документ'
       ,'Close': 'Закрыть'
@@ -812,6 +813,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Payment Rules': 'Reglas de pago',
       'Refund Policy': 'Política de reembolso',
       'Responsibility': 'Responsabilidad',
+      'Disclaimer': 'Aviso legal',
       'Legal Documents': 'Documentos legales',
       'Open full document': 'Abrir documento completo',
       'Close': 'Cerrar',
@@ -943,6 +945,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Payment Rules': 'Regras de pagamento',
       'Refund Policy': 'Política de reembolso',
       'Responsibility': 'Responsabilidade',
+      'Disclaimer': 'Aviso legal',
       'Legal Documents': 'Documentos legais',
       'Open full document': 'Abrir documento completo',
       'Close': 'Fechar',
@@ -1074,6 +1077,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Payment Rules': '付款规则',
       'Refund Policy': '退款政策',
       'Responsibility': '责任说明',
+      'Disclaimer': '免责声明',
       'Legal Documents': '法律文件',
       'Open full document': '打开完整文件',
       'Close': '关闭',
@@ -1509,6 +1513,10 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('[data-video-link]').forEach(link => {
       link.setAttribute('href', activeLinks.video || LANGUAGE_LINKS.en.video);
     });
+    document.querySelectorAll('[data-hide-lang]').forEach(element => {
+      const hiddenLanguages = element.dataset.hideLang.split(/\s+/).filter(Boolean);
+      element.hidden = hiddenLanguages.includes(activeLang);
+    });
 
     const activePriceText = LANGUAGE_PRICE_TEXT[activeLang] || LANGUAGE_PRICE_TEXT.en;
     document.querySelectorAll('[data-price-text]').forEach(element => {
@@ -1631,6 +1639,20 @@ document.addEventListener('DOMContentLoaded', () => {
         es: ['Responsabilidad', 'Aviso legal y límites de responsabilidad sobre rutas, proveedores, visados, transporte y fuerza mayor.'],
         pt: ['Responsabilidade', 'Disclaimer e limites de responsabilidade sobre roteiros, fornecedores, vistos, transporte e força maior.'],
         cn: ['责任说明', '关于路线、供应商、签证、交通风险和不可抗力的免责声明与责任限制。']
+      }
+    },
+    disclaimer: {
+      localDocs: {
+        en: 'assets/legal/disclaimer-eu.html',
+        es: 'assets/legal/disclaimer-eu.html',
+        pt: 'assets/legal/disclaimer-eu.html',
+        cn: 'assets/legal/disclaimer-eu.html'
+      },
+      content: {
+        en: ['Disclaimer', 'Legal disclaimer for website information, China-specific travel conditions, third-party suppliers, visas, risks, media use and liability limits.'],
+        es: ['Aviso legal', 'Aviso legal sobre la información del sitio, condiciones de viaje en China, proveedores externos, visados, riesgos, uso de medios y límites de responsabilidad.'],
+        pt: ['Aviso legal', 'Aviso legal sobre informações do site, condições de viagem na China, fornecedores terceiros, vistos, riscos, uso de mídia e limites de responsabilidade.'],
+        cn: ['免责声明', '关于网站信息、中国旅行条件、第三方供应商、签证、风险、媒体使用及责任限制的法律免责声明。']
       }
     }
   };
