@@ -183,6 +183,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Accept': 'Принять',
       'Privacy Policy': 'Политика конфиденциальности'
       ,'GDPR Privacy Policy': 'GDPR Privacy Policy'
+      ,'GDPR Consent': 'Согласие на обработку персональных данных'
       ,'Consent to Personal Data Processing': 'Согласие на обработку персональных данных'
       ,'Personal Data Consent': 'Согласие на обработку персональных данных'
       ,'Cookie Policy': 'Политика cookie'
@@ -193,6 +194,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ,'Refund Policy': 'Политика возвратов'
       ,'Responsibility': 'Ответственность'
       ,'Disclaimer': 'Disclaimer'
+      ,'Travel Participation & Risk Waiver': 'Соглашение об участии и принятии рисков'
       ,'Travel Participation & Risk Waiver Agreement': 'Соглашение об участии и принятии рисков'
       ,'Legal Documents': 'Юридические документы'
       ,'Open full document': 'Открыть полный документ'
@@ -809,6 +811,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Cookie notice': 'Aviso de cookies',
       'Privacy Policy': 'Política de privacidad',
       'GDPR Privacy Policy': 'Política de privacidad RGPD',
+      'GDPR Consent': 'Consentimiento RGPD',
       'Consent to Personal Data Processing': 'Consentimiento para el tratamiento de datos personales',
       'Personal Data Consent': 'Consentimiento de datos personales',
       'Cookie Policy': 'Política de cookies',
@@ -819,6 +822,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Refund Policy': 'Política de reembolso',
       'Responsibility': 'Responsabilidad',
       'Disclaimer': 'Aviso legal',
+      'Travel Participation & Risk Waiver': 'Participación y exención de riesgos',
       'Travel Participation & Risk Waiver Agreement': 'Acuerdo de participación y exención de riesgos',
       'Legal Documents': 'Documentos legales',
       'Open full document': 'Abrir documento completo',
@@ -944,6 +948,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Cookie notice': 'Aviso de cookies',
       'Privacy Policy': 'Política de privacidade',
       'GDPR Privacy Policy': 'Política de privacidade RGPD',
+      'GDPR Consent': 'Consentimento RGPD',
       'Consent to Personal Data Processing': 'Consentimento para tratamento de dados pessoais',
       'Personal Data Consent': 'Consentimento de dados pessoais',
       'Cookie Policy': 'Política de cookies',
@@ -954,6 +959,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Refund Policy': 'Política de reembolso',
       'Responsibility': 'Responsabilidade',
       'Disclaimer': 'Aviso legal',
+      'Travel Participation & Risk Waiver': 'Participação e assunção de riscos',
       'Travel Participation & Risk Waiver Agreement': 'Acordo de participação e assunção de riscos',
       'Legal Documents': 'Documentos legais',
       'Open full document': 'Abrir documento completo',
@@ -1079,6 +1085,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Cookie notice': 'Cookie 提示',
       'Privacy Policy': '隐私政策',
       'GDPR Privacy Policy': 'GDPR 隐私政策',
+      'GDPR Consent': 'GDPR 同意书',
       'Consent to Personal Data Processing': '个人信息处理同意书',
       'Personal Data Consent': '个人信息处理同意书',
       'Cookie Policy': 'Cookie 政策',
@@ -1089,6 +1096,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Refund Policy': '退款政策',
       'Responsibility': '责任说明',
       'Disclaimer': '免责声明',
+      'Travel Participation & Risk Waiver': '旅行参与及风险豁免',
       'Travel Participation & Risk Waiver Agreement': '旅行参与及风险豁免协议',
       'Legal Documents': '法律文件',
       'Open full document': '打开完整文件',
@@ -1552,10 +1560,14 @@ document.addEventListener('DOMContentLoaded', () => {
     privacy: {
       url: 'https://www.chieasy.online/privacy-chieasy',
       localDocs: {
+        en: 'assets/legal/gdpr-privacy-eu.html',
+        es: 'assets/legal/gdpr-privacy-eu.html',
+        pt: 'assets/legal/gdpr-privacy-eu.html',
+        cn: 'assets/legal/gdpr-privacy-eu.html',
         ru: 'assets/legal/privacy-ru.html'
       },
       content: {
-        en: ['Privacy Policy', 'How personal data, cookies, inquiries and communication are processed when you use Chieasy services.'],
+        en: ['Privacy Policy', 'How personal data, cookies, inquiries, travel requests and communication are processed when you use Chieasy Travel services.'],
         ru: ['Политика конфиденциальности', 'Как обрабатываются персональные данные, cookies, заявки и переписка при использовании сервисов Chieasy.'],
         es: ['Política de privacidad', 'Cómo se procesan datos personales, cookies, solicitudes y comunicación al usar los servicios de Chieasy.'],
         pt: ['Política de privacidade', 'Como dados pessoais, cookies, pedidos e comunicações são tratados ao usar os serviços Chieasy.'],
@@ -1585,11 +1597,11 @@ document.addEventListener('DOMContentLoaded', () => {
         ru: 'assets/legal/personal-data-consent-ru.html'
       },
       content: {
-        en: ['Consent to Personal Data Processing', 'Consent for processing identity, contact, travel, technical and payment-related information needed to prepare and provide travel services.'],
+        en: ['GDPR Consent', 'Consent for processing identity, contact, travel, technical and payment-related information needed to prepare and provide travel services.'],
         ru: ['Согласие на обработку персональных данных', 'Согласие на обработку контактных данных, заявок, переписки, технических данных и сведений, необходимых для подготовки услуг.'],
-        es: ['Consentimiento para el tratamiento de datos personales', 'Consentimiento para tratar datos de identidad, contacto, viaje, técnicos y de pago necesarios para preparar y prestar los servicios.'],
-        pt: ['Consentimento para tratamento de dados pessoais', 'Consentimento para tratar dados de identidade, contacto, viagem, técnicos e de pagamento necessários para preparar e prestar os serviços.'],
-        cn: ['个人信息处理同意书', '同意处理联系信息、旅行需求、消息、技术数据以及准备服务所需的相关信息。']
+        es: ['Consentimiento RGPD', 'Consentimiento para tratar datos de identidad, contacto, viaje, técnicos y de pago necesarios para preparar y prestar los servicios.'],
+        pt: ['Consentimento RGPD', 'Consentimento para tratar dados de identidade, contacto, viagem, técnicos e de pagamento necessários para preparar e prestar os serviços.'],
+        cn: ['GDPR 同意书', '同意处理联系信息、旅行需求、消息、技术数据以及准备服务所需的相关信息。']
       }
     },
     cookies: {
@@ -1697,10 +1709,10 @@ document.addEventListener('DOMContentLoaded', () => {
         cn: 'assets/legal/risk-waiver-eu.html'
       },
       content: {
-        en: ['Travel Participation & Risk Waiver Agreement', 'Participation agreement covering voluntary travel, assumed risks, China-specific conditions, physical activities, medical fitness, suppliers, emergencies and governing law.'],
-        es: ['Acuerdo de participación y exención de riesgos', 'Acuerdo sobre participación voluntaria, riesgos asumidos, condiciones específicas de China, actividades físicas, aptitud médica, proveedores, emergencias y ley aplicable.'],
-        pt: ['Acordo de participação e assunção de riscos', 'Acordo sobre participação voluntária, riscos assumidos, condições específicas da China, atividades físicas, aptidão médica, fornecedores, emergências e lei aplicável.'],
-        cn: ['旅行参与及风险豁免协议', '关于自愿参与旅行、风险承担、中国特定条件、体力活动、健康状况、第三方供应商、紧急情况及适用法律的协议。']
+        en: ['Travel Participation & Risk Waiver', 'Participation agreement covering voluntary travel, assumed risks, China-specific conditions, physical activities, medical fitness, suppliers, emergencies and governing law.'],
+        es: ['Participación y exención de riesgos', 'Acuerdo sobre participación voluntaria, riesgos asumidos, condiciones específicas de China, actividades físicas, aptitud médica, proveedores, emergencias y ley aplicable.'],
+        pt: ['Participação e assunção de riscos', 'Acordo sobre participação voluntária, riscos assumidos, condições específicas da China, atividades físicas, aptidão médica, fornecedores, emergências e lei aplicável.'],
+        cn: ['旅行参与及风险豁免', '关于自愿参与旅行、风险承担、中国特定条件、体力活动、健康状况、第三方供应商、紧急情况及适用法律的协议。']
       }
     }
   };
