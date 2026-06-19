@@ -1600,6 +1600,14 @@ document.addEventListener('DOMContentLoaded', () => {
         cn: ['GDPR 同意书', '同意处理联系信息、旅行需求、消息、技术数据以及准备服务所需的相关信息。']
       }
     },
+    personalDataPolicy: {
+      localDocs: {
+        ru: 'assets/legal/personal-data-policy-ru.html'
+      },
+      content: {
+        ru: ['Политика обработки персональных данных', 'Порядок обработки и защиты персональных данных пользователей сайта, клиентов и иных лиц в соответствии с 152-ФЗ.']
+      }
+    },
     cookies: {
       localDocs: {
         en: 'assets/legal/cookie-eu.html',
