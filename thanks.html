@@ -14,15 +14,86 @@
       <span>Chieasy Travel</span>
     </a>
     <section class="thanks-card">
-      <p class="eyebrow">Request Sent</p>
-      <h1>Thank you. We received your trip request.</h1>
-      <p>We will review your answers and contact you soon. If your trip is urgent, message us on WhatsApp as well.</p>
-      <p class="thanks-ru">Спасибо, заявка отправлена. Мы посмотрим ответы и скоро свяжемся с вами.</p>
-      <div class="hero-actions">
-        <a class="btn primary" href="index.html">Back to site</a>
-        <a class="btn secondary" href="https://wa.me/79173679853" target="_blank" rel="noopener">WhatsApp</a>
+      <div class="thanks-mark" aria-hidden="true">✓</div>
+      <p class="eyebrow" data-thanks="eyebrow">Request sent</p>
+      <h1 data-thanks="title">Your request is in.</h1>
+      <p data-thanks="text">We will review your answers and contact you soon with the next step.</p>
+      <div class="thanks-summary">
+        <span data-thanks="point1">Route request received</span>
+        <span data-thanks="point2">Team review in progress</span>
+        <span data-thanks="point3">Reply via WhatsApp or email</span>
+      </div>
+      <div class="thanks-actions">
+        <a class="btn primary" href="index.html" data-thanks="back">Back to site</a>
+        <a class="btn secondary" href="https://wa.me/79173679853" target="_blank" rel="noopener" data-thanks="whatsapp">WhatsApp</a>
       </div>
     </section>
   </main>
+  <script>
+    const thanksLang = localStorage.getItem('chieasyLanguage') || 'en';
+    const thanksCopy = {
+      en: {
+        titleTag: 'Request Sent — Chieasy Travel',
+        eyebrow: 'Request sent',
+        title: 'Your request is in.',
+        text: 'We will review your answers and contact you soon with the next step.',
+        point1: 'Route request received',
+        point2: 'Team review in progress',
+        point3: 'Reply via WhatsApp or email',
+        back: 'Back to site',
+        whatsapp: 'WhatsApp'
+      },
+      ru: {
+        titleTag: 'Заявка отправлена — Chieasy Travel',
+        eyebrow: 'Заявка отправлена',
+        title: 'Спасибо, мы получили вашу заявку.',
+        text: 'Посмотрим ответы и свяжемся с вами, чтобы обсудить маршрут и следующий шаг.',
+        point1: 'Заявка по маршруту получена',
+        point2: 'Команда изучает детали',
+        point3: 'Ответим в WhatsApp или на email',
+        back: 'Вернуться на сайт',
+        whatsapp: 'WhatsApp'
+      },
+      es: {
+        titleTag: 'Solicitud enviada — Chieasy Travel',
+        eyebrow: 'Solicitud enviada',
+        title: 'Hemos recibido tu solicitud.',
+        text: 'Revisaremos tus respuestas y te contactaremos pronto con el siguiente paso.',
+        point1: 'Solicitud de ruta recibida',
+        point2: 'El equipo revisa los detalles',
+        point3: 'Respuesta por WhatsApp o email',
+        back: 'Volver al sitio',
+        whatsapp: 'WhatsApp'
+      },
+      pt: {
+        titleTag: 'Pedido enviado — Chieasy Travel',
+        eyebrow: 'Pedido enviado',
+        title: 'Recebemos o seu pedido.',
+        text: 'Vamos rever as suas respostas e entrar em contacto em breve com o próximo passo.',
+        point1: 'Pedido de roteiro recebido',
+        point2: 'A equipa está a rever os detalhes',
+        point3: 'Resposta por WhatsApp ou email',
+        back: 'Voltar ao site',
+        whatsapp: 'WhatsApp'
+      },
+      cn: {
+        titleTag: '申请已发送 — Chieasy Travel',
+        eyebrow: '申请已发送',
+        title: '我们已收到你的旅行申请。',
+        text: '我们会查看你的答案，并尽快联系你确认下一步。',
+        point1: '路线申请已收到',
+        point2: '团队正在查看细节',
+        point3: '通过 WhatsApp 或邮箱回复',
+        back: '返回网站',
+        whatsapp: 'WhatsApp'
+      }
+    };
+    const activeThanks = thanksCopy[thanksLang] || thanksCopy.en;
+    document.documentElement.lang = thanksLang === 'cn' ? 'zh-CN' : thanksLang;
+    document.title = activeThanks.titleTag;
+    document.querySelectorAll('[data-thanks]').forEach((node) => {
+      node.textContent = activeThanks[node.dataset.thanks] || node.textContent;
+    });
+  </script>
 </body>
 </html>

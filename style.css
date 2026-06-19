@@ -15,20 +15,34 @@
 .quiz-form.submitted{
   display:grid;
   align-items:center;
-  min-height:360px;
+  min-height:300px;
 }
 .quiz-success{
-  max-width:620px;
+  max-width:560px;
+}
+.quiz-success-mark{
+  width:52px;
+  height:52px;
+  display:grid;
+  place-items:center;
+  margin-bottom:18px;
+  border-radius:50%;
+  color:#fff;
+  background:var(--orange);
+  font-size:26px;
+  font-weight:950;
+  box-shadow:0 16px 34px rgba(216,74,42,.28);
 }
 .quiz-success h3{
-  margin:14px 0 18px;
-  font-size:clamp(36px,5vw,62px);
-  line-height:.98;
+  margin:14px 0 16px;
+  font-size:clamp(30px,4vw,46px);
+  line-height:1.04;
+  text-wrap:balance;
 }
 .quiz-success p{
   margin:0 0 14px;
   color:var(--muted);
-  font-size:18px;
+  font-size:17px;
   line-height:1.6;
 }
 .quiz-success .btn{
@@ -37,7 +51,8 @@
 .thanks-page{
   min-height:100vh;
   background:
-    linear-gradient(120deg,rgba(251,244,232,.96),rgba(255,255,255,.92)),
+    radial-gradient(circle at 18% 12%,rgba(216,74,42,.12),transparent 28%),
+    linear-gradient(135deg,rgba(251,244,232,.98),rgba(255,255,255,.96)),
     url('assets/images/IMG_1286.JPG');
   background-size:cover;
   background-position:center;
@@ -46,37 +61,111 @@
   min-height:100vh;
   display:grid;
   align-content:center;
-  gap:28px;
-  padding:48px 6vw;
+  justify-items:center;
+  gap:24px;
+  padding:44px 6vw;
 }
 .thanks-brand{
   width:max-content;
+  padding:10px 14px;
+  border-radius:999px;
+  background:rgba(255,255,255,.82);
+  border:1px solid var(--line);
+  box-shadow:0 14px 36px rgba(30,23,19,.08);
 }
 .thanks-card{
-  max-width:980px;
-  padding:clamp(30px,5vw,64px);
-  border-radius:38px;
-  background:rgba(255,255,255,.9);
+  width:min(760px,100%);
+  padding:clamp(28px,4vw,46px);
+  border-radius:30px;
+  background:rgba(255,255,255,.94);
   border:1px solid var(--line);
   box-shadow:var(--shadow);
   backdrop-filter:blur(18px);
 }
+.thanks-mark{
+  width:58px;
+  height:58px;
+  display:grid;
+  place-items:center;
+  margin-bottom:22px;
+  border-radius:50%;
+  color:#fff;
+  background:var(--orange);
+  font-size:30px;
+  font-weight:950;
+  box-shadow:0 18px 38px rgba(216,74,42,.28);
+}
 .thanks-card h1{
-  max-width:880px;
-  font-size:clamp(42px,7vw,92px);
+  max-width:680px;
+  font-size:clamp(34px,5.2vw,58px);
+  line-height:1.04;
+  text-wrap:balance;
+}
+.thanks-card .eyebrow{
+  margin:0 0 14px;
+  color:var(--orange);
 }
 .thanks-card p{
-  max-width:760px;
-  margin:24px 0 0;
+  max-width:620px;
+  margin:18px 0 0;
   color:var(--muted);
-  font-size:clamp(18px,2vw,24px);
-  line-height:1.5;
+  font-size:clamp(17px,1.6vw,20px);
+  line-height:1.6;
 }
-.thanks-card .hero-actions{
-  margin-top:30px;
+.thanks-summary{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:10px;
+  margin-top:26px;
 }
-.thanks-ru{
-  font-weight:800;
+.thanks-summary span{
+  display:flex;
+  align-items:center;
+  min-height:72px;
+  padding:14px 16px;
+  border-radius:18px;
+  background:var(--cream);
+  border:1px solid var(--line);
+  color:var(--ink);
+  font-weight:850;
+  line-height:1.25;
+}
+.thanks-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:28px;
+}
+.thanks-actions .btn{
+  min-width:170px;
+}
+@media(max-width:640px){
+  .thanks-shell{
+    justify-items:stretch;
+    padding:28px 5vw;
+  }
+  .thanks-brand{
+    justify-self:start;
+  }
+  .thanks-card{
+    padding:28px 22px;
+    border-radius:24px;
+  }
+  .thanks-card h1{
+    font-size:clamp(30px,8vw,40px);
+  }
+  .thanks-summary{
+    grid-template-columns:1fr;
+  }
+  .thanks-summary span{
+    min-height:auto;
+  }
+  .thanks-actions{
+    flex-direction:column;
+  }
+  .thanks-actions .btn{
+    width:100%;
+  }
 }
 .page-hero:after{
   content:"";

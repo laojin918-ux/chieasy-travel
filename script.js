@@ -2072,38 +2072,43 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const successCopy = {
     en: {
+      eyebrow: 'Request sent',
       sending: 'Sending...',
-      title: 'Request sent',
-      text: 'Thank you. We received your answers and will contact you soon.',
-      note: 'If the trip is urgent, message us on WhatsApp as well.',
+      title: 'Your request is in.',
+      text: 'We received your answers and will review the route details.',
+      note: 'We will contact you soon with the next step. If the trip is urgent, message us on WhatsApp as well.',
       button: 'Message on WhatsApp'
     },
     ru: {
+      eyebrow: 'Заявка отправлена',
       sending: 'Отправляем...',
-      title: 'Заявка отправлена',
-      text: 'Спасибо. Мы получили ваши ответы и скоро свяжемся с вами.',
-      note: 'Если поездка срочная, напишите нам также в WhatsApp.',
+      title: 'Спасибо, мы получили вашу заявку.',
+      text: 'Посмотрим ответы и детали маршрута.',
+      note: 'Скоро свяжемся с вами и обсудим следующий шаг. Если поездка срочная, напишите нам также в WhatsApp.',
       button: 'Написать в WhatsApp'
     },
     es: {
+      eyebrow: 'Solicitud enviada',
       sending: 'Enviando...',
-      title: 'Solicitud enviada',
-      text: 'Gracias. Hemos recibido tus respuestas y te contactaremos pronto.',
-      note: 'Si el viaje es urgente, escríbenos también por WhatsApp.',
+      title: 'Hemos recibido tu solicitud.',
+      text: 'Revisaremos tus respuestas y los detalles de la ruta.',
+      note: 'Te contactaremos pronto con el siguiente paso. Si el viaje es urgente, escríbenos también por WhatsApp.',
       button: 'Escribir por WhatsApp'
     },
     pt: {
+      eyebrow: 'Pedido enviado',
       sending: 'A enviar...',
-      title: 'Pedido enviado',
-      text: 'Obrigado. Recebemos as suas respostas e entraremos em contacto em breve.',
-      note: 'Se a viagem for urgente, envie-nos também uma mensagem no WhatsApp.',
+      title: 'Recebemos o seu pedido.',
+      text: 'Vamos rever as suas respostas e os detalhes do roteiro.',
+      note: 'Entraremos em contacto em breve com o próximo passo. Se a viagem for urgente, envie-nos também uma mensagem no WhatsApp.',
       button: 'Enviar WhatsApp'
     },
     cn: {
+      eyebrow: '申请已发送',
       sending: '正在发送...',
-      title: '申请已发送',
-      text: '谢谢。我们已收到你的答案，会尽快联系你。',
-      note: '如果行程比较紧急，也可以通过 WhatsApp 联系我们。',
+      title: '我们已收到你的旅行申请。',
+      text: '我们会查看你的答案和路线细节。',
+      note: '我们会尽快联系你确认下一步。如果行程比较紧急，也可以通过 WhatsApp 联系我们。',
       button: 'WhatsApp 联系'
     }
   };
@@ -2136,7 +2141,8 @@ document.addEventListener('DOMContentLoaded', () => {
         quizForm.classList.add('submitted');
         quizForm.innerHTML = `
           <div class="quiz-success">
-            <span class="step-label">${copy.title}</span>
+            <div class="quiz-success-mark" aria-hidden="true">✓</div>
+            <span class="step-label">${copy.eyebrow}</span>
             <h3>${copy.title}</h3>
             <p>${copy.text}</p>
             <p>${copy.note}</p>
