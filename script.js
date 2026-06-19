@@ -183,6 +183,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Accept': 'Принять',
       'Privacy Policy': 'Политика конфиденциальности'
       ,'GDPR Privacy Policy': 'GDPR Privacy Policy'
+      ,'Consent to Personal Data Processing': 'Согласие на обработку персональных данных'
       ,'Personal Data Consent': 'Согласие на обработку персональных данных'
       ,'Cookie Policy': 'Политика cookie'
       ,'Terms & Conditions': 'Пользовательское соглашение'
@@ -807,6 +808,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Cookie notice': 'Aviso de cookies',
       'Privacy Policy': 'Política de privacidad',
       'GDPR Privacy Policy': 'Política de privacidad RGPD',
+      'Consent to Personal Data Processing': 'Consentimiento para el tratamiento de datos personales',
       'Personal Data Consent': 'Consentimiento de datos personales',
       'Cookie Policy': 'Política de cookies',
       'Terms & Conditions': 'Términos y condiciones',
@@ -940,6 +942,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Cookie notice': 'Aviso de cookies',
       'Privacy Policy': 'Política de privacidade',
       'GDPR Privacy Policy': 'Política de privacidade RGPD',
+      'Consent to Personal Data Processing': 'Consentimento para tratamento de dados pessoais',
       'Personal Data Consent': 'Consentimento de dados pessoais',
       'Cookie Policy': 'Política de cookies',
       'Terms & Conditions': 'Termos e condições',
@@ -1073,6 +1076,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Cookie notice': 'Cookie 提示',
       'Privacy Policy': '隐私政策',
       'GDPR Privacy Policy': 'GDPR 隐私政策',
+      'Consent to Personal Data Processing': '个人信息处理同意书',
       'Personal Data Consent': '个人信息处理同意书',
       'Cookie Policy': 'Cookie 政策',
       'Terms & Conditions': '条款与条件',
@@ -1570,13 +1574,17 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     consent: {
       localDocs: {
+        en: 'assets/legal/personal-data-consent-eu.html',
+        es: 'assets/legal/personal-data-consent-eu.html',
+        pt: 'assets/legal/personal-data-consent-eu.html',
+        cn: 'assets/legal/personal-data-consent-eu.html',
         ru: 'assets/legal/personal-data-consent-ru.html'
       },
       content: {
-        en: ['Personal Data Consent', 'Consent for processing contact details, trip request data, messages, technical data and related information needed to prepare travel services.'],
+        en: ['Consent to Personal Data Processing', 'Consent for processing identity, contact, travel, technical and payment-related information needed to prepare and provide travel services.'],
         ru: ['Согласие на обработку персональных данных', 'Согласие на обработку контактных данных, заявок, переписки, технических данных и сведений, необходимых для подготовки услуг.'],
-        es: ['Consentimiento de datos personales', 'Consentimiento para procesar datos de contacto, solicitudes de viaje, mensajes, datos técnicos e información necesaria para preparar los servicios.'],
-        pt: ['Consentimento de dados pessoais', 'Consentimento para tratar dados de contacto, pedidos de viagem, mensagens, dados técnicos e informações necessárias para preparar os serviços.'],
+        es: ['Consentimiento para el tratamiento de datos personales', 'Consentimiento para tratar datos de identidad, contacto, viaje, técnicos y de pago necesarios para preparar y prestar los servicios.'],
+        pt: ['Consentimento para tratamento de dados pessoais', 'Consentimento para tratar dados de identidade, contacto, viagem, técnicos e de pagamento necessários para preparar e prestar os serviços.'],
         cn: ['个人信息处理同意书', '同意处理联系信息、旅行需求、消息、技术数据以及准备服务所需的相关信息。']
       }
     },
