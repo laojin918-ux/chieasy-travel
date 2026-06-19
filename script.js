@@ -243,6 +243,8 @@ document.addEventListener('DOMContentLoaded', () => {
       ,'Travel Network': 'Партнёрская сеть'
       ,'See how we talk about China before you travel with us.': 'Посмотрите, как мы говорим о Китае до вашей поездки.'
       ,'Direct, practical and based on real experience living, studying and traveling across China.': 'Прямо, практично и на основе реального опыта жизни, учёбы и путешествий по Китаю.'
+      ,'Watch the video here on the site. No YouTube jump, just press play.': 'Смотрите видео прямо на сайте. Без перехода на YouTube, просто нажмите play.'
+      ,'Plan after watching': 'Спланировать после просмотра'
       ,'First China Trip': 'Первая поездка в Китай'
       ,'“China looks incredible, but online information feels scattered. I need a route that makes sense, not just a list of cities.”': '«Китай выглядит невероятно, но информация в интернете разрозненная. Мне нужен маршрут с логикой, а не просто список городов».'
       ,'Route idea: Shanghai → Zhangjiajie → Chongqing': 'Идея маршрута: Шанхай → Чжанцзяцзе → Чунцин'
@@ -778,6 +780,8 @@ document.addEventListener('DOMContentLoaded', () => {
       'Recent cooperation with Ctrip and travel conferences helps us see new routes, hotels and experience formats before they become obvious.': 'La cooperación reciente con Ctrip y conferencias de turismo nos ayuda a ver nuevas rutas, hoteles y formatos de experiencia antes de que sean obvios.',
       'See how we talk about China before you travel with us.': 'Mira cómo hablamos de China antes de viajar con nosotros.',
       'Direct, practical and based on real experience living, studying and traveling across China.': 'Directo, práctico y basado en experiencia real viviendo, estudiando y viajando por China.',
+      'Watch the video here on the site. No YouTube jump, just press play.': 'Mira el video aquí mismo, sin salir del sitio. Solo pulsa play.',
+      'Plan after watching': 'Planificar después del video',
       'Open on YouTube': 'Abrir en YouTube',
       'First China Trip': 'Primer viaje a China',
       '“China looks incredible, but online information feels scattered. I need a route that makes sense, not just a list of cities.”': '«China parece increíble, pero la información online está dispersa. Necesito una ruta con sentido, no solo una lista de ciudades».',
@@ -914,6 +918,8 @@ document.addEventListener('DOMContentLoaded', () => {
       'Recent cooperation with Ctrip and travel conferences helps us see new routes, hotels and experience formats before they become obvious.': 'A cooperação recente com a Ctrip e conferências de turismo nos ajuda a ver novas rotas, hotéis e formatos de experiência antes de se tornarem óbvios.',
       'See how we talk about China before you travel with us.': 'Veja como falamos sobre a China antes de viajar conosco.',
       'Direct, practical and based on real experience living, studying and traveling across China.': 'Direto, prático e baseado em experiência real vivendo, estudando e viajando pela China.',
+      'Watch the video here on the site. No YouTube jump, just press play.': 'Veja o vídeo aqui mesmo, sem sair do site. Basta apertar play.',
+      'Plan after watching': 'Planejar depois do vídeo',
       'Open on YouTube': 'Abrir no YouTube',
       'First China Trip': 'Primeira viagem à China',
       '“China looks incredible, but online information feels scattered. I need a route that makes sense, not just a list of cities.”': '“A China parece incrível, mas a informação online é dispersa. Preciso de um roteiro que faça sentido, não só uma lista de cidades.”',
@@ -1050,6 +1056,8 @@ document.addEventListener('DOMContentLoaded', () => {
       'Recent cooperation with Ctrip and travel conferences helps us see new routes, hotels and experience formats before they become obvious.': '近期与 Ctrip 的合作以及旅行会议让我们更早看到新的路线、酒店和体验形式。',
       'See how we talk about China before you travel with us.': '在和我们旅行前，先看看我们如何讲中国。',
       'Direct, practical and based on real experience living, studying and traveling across China.': '直接、实用，并基于在中国生活、学习和旅行的真实经验。',
+      'Watch the video here on the site. No YouTube jump, just press play.': '可以直接在网站内观看视频，不需要跳转到 YouTube，只需点击播放。',
+      'Plan after watching': '看完后规划行程',
       'Open on YouTube': '在 YouTube 打开',
       'First China Trip': '第一次中国旅行',
       '“China looks incredible, but online information feels scattered. I need a route that makes sense, not just a list of cities.”': '“中国看起来很精彩，但网上信息太分散。我需要一条有逻辑的路线，而不是城市清单。”',
