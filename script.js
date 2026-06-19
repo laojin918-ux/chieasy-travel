@@ -1582,6 +1582,10 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     cookies: {
       localDocs: {
+        en: 'assets/legal/cookie-eu.html',
+        es: 'assets/legal/cookie-eu.html',
+        pt: 'assets/legal/cookie-eu.html',
+        cn: 'assets/legal/cookie-eu.html',
         ru: 'assets/legal/cookie-ru.html'
       },
       content: {
