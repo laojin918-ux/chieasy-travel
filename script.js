@@ -184,6 +184,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Privacy Policy': 'Политика конфиденциальности'
       ,'Personal Data Consent': 'Согласие на обработку персональных данных'
       ,'Cookie Policy': 'Политика cookie'
+      ,'Terms & Conditions': 'Пользовательское соглашение'
       ,'User Agreement': 'Пользовательское соглашение'
       ,'Public Offer': 'Публичная оферта'
       ,'Payment Rules': 'Правила оплаты'
@@ -805,6 +806,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Privacy Policy': 'Política de privacidad',
       'Personal Data Consent': 'Consentimiento de datos personales',
       'Cookie Policy': 'Política de cookies',
+      'Terms & Conditions': 'Términos y condiciones',
       'User Agreement': 'Acuerdo de usuario',
       'Public Offer': 'Oferta pública',
       'Payment Rules': 'Reglas de pago',
@@ -935,6 +937,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Privacy Policy': 'Política de privacidade',
       'Personal Data Consent': 'Consentimento de dados pessoais',
       'Cookie Policy': 'Política de cookies',
+      'Terms & Conditions': 'Termos e condições',
       'User Agreement': 'Acordo do usuário',
       'Public Offer': 'Oferta pública',
       'Payment Rules': 'Regras de pagamento',
@@ -1065,6 +1068,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Privacy Policy': '隐私政策',
       'Personal Data Consent': '个人信息处理同意书',
       'Cookie Policy': 'Cookie 政策',
+      'Terms & Conditions': '条款与条件',
       'User Agreement': '用户协议',
       'Public Offer': '公开报价',
       'Payment Rules': '付款规则',
@@ -1564,12 +1568,18 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     agreement: {
       url: 'https://www.chieasy.online/agreement-chieasy',
+      localDocs: {
+        en: 'assets/legal/terms-eu.html',
+        es: 'assets/legal/terms-eu.html',
+        pt: 'assets/legal/terms-eu.html',
+        cn: 'assets/legal/terms-eu.html'
+      },
       content: {
-        en: ['User Agreement', 'The general rules for using the website, requesting services and communicating with Chieasy.'],
+        en: ['Terms & Conditions', 'Terms for using the website, submitting booking requests, payments, travel coordination, third-party suppliers and China travel services.'],
         ru: ['Пользовательское соглашение', 'Общие правила использования сайта, отправки заявок на услуги и взаимодействия с Chieasy.'],
-        es: ['Acuerdo de usuario', 'Las reglas generales para usar el sitio, solicitar servicios y comunicarse con Chieasy.'],
-        pt: ['Acordo do usuário', 'As regras gerais para usar o site, solicitar serviços e comunicar com a Chieasy.'],
-        cn: ['用户协议', '使用网站、提交服务请求以及与 Chieasy 沟通的一般规则。']
+        es: ['Términos y condiciones', 'Condiciones de uso del sitio, solicitudes de reserva, pagos, coordinación de viajes, proveedores externos y servicios de viaje en China.'],
+        pt: ['Termos e condições', 'Condições de uso do site, pedidos de reserva, pagamentos, coordenação de viagem, fornecedores terceiros e serviços de viagem na China.'],
+        cn: ['条款与条件', '关于网站使用、预订请求、付款、旅行协调、第三方供应商以及中国旅行服务的条款。']
       }
     },
     offer: {
