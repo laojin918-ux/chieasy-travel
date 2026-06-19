@@ -1935,24 +1935,24 @@ document.addEventListener('DOMContentLoaded', () => {
   const routePlaceGrid = document.getElementById('routePlaceGrid');
   const localizedRouteModalCards = {
     ru: [
-      ['Маршрут', 'Мы адаптируем города, порядок, темп и транспорт под ваши даты и стиль поездки.'],
-      ['Популярные места', 'Покажем главные точки, красивые остановки и места, которые логично добавить именно к этому маршруту.'],
-      ['Премиум-опции', 'Можно добавить частного водителя, лодки, вертолёт, необычные отели, съёмки или локальную поддержку.']
+      ['Маршрут', 'Логика поездки', 'Города, порядок, темп и транспорт адаптируем под ваши даты и стиль.'],
+      ['Места', 'Что посмотреть', 'Главные точки, красивые остановки и локации, которые действительно подходят маршруту.'],
+      ['Опции', 'Что усилить', 'Водитель, лодки, вертолёт, особенные отели, съёмки или локальная поддержка.']
     ],
     es: [
-      ['Ruta', 'Adaptamos ciudades, orden, ritmo y transporte a tus fechas y estilo de viaje.'],
-      ['Lugares populares', 'Mostramos puntos clave, paradas bonitas y lugares que encajan con esta ruta.'],
-      ['Opciones premium', 'Podemos añadir conductor privado, barcos, helicóptero, hoteles especiales, rodajes o apoyo local.']
+      ['Ruta', 'Estructura del viaje', 'Adaptamos ciudades, orden, ritmo y transporte a tus fechas y estilo.'],
+      ['Lugares', 'Qué ver', 'Puntos clave, paradas bonitas y lugares que realmente encajan con la ruta.'],
+      ['Extras', 'Cómo elevarlo', 'Conductor privado, barcos, helicóptero, hoteles especiales, rodajes o apoyo local.']
     ],
     pt: [
-      ['Roteiro', 'Adaptamos cidades, ordem, ritmo e transporte às suas datas e estilo de viagem.'],
-      ['Lugares populares', 'Mostramos pontos principais, paradas bonitas e lugares que fazem sentido para este roteiro.'],
-      ['Opções premium', 'Podemos adicionar motorista privado, barcos, helicóptero, hotéis especiais, filmagens ou apoio local.']
+      ['Roteiro', 'Estrutura da viagem', 'Adaptamos cidades, ordem, ritmo e transporte às suas datas e estilo.'],
+      ['Lugares', 'O que ver', 'Pontos principais, paradas bonitas e lugares que realmente combinam com o roteiro.'],
+      ['Extras', 'Como elevar', 'Motorista privado, barcos, helicóptero, hotéis especiais, filmagens ou apoio local.']
     ],
     cn: [
-      ['路线', '我们会根据你的日期和旅行风格调整城市、顺序、节奏和交通。'],
-      ['热门地点', '我们会选择主要景点、好看的停留点，以及适合这条路线的补充地点。'],
-      ['高端选项', '可以加入私人司机、船只、直升机、特色酒店、拍摄安排或本地支持。']
+      ['路线', '行程逻辑', '根据你的日期和旅行风格调整城市、顺序、节奏和交通。'],
+      ['地点', '值得看什么', '选择主要景点、好看的停留点，以及真正适合路线的补充地点。'],
+      ['升级', '如何提升体验', '加入私人司机、船只、直升机、特色酒店、拍摄安排或本地支持。']
     ]
   };
 
@@ -1981,10 +1981,10 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       const cards = localizedRouteModalCards[activeLang] || localizedRouteModalCards.ru;
       routeModalText.textContent = translateString('These are sample route concepts. Dates, hotels, transport, guides and experiences are adjusted to your travel style.', activeLang);
-      routePlaceGrid.innerHTML = cards.map(([tag, description]) => `
+      routePlaceGrid.innerHTML = cards.map(([tag, title, description]) => `
         <article class="route-place">
           <span>${tag}</span>
-          <h4>${translateString(data.title, activeLang)}</h4>
+          <h4>${title}</h4>
           <p>${description}</p>
         </article>
       `).join('');
