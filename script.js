@@ -1438,31 +1438,36 @@ document.addEventListener('DOMContentLoaded', () => {
       'hero-cta': '45-min Consultation · €149',
       'hero-card': '45 minutes · €149',
       'consultation-price': '€149',
-      'sticky-call': '€149 Call'
+      'sticky-call': '€149 Call',
+      'menu-cta': 'Book consultation'
     },
     ru: {
       'hero-cta': 'Консультация 45 минут · 12 999 ₽',
       'hero-card': '45 минут · 12 999 ₽',
       'consultation-price': '12 999 ₽',
-      'sticky-call': 'Разбор поездки'
+      'sticky-call': 'Разбор поездки',
+      'menu-cta': 'Разобрать поездку'
     },
     es: {
       'hero-cta': 'Consulta 45 min · €149',
       'hero-card': '45 minutos · €149',
       'consultation-price': '€149',
-      'sticky-call': 'Llamada €149'
+      'sticky-call': 'Llamada €149',
+      'menu-cta': 'Reservar consulta'
     },
     pt: {
       'hero-cta': 'Consultoria 45 min · €149',
       'hero-card': '45 minutos · €149',
       'consultation-price': '€149',
-      'sticky-call': 'Chamada €149'
+      'sticky-call': 'Chamada €149',
+      'menu-cta': 'Reservar consultoria'
     },
     cn: {
       'hero-cta': '45 分钟咨询 · €149',
       'hero-card': '45 分钟 · €149',
       'consultation-price': '€149',
-      'sticky-call': '€149 咨询'
+      'sticky-call': '€149 咨询',
+      'menu-cta': '预约咨询'
     }
   };
 

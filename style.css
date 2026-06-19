@@ -834,6 +834,9 @@ body.modal-open{
 .nav-social-links{
   display:none;
 }
+.nav-mobile-cta{
+  display:none;
+}
 .ctrip-logo{
   color:#1b65d8;
 }
@@ -1369,6 +1372,19 @@ footer .legal-tab:hover{
     background:var(--orange);
     border-color:var(--orange);
     color:#fff;
+  }
+  .nav-whatsapp-cta{
+    display:none;
+  }
+  .nav-mobile-cta{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height:58px;
+    margin-top:4px;
+    padding:14px 18px!important;
+    background:var(--orange);
+    box-shadow:0 14px 34px rgba(216,74,42,.24);
   }
   .footer-nav,
   .legal-tabs,
