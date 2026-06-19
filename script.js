@@ -182,6 +182,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Cookie notice': 'Cookie',
       'Accept': 'Принять',
       'Privacy Policy': 'Политика конфиденциальности'
+      ,'Personal Data Consent': 'Согласие на обработку персональных данных'
       ,'Cookie Policy': 'Политика cookie'
       ,'User Agreement': 'Пользовательское соглашение'
       ,'Public Offer': 'Публичная оферта'
@@ -193,6 +194,8 @@ document.addEventListener('DOMContentLoaded', () => {
       ,'Close': 'Закрыть'
       ,'Close legal popup': 'Закрыть юридический попап'
       ,'Review the official document before booking or paying for services.': 'Ознакомьтесь с официальным документом перед бронированием или оплатой услуг.'
+      ,'I consent to the processing of my personal data.': 'Я согласен на обработку персональных данных.'
+      ,'Read personal data consent': 'Открыть согласие на обработку данных'
       ,'Chieasy Travel — Custom China Trips & Premium Experiences': 'Chieasy Travel — индивидуальные путешествия и премиум-впечатления в Китае'
       ,'7–10 days': '7–10 дней'
       ,'5–7 days': '5–7 дней'
@@ -800,6 +803,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Chieasy School': 'Chieasy School',
       'Cookie notice': 'Aviso de cookies',
       'Privacy Policy': 'Política de privacidad',
+      'Personal Data Consent': 'Consentimiento de datos personales',
       'Cookie Policy': 'Política de cookies',
       'User Agreement': 'Acuerdo de usuario',
       'Public Offer': 'Oferta pública',
@@ -811,6 +815,8 @@ document.addEventListener('DOMContentLoaded', () => {
       'Close': 'Cerrar',
       'Close legal popup': 'Cerrar ventana legal',
       'Review the official document before booking or paying for services.': 'Revisa el documento oficial antes de reservar o pagar servicios.',
+      'I consent to the processing of my personal data.': 'Acepto el tratamiento de mis datos personales.',
+      'Read personal data consent': 'Leer consentimiento de datos',
       'Open menu': 'Abrir menú',
       'Language switcher': 'Selector de idioma',
       'Close route details': 'Cerrar detalles de ruta',
@@ -927,6 +933,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Chieasy School': 'Chieasy School',
       'Cookie notice': 'Aviso de cookies',
       'Privacy Policy': 'Política de privacidade',
+      'Personal Data Consent': 'Consentimento de dados pessoais',
       'Cookie Policy': 'Política de cookies',
       'User Agreement': 'Acordo do usuário',
       'Public Offer': 'Oferta pública',
@@ -938,6 +945,8 @@ document.addEventListener('DOMContentLoaded', () => {
       'Close': 'Fechar',
       'Close legal popup': 'Fechar janela legal',
       'Review the official document before booking or paying for services.': 'Leia o documento oficial antes de reservar ou pagar pelos serviços.',
+      'I consent to the processing of my personal data.': 'Aceito o tratamento dos meus dados pessoais.',
+      'Read personal data consent': 'Ler consentimento de dados',
       'Open menu': 'Abrir menu',
       'Language switcher': 'Seletor de idioma',
       'Close route details': 'Fechar detalhes do roteiro',
@@ -1054,6 +1063,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Chieasy School': 'Chieasy 学校',
       'Cookie notice': 'Cookie 提示',
       'Privacy Policy': '隐私政策',
+      'Personal Data Consent': '个人信息处理同意书',
       'Cookie Policy': 'Cookie 政策',
       'User Agreement': '用户协议',
       'Public Offer': '公开报价',
@@ -1065,6 +1075,8 @@ document.addEventListener('DOMContentLoaded', () => {
       'Close': '关闭',
       'Close legal popup': '关闭法律弹窗',
       'Review the official document before booking or paying for services.': '预订或付款前，请查看官方文件。',
+      'I consent to the processing of my personal data.': '我同意处理我的个人信息。',
+      'Read personal data consent': '查看个人信息同意书',
       'Open menu': '打开菜单',
       'Language switcher': '语言切换',
       'Close route details': '关闭路线详情',
@@ -1524,6 +1536,18 @@ document.addEventListener('DOMContentLoaded', () => {
         es: ['Política de privacidad', 'Cómo se procesan datos personales, cookies, solicitudes y comunicación al usar los servicios de Chieasy.'],
         pt: ['Política de privacidade', 'Como dados pessoais, cookies, pedidos e comunicações são tratados ao usar os serviços Chieasy.'],
         cn: ['隐私政策', '说明使用 Chieasy 服务时，个人信息、Cookie、咨询请求和沟通内容如何被处理。']
+      }
+    },
+    consent: {
+      localDocs: {
+        ru: 'assets/legal/personal-data-consent-ru.html'
+      },
+      content: {
+        en: ['Personal Data Consent', 'Consent for processing contact details, trip request data, messages, technical data and related information needed to prepare travel services.'],
+        ru: ['Согласие на обработку персональных данных', 'Согласие на обработку контактных данных, заявок, переписки, технических данных и сведений, необходимых для подготовки услуг.'],
+        es: ['Consentimiento de datos personales', 'Consentimiento para procesar datos de contacto, solicitudes de viaje, mensajes, datos técnicos e información necesaria para preparar los servicios.'],
+        pt: ['Consentimento de dados pessoais', 'Consentimento para tratar dados de contacto, pedidos de viagem, mensagens, dados técnicos e informações necessárias para preparar os serviços.'],
+        cn: ['个人信息处理同意书', '同意处理联系信息、旅行需求、消息、技术数据以及准备服务所需的相关信息。']
       }
     },
     cookies: {

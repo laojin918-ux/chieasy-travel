@@ -214,6 +214,38 @@
   outline:3px solid rgba(216,74,42,.28);
   outline-offset:3px;
 }
+.consent-check{
+  display:flex;
+  align-items:flex-start;
+  gap:10px;
+  margin:14px 0 8px;
+  padding:14px 16px;
+  border-radius:18px;
+  background:rgba(255,255,255,.82);
+  border:1px solid rgba(30,23,19,.12);
+  color:var(--muted);
+  font-size:14px;
+  font-weight:800;
+  line-height:1.45;
+}
+.consent-check input{
+  width:18px;
+  height:18px;
+  flex:0 0 auto;
+  margin-top:2px;
+  accent-color:var(--orange);
+}
+.legal-inline-link{
+  display:inline-flex;
+  margin-top:2px;
+  color:var(--orange-dark);
+  font-size:14px;
+  font-weight:950;
+  text-decoration:none;
+}
+.legal-inline-link:hover{
+  text-decoration:underline;
+}
 @media(max-width:640px){
   .choice-grid label{
     min-height:88px;
