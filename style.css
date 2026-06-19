@@ -1634,6 +1634,13 @@ html[lang="zh-CN"] .partner-logo{
   letter-spacing:0;
 }
 @media(max-width:980px){
+  .nav .lang-switch{
+    width:max-content;
+    max-width:100%;
+    align-self:center;
+    justify-content:center;
+    margin:4px auto 0;
+  }
   html[lang="ru"] .route-card,
   html[lang="es"] .route-card,
   html[lang="pt"] .route-card,
