@@ -2047,6 +2047,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const prev = document.getElementById('prevStep');
   const next = document.getElementById('nextStep');
   const submit = document.getElementById('submitQuiz');
+  const quizForm = document.querySelector('form[name="china-trip-request"]');
 
   function showStep(n) {
     step = Math.max(1, Math.min(n, steps.length));
@@ -2059,5 +2060,84 @@ document.addEventListener('DOMContentLoaded', () => {
     prev.addEventListener('click', () => showStep(step - 1));
     next.addEventListener('click', () => showStep(step + 1));
     showStep(1);
+  }
+
+  const successCopy = {
+    en: {
+      sending: 'Sending...',
+      title: 'Request sent',
+      text: 'Thank you. We received your answers and will contact you soon.',
+      note: 'If the trip is urgent, message us on WhatsApp as well.',
+      button: 'Message on WhatsApp'
+    },
+    ru: {
+      sending: 'Отправляем...',
+      title: 'Заявка отправлена',
+      text: 'Спасибо. Мы получили ваши ответы и скоро свяжемся с вами.',
+      note: 'Если поездка срочная, напишите нам также в WhatsApp.',
+      button: 'Написать в WhatsApp'
+    },
+    es: {
+      sending: 'Enviando...',
+      title: 'Solicitud enviada',
+      text: 'Gracias. Hemos recibido tus respuestas y te contactaremos pronto.',
+      note: 'Si el viaje es urgente, escríbenos también por WhatsApp.',
+      button: 'Escribir por WhatsApp'
+    },
+    pt: {
+      sending: 'A enviar...',
+      title: 'Pedido enviado',
+      text: 'Obrigado. Recebemos as suas respostas e entraremos em contacto em breve.',
+      note: 'Se a viagem for urgente, envie-nos também uma mensagem no WhatsApp.',
+      button: 'Enviar WhatsApp'
+    },
+    cn: {
+      sending: '正在发送...',
+      title: '申请已发送',
+      text: '谢谢。我们已收到你的答案，会尽快联系你。',
+      note: '如果行程比较紧急，也可以通过 WhatsApp 联系我们。',
+      button: 'WhatsApp 联系'
+    }
+  };
+
+  if (quizForm) {
+    quizForm.addEventListener('submit', async event => {
+      if (window.location.protocol === 'file:') return;
+      event.preventDefault();
+
+      if (submit) {
+        const activeLang = localStorage.getItem('chieasyLanguage') || 'en';
+        const copy = successCopy[activeLang] || successCopy.en;
+        submit.disabled = true;
+        submit.textContent = copy.sending;
+      }
+
+      const formData = new FormData(quizForm);
+      formData.set('form-name', 'china-trip-request');
+
+      try {
+        const response = await fetch('/', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: new URLSearchParams(formData).toString()
+        });
+        if (!response.ok) throw new Error(`Form submit failed: ${response.status}`);
+
+        const activeLang = localStorage.getItem('chieasyLanguage') || 'en';
+        const copy = successCopy[activeLang] || successCopy.en;
+        quizForm.classList.add('submitted');
+        quizForm.innerHTML = `
+          <div class="quiz-success">
+            <span class="step-label">${copy.title}</span>
+            <h3>${copy.title}</h3>
+            <p>${copy.text}</p>
+            <p>${copy.note}</p>
+            <a class="btn primary" href="https://wa.me/79173679853" target="_blank" rel="noopener">${copy.button}</a>
+          </div>
+        `;
+      } catch (error) {
+        quizForm.submit();
+      }
+    });
   }
 });
