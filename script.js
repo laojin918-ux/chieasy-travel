@@ -197,7 +197,6 @@ document.addEventListener('DOMContentLoaded', () => {
       ,'Travel Participation & Risk Waiver': 'Соглашение об участии и принятии рисков'
       ,'Travel Participation & Risk Waiver Agreement': 'Соглашение об участии и принятии рисков'
       ,'Legal Documents': 'Юридические документы'
-      ,'Open full document': 'Открыть полный документ'
       ,'Close': 'Закрыть'
       ,'Close legal popup': 'Закрыть юридический попап'
       ,'Review the official document before booking or paying for services.': 'Ознакомьтесь с официальным документом перед бронированием или оплатой услуг.'
@@ -825,7 +824,6 @@ document.addEventListener('DOMContentLoaded', () => {
       'Travel Participation & Risk Waiver': 'Participación y exención de riesgos',
       'Travel Participation & Risk Waiver Agreement': 'Acuerdo de participación y exención de riesgos',
       'Legal Documents': 'Documentos legales',
-      'Open full document': 'Abrir documento completo',
       'Close': 'Cerrar',
       'Close legal popup': 'Cerrar ventana legal',
       'Review the official document before booking or paying for services.': 'Revisa el documento oficial antes de reservar o pagar servicios.',
@@ -962,7 +960,6 @@ document.addEventListener('DOMContentLoaded', () => {
       'Travel Participation & Risk Waiver': 'Participação e assunção de riscos',
       'Travel Participation & Risk Waiver Agreement': 'Acordo de participação e assunção de riscos',
       'Legal Documents': 'Documentos legais',
-      'Open full document': 'Abrir documento completo',
       'Close': 'Fechar',
       'Close legal popup': 'Fechar janela legal',
       'Review the official document before booking or paying for services.': 'Leia o documento oficial antes de reservar ou pagar pelos serviços.',
@@ -1099,7 +1096,6 @@ document.addEventListener('DOMContentLoaded', () => {
       'Travel Participation & Risk Waiver': '旅行参与及风险豁免',
       'Travel Participation & Risk Waiver Agreement': '旅行参与及风险豁免协议',
       'Legal Documents': '法律文件',
-      'Open full document': '打开完整文件',
       'Close': '关闭',
       'Close legal popup': '关闭法律弹窗',
       'Review the official document before booking or paying for services.': '预订或付款前，请查看官方文件。',
@@ -1720,7 +1716,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const legalModal = document.getElementById('legalModal');
   const legalModalTitle = document.getElementById('legalModalTitle');
   const legalModalText = document.getElementById('legalModalText');
-  const legalModalLink = document.getElementById('legalModalLink');
   const legalModalFrame = document.getElementById('legalModalFrame');
 
   function closeLegalModal() {
@@ -1747,19 +1742,12 @@ document.addEventListener('DOMContentLoaded', () => {
       legalModalText.textContent = '';
       legalModalFrame.hidden = false;
       legalModalFrame.setAttribute('src', localDoc);
-      legalModalLink.hidden = true;
     } else {
       legalModalText.hidden = false;
       legalModalText.textContent = text;
       if (legalModalFrame) {
         legalModalFrame.hidden = true;
         legalModalFrame.removeAttribute('src');
-      }
-      if (documentData.url) {
-        legalModalLink.hidden = false;
-        legalModalLink.setAttribute('href', documentData.url);
-      } else {
-        legalModalLink.hidden = true;
       }
     }
     legalModal.classList.add('open');
