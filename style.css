@@ -1246,17 +1246,16 @@ h1,h2,h3,h4,
   text-shadow:0 3px 18px rgba(0,0,0,.45);
 }
 .experience-grid .helicopter-card{
-  justify-content:flex-start;
+  justify-content:flex-end;
   background:
-    linear-gradient(180deg,rgba(0,0,0,.76),rgba(0,0,0,.24) 44%,rgba(0,0,0,.06) 76%),
-    linear-gradient(90deg,rgba(0,0,0,.55),rgba(0,0,0,.08) 68%),
+    linear-gradient(0deg,rgba(0,0,0,.82),rgba(0,0,0,.22) 50%,rgba(0,0,0,.04) 78%),
     var(--bg);
   background-size:cover;
   background-position:76% center;
 }
 .experience-grid .helicopter-card h3,
 .experience-grid .helicopter-card p{
-  max-width:64%;
+  max-width:72%;
   text-shadow:0 3px 18px rgba(0,0,0,.5);
 }
 .experience-grid .cliff-hotels-card{
@@ -1267,11 +1266,17 @@ h1,h2,h3,h4,
   background-position:center 58%;
 }
 .experience-grid .grasslands-card{
+  justify-content:flex-start;
   background:
-    linear-gradient(0deg,rgba(0,0,0,.72),rgba(0,0,0,.1) 58%),
+    linear-gradient(180deg,rgba(0,0,0,.76),rgba(0,0,0,.28) 46%,rgba(0,0,0,.06) 78%),
     var(--bg);
   background-size:cover;
   background-position:center 45%;
+}
+.experience-grid .grasslands-card h3,
+.experience-grid .grasslands-card p{
+  max-width:76%;
+  text-shadow:0 3px 18px rgba(0,0,0,.5);
 }
 footer{
   align-items:center;
