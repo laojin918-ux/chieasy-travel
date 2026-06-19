@@ -1085,6 +1085,9 @@ body.modal-open{
     padding:11px 10px;
     font-size:13px;
   }
+  .floating-whatsapp{
+    display:none;
+  }
 }
 
 /* Honest trip examples instead of fake reviews */

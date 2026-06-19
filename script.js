@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Ready to plan China properly?': 'Готовы спланировать Китай правильно?',
       'Start Trip Quiz': 'Начать анкету',
       'WhatsApp Our Team': 'Написать в WhatsApp',
-      '€149 Call': 'Разбор поездки',
+      'Book consultation': 'Разбор поездки',
       'Plan Trip': 'План поездки',
       'Privacy': 'Приватность',
       'Terms': 'Условия',
@@ -364,7 +364,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Ready to plan China properly?': '¿Listo para planificar China bien?',
       'Start Trip Quiz': 'Empezar formulario',
       'WhatsApp Our Team': 'WhatsApp',
-      '€149 Call': 'Llamada €149',
+      'Book consultation': 'Reservar consulta',
       'Plan Trip': 'Planificar',
       'Privacy': 'Privacidad',
       'Terms': 'Términos',
@@ -467,7 +467,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Ready to plan China properly?': 'Pronto para planejar a China direito?',
       'Start Trip Quiz': 'Começar formulário',
       'WhatsApp Our Team': 'WhatsApp',
-      '€149 Call': 'Chamada €149',
+      'Book consultation': 'Reservar consultoria',
       'Plan Trip': 'Planejar',
       'Privacy': 'Privacidade',
       'Terms': 'Termos',
@@ -570,7 +570,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Ready to plan China properly?': '准备好认真规划中国了吗？',
       'Start Trip Quiz': '开始填写',
       'WhatsApp Our Team': 'WhatsApp 联系我们',
-      '€149 Call': '€149 咨询',
+      'Book consultation': '预约咨询',
       'Plan Trip': '规划旅行',
       'Privacy': '隐私',
       'Terms': '条款',
@@ -1136,7 +1136,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Book now': 'Оплатить по СБП',
       'Online call. Secure booking via Stripe.': 'Онлайн-консультация. Оплата по СБП для русскоязычной версии.',
       'After payment, message us on WhatsApp to choose a time for the call.': 'После оплаты напишите нам в WhatsApp, чтобы выбрать удобное время консультации.',
-      '€149 Call': 'Разбор поездки',
+      'Book consultation': 'Разбор поездки',
       'Need clarity before booking the full route?': 'Хотите понять Китай до того, как бронировать поездку?',
       'Book a focused 45-minute consultation and leave with a realistic China plan: where to go, what to avoid, which apps to prepare, how to think about transport, hotels, payments and timing.': 'За 45 минут разберём вашу поездку как travel-консьерж: куда ехать, что исключить, какие приложения подготовить, где жить, как двигаться между городами и как не потерять время на месте.',
       'Route review': 'Аудит маршрута',
@@ -1438,7 +1438,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'hero-cta': '45-min Consultation · €149',
       'hero-card': '45 minutes · €149',
       'consultation-price': '€149',
-      'sticky-call': '€149 Call',
+      'sticky-call': 'Book consultation',
       'menu-cta': 'Book consultation'
     },
     ru: {
@@ -1452,21 +1452,21 @@ document.addEventListener('DOMContentLoaded', () => {
       'hero-cta': 'Consulta 45 min · €149',
       'hero-card': '45 minutos · €149',
       'consultation-price': '€149',
-      'sticky-call': 'Llamada €149',
+      'sticky-call': 'Reservar consulta',
       'menu-cta': 'Reservar consulta'
     },
     pt: {
       'hero-cta': 'Consultoria 45 min · €149',
       'hero-card': '45 minutos · €149',
       'consultation-price': '€149',
-      'sticky-call': 'Chamada €149',
+      'sticky-call': 'Reservar consultoria',
       'menu-cta': 'Reservar consultoria'
     },
     cn: {
       'hero-cta': '45 分钟咨询 · €149',
       'hero-card': '45 分钟 · €149',
       'consultation-price': '€149',
-      'sticky-call': '€149 咨询',
+      'sticky-call': '预约咨询',
       'menu-cta': '预约咨询'
     }
   };
@@ -1558,6 +1558,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.lang-switch button').forEach(button => {
     button.addEventListener('click', () => {
       applyLanguage(button.dataset.lang);
+      syncLegalLinks(button.dataset.lang);
       closeRouteModal();
       closeLegalModal();
     });
@@ -1568,7 +1569,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const legalDocuments = {
     privacy: {
-      url: 'https://www.chieasy.online/privacy-chieasy',
       localDocs: {
         en: 'assets/legal/gdpr-privacy-eu.html',
         es: 'assets/legal/gdpr-privacy-eu.html',
@@ -1639,7 +1639,6 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     },
     agreement: {
-      url: 'https://www.chieasy.online/agreement-chieasy',
       localDocs: {
         en: 'assets/legal/terms-eu.html',
         es: 'assets/legal/terms-eu.html',
@@ -1655,7 +1654,6 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     },
     offer: {
-      url: 'https://www.chieasy.online/contract-chieasy',
       localDocs: {
         ru: 'assets/legal/offer-ru.html'
       },
@@ -1668,7 +1666,6 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     },
     payments: {
-      url: 'https://www.chieasy.online/payment-methods',
       content: {
         en: ['Payment Rules', 'Available payment methods, confirmation steps, transaction logic and payment-related conditions.'],
         ru: ['Правила оплаты', 'Доступные способы оплаты, подтверждение платежей, логика транзакций и условия, связанные с оплатой.'],
@@ -1744,6 +1741,18 @@ document.addEventListener('DOMContentLoaded', () => {
   const legalModalText = document.getElementById('legalModalText');
   const legalModalFrame = document.getElementById('legalModalFrame');
 
+  function syncLegalLinks(lang) {
+    const activeLang = META_TRANSLATIONS[lang] ? lang : 'en';
+    document.querySelectorAll('[data-legal-key]').forEach(link => {
+      const documentData = legalDocuments[link.dataset.legalKey];
+      if (!documentData) return;
+      const localDoc = documentData.localDocs?.[activeLang] || documentData.localDocs?.en || '#';
+      link.setAttribute('href', localDoc);
+    });
+  }
+
+  syncLegalLinks(savedLanguage);
+
   function closeLegalModal() {
     if (!legalModal) return;
     legalModal.classList.remove('open');
@@ -1758,9 +1767,10 @@ document.addEventListener('DOMContentLoaded', () => {
   function openLegalModal(key) {
     const documentData = legalDocuments[key];
     if (!legalModal || !documentData) return;
-    const activeLang = localStorage.getItem('chieasyLanguage') || 'en';
-    const [title, text] = documentData.content[activeLang] || documentData.content.en;
-    const localDoc = documentData.localDocs?.[activeLang];
+    const savedActiveLang = localStorage.getItem('chieasyLanguage') || 'en';
+    const activeLang = META_TRANSLATIONS[savedActiveLang] ? savedActiveLang : 'en';
+    const [title, text] = documentData.content[activeLang] || documentData.content.en || Object.values(documentData.content)[0] || ['', ''];
+    const localDoc = documentData.localDocs?.[activeLang] || documentData.localDocs?.en;
     closeRouteModal();
     legalModalTitle.textContent = title;
     if (localDoc && legalModalFrame) {
