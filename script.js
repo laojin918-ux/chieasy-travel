@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'China Consultation': 'Консультация по Китаю',
       '45 minutes · €149': '45 минут · €149',
       'Route logic, apps, payments, hotels, transport and first-trip questions.': 'Логика маршрута, приложения, оплата, отели, транспорт и вопросы первой поездки.',
-      'Pay with Revolut': 'Оплатить по СБП',
+      'Book now': 'Оплатить по СБП',
       'Years of China experience': 'лет опыта в Китае',
       'Cities explored': 'городов изучено',
       'Languages: EN / RU / ES / PT / CN': 'Языки: EN / RU / ES / PT / CN',
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Hotels & transport': 'Отели и транспорт',
       'First-trip strategy': 'Стратегия первой поездки',
       '45 minutes': '45 минут',
-      'Online call. Secure payment via Revolut.': 'Онлайн-консультация. Оплата по СБП для русскоязычной версии.',
+      'Online call. Secure booking via Stripe.': 'Онлайн-консультация. Оплата по СБП для русскоязычной версии.',
       'After payment, message us on WhatsApp to choose a time for the call.': 'После оплаты напишите нам в WhatsApp, чтобы выбрать удобное время консультации.',
       'Swipe sideways': 'Листайте карточки',
       'Ready-Made Trip Ideas': 'Готовые идеи маршрутов',
@@ -281,7 +281,7 @@ document.addEventListener('DOMContentLoaded', () => {
       '45-min Consultation · €149': 'Consulta 45 min · €149',
       'Explore Routes': 'Ver rutas',
       'Not a standard tour. A smarter China route.': 'No es un tour estándar. Es una ruta más inteligente por China.',
-      'Pay with Revolut': 'Pagar con Revolut',
+      'Book now': 'Reservar',
       'Years of China experience': 'años de experiencia en China',
       'Cities explored': 'ciudades exploradas',
       'Languages: EN / RU / ES / PT / CN': 'Idiomas: EN / RU / ES / PT / CN',
@@ -384,7 +384,7 @@ document.addEventListener('DOMContentLoaded', () => {
       '45-min Consultation · €149': 'Consultoria 45 min · €149',
       'Explore Routes': 'Ver roteiros',
       'Not a standard tour. A smarter China route.': 'Não é um tour padrão. É um roteiro mais inteligente pela China.',
-      'Pay with Revolut': 'Pagar com Revolut',
+      'Book now': 'Reservar',
       'Years of China experience': 'anos de experiência na China',
       'Cities explored': 'cidades exploradas',
       'Languages: EN / RU / ES / PT / CN': 'Idiomas: EN / RU / ES / PT / CN',
@@ -487,7 +487,7 @@ document.addEventListener('DOMContentLoaded', () => {
       '45-min Consultation · €149': '45 分钟咨询 · €149',
       'Explore Routes': '查看路线',
       'Not a standard tour. A smarter China route.': '不是标准跟团游，而是更聪明的中国路线。',
-      'Pay with Revolut': '用 Revolut 支付',
+      'Book now': '预约',
       'Years of China experience': '年中国经验',
       'Cities explored': '探索过的城市',
       'Languages: EN / RU / ES / PT / CN': '语言：EN / RU / ES / PT / CN',
@@ -582,7 +582,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ru: {
       'We help travelers solve payments, routes, hotels, transport, local support and unique experiences before they arrive.': 'Мы помогаем путешественникам заранее решить вопросы оплаты, маршрута, отелей, транспорта, локальной поддержки и уникальных впечатлений.',
       'Book a focused 45-minute consultation and leave with a realistic China plan: where to go, what to avoid, which apps to prepare, how to think about transport, hotels, payments and timing.': 'Забронируйте 45-минутную консультацию и получите реалистичный план по Китаю: куда ехать, чего избегать, какие приложения подготовить, как думать о транспорте, отелях, оплате и тайминге.',
-      'Online call. Secure payment via Revolut.': 'Онлайн-звонок. Безопасная оплата через Revolut.',
+      'Online call. Secure booking via Stripe.': 'Онлайн-консультация. Оплата по СБП для русскоязычной версии.',
       'After payment, message us on WhatsApp to choose a time for the call.': 'После оплаты напишите нам в WhatsApp, чтобы выбрать время звонка.',
       'These are sample route concepts. Dates, hotels, transport, guides and experiences are adjusted to your travel style.': 'Это примеры маршрутов. Даты, отели, транспорт, гиды и впечатления адаптируются под ваш стиль путешествия.',
       'Shanghai → Zhangjiajie → Chongqing. A powerful first route mixing modern China, nature and a crazy megacity.': 'Шанхай → Чжанцзяцзе → Чунцин. Сильный первый маршрут: современный Китай, природа и безумный мегаполис.',
@@ -624,7 +624,7 @@ document.addEventListener('DOMContentLoaded', () => {
     es: {
       'We help travelers solve payments, routes, hotels, transport, local support and unique experiences before they arrive.': 'Ayudamos a resolver pagos, rutas, hoteles, transporte, apoyo local y experiencias únicas antes de llegar.',
       'Book a focused 45-minute consultation and leave with a realistic China plan: where to go, what to avoid, which apps to prepare, how to think about transport, hotels, payments and timing.': 'Reserva una consulta de 45 minutos y sal con un plan realista para China: dónde ir, qué evitar, qué apps preparar y cómo pensar en transporte, hoteles, pagos y tiempos.',
-      'Online call. Secure payment via Revolut.': 'Llamada online. Pago seguro por Revolut.',
+      'Online call. Secure booking via Stripe.': 'Llamada online. Reserva segura por Stripe.',
       'After payment, message us on WhatsApp to choose a time for the call.': 'Después del pago, escríbenos por WhatsApp para elegir la hora de la llamada.',
       'These are sample route concepts. Dates, hotels, transport, guides and experiences are adjusted to your travel style.': 'Son conceptos de ruta. Fechas, hoteles, transporte, guías y experiencias se ajustan a tu forma de viajar.',
       'Shanghai → Zhangjiajie → Chongqing. A powerful first route mixing modern China, nature and a crazy megacity.': 'Shanghái → Zhangjiajie → Chongqing. Una primera ruta potente con China moderna, naturaleza y una megaciudad increíble.',
@@ -648,7 +648,7 @@ document.addEventListener('DOMContentLoaded', () => {
     pt: {
       'We help travelers solve payments, routes, hotels, transport, local support and unique experiences before they arrive.': 'Ajudamos viajantes a resolver pagamentos, roteiros, hotéis, transporte, apoio local e experiências únicas antes da chegada.',
       'Book a focused 45-minute consultation and leave with a realistic China plan: where to go, what to avoid, which apps to prepare, how to think about transport, hotels, payments and timing.': 'Reserve uma consultoria de 45 minutos e saia com um plano realista para a China: onde ir, o que evitar, quais apps preparar e como pensar em transporte, hotéis, pagamentos e timing.',
-      'Online call. Secure payment via Revolut.': 'Chamada online. Pagamento seguro via Revolut.',
+      'Online call. Secure booking via Stripe.': 'Chamada online. Reserva segura via Stripe.',
       'After payment, message us on WhatsApp to choose a time for the call.': 'Depois do pagamento, envie mensagem no WhatsApp para escolher o horário da chamada.',
       'These are sample route concepts. Dates, hotels, transport, guides and experiences are adjusted to your travel style.': 'São ideias de roteiro. Datas, hotéis, transporte, guias e experiências são ajustados ao seu estilo de viagem.',
       'Shanghai → Zhangjiajie → Chongqing. A powerful first route mixing modern China, nature and a crazy megacity.': 'Xangai → Zhangjiajie → Chongqing. Uma primeira rota forte com China moderna, natureza e uma megacidade intensa.',
@@ -672,7 +672,7 @@ document.addEventListener('DOMContentLoaded', () => {
     cn: {
       'We help travelers solve payments, routes, hotels, transport, local support and unique experiences before they arrive.': '我们帮助旅行者在出发前解决支付、路线、酒店、交通、本地支持和独特体验等问题。',
       'Book a focused 45-minute consultation and leave with a realistic China plan: where to go, what to avoid, which apps to prepare, how to think about transport, hotels, payments and timing.': '预订 45 分钟专注咨询，获得一份现实可行的中国旅行计划：去哪里、避开什么、准备哪些应用，以及如何安排交通、酒店、支付和时间。',
-      'Online call. Secure payment via Revolut.': '线上通话。通过 Revolut 安全支付。',
+      'Online call. Secure booking via Stripe.': '线上咨询。通过 Stripe 安全预订。',
       'After payment, message us on WhatsApp to choose a time for the call.': '付款后请在 WhatsApp 联系我们选择通话时间。',
       'These are sample route concepts. Dates, hotels, transport, guides and experiences are adjusted to your travel style.': '这些是路线示例。日期、酒店、交通、导游和体验都会根据你的旅行风格调整。',
       'Shanghai → Zhangjiajie → Chongqing. A powerful first route mixing modern China, nature and a crazy megacity.': '上海 → 张家界 → 重庆。第一次来中国的强路线：现代城市、自然景观和震撼山城。',
@@ -1133,8 +1133,8 @@ document.addEventListener('DOMContentLoaded', () => {
       'We help travelers solve payments, routes, hotels, transport, local support and unique experiences before they arrive.': 'Мы заранее собираем всю систему поездки: маршрут, отели, транспорт, оплату, локальные контакты и впечатления, ради которых действительно стоит лететь в Китай.',
       'China Consultation': 'Частная консультация по Китаю',
       'Route logic, apps, payments, hotels, transport and first-trip questions.': 'Маршрут, приложения, оплата, отели, транспорт и решения, которые экономят время и нервы до поездки.',
-      'Pay with Revolut': 'Оплатить по СБП',
-      'Online call. Secure payment via Revolut.': 'Онлайн-консультация. Оплата по СБП для русскоязычной версии.',
+      'Book now': 'Оплатить по СБП',
+      'Online call. Secure booking via Stripe.': 'Онлайн-консультация. Оплата по СБП для русскоязычной версии.',
       'After payment, message us on WhatsApp to choose a time for the call.': 'После оплаты напишите нам в WhatsApp, чтобы выбрать удобное время консультации.',
       '€149 Call': 'Разбор поездки',
       'Need clarity before booking the full route?': 'Хотите понять Китай до того, как бронировать поездку?',
@@ -1423,7 +1423,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const LANGUAGE_LINKS = {
     en: {
       school: 'https://www.chieasy.online/en',
-      payment: 'https://revolut.me/kingkongoff?currency=EUR&amount=14900',
+      payment: 'https://book.stripe.com/4gMaEWfXRgyQfcugOU8so1u',
       video: 'https://youtu.be/4837e_teFuw'
     },
     ru: {
@@ -1469,6 +1469,14 @@ document.addEventListener('DOMContentLoaded', () => {
       'sticky-call': '€149 咨询',
       'menu-cta': '预约咨询'
     }
+  };
+
+  const LANGUAGE_PAYMENT_TEXT = {
+    en: 'Book now',
+    ru: 'Оплатить по СБП',
+    es: 'Reservar',
+    pt: 'Reservar',
+    cn: '预约'
   };
 
   const originalTextNodes = new WeakMap();
@@ -1530,6 +1538,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     document.querySelectorAll('[data-payment-link]').forEach(link => {
       link.setAttribute('href', activeLinks.payment);
+      link.textContent = LANGUAGE_PAYMENT_TEXT[activeLang] || LANGUAGE_PAYMENT_TEXT.en;
     });
     document.querySelectorAll('[data-video-link]').forEach(link => {
       link.setAttribute('href', activeLinks.video || LANGUAGE_LINKS.en.video);
