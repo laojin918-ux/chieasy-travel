@@ -182,6 +182,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Cookie notice': 'Cookie',
       'Accept': 'Принять',
       'Privacy Policy': 'Политика конфиденциальности'
+      ,'GDPR Privacy Policy': 'GDPR Privacy Policy'
       ,'Personal Data Consent': 'Согласие на обработку персональных данных'
       ,'Cookie Policy': 'Политика cookie'
       ,'Terms & Conditions': 'Пользовательское соглашение'
@@ -805,6 +806,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Chieasy School': 'Chieasy School',
       'Cookie notice': 'Aviso de cookies',
       'Privacy Policy': 'Política de privacidad',
+      'GDPR Privacy Policy': 'Política de privacidad RGPD',
       'Personal Data Consent': 'Consentimiento de datos personales',
       'Cookie Policy': 'Política de cookies',
       'Terms & Conditions': 'Términos y condiciones',
@@ -937,6 +939,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Chieasy School': 'Chieasy School',
       'Cookie notice': 'Aviso de cookies',
       'Privacy Policy': 'Política de privacidade',
+      'GDPR Privacy Policy': 'Política de privacidade RGPD',
       'Personal Data Consent': 'Consentimento de dados pessoais',
       'Cookie Policy': 'Política de cookies',
       'Terms & Conditions': 'Termos e condições',
@@ -1069,6 +1072,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Chieasy School': 'Chieasy 学校',
       'Cookie notice': 'Cookie 提示',
       'Privacy Policy': '隐私政策',
+      'GDPR Privacy Policy': 'GDPR 隐私政策',
       'Personal Data Consent': '个人信息处理同意书',
       'Cookie Policy': 'Cookie 政策',
       'Terms & Conditions': '条款与条件',
@@ -1548,6 +1552,20 @@ document.addEventListener('DOMContentLoaded', () => {
         es: ['Política de privacidad', 'Cómo se procesan datos personales, cookies, solicitudes y comunicación al usar los servicios de Chieasy.'],
         pt: ['Política de privacidade', 'Como dados pessoais, cookies, pedidos e comunicações são tratados ao usar os serviços Chieasy.'],
         cn: ['隐私政策', '说明使用 Chieasy 服务时，个人信息、Cookie、咨询请求和沟通内容如何被处理。']
+      }
+    },
+    gdprPrivacy: {
+      localDocs: {
+        en: 'assets/legal/gdpr-privacy-eu.html',
+        es: 'assets/legal/gdpr-privacy-eu.html',
+        pt: 'assets/legal/gdpr-privacy-eu.html',
+        cn: 'assets/legal/gdpr-privacy-eu.html'
+      },
+      content: {
+        en: ['GDPR Privacy Policy', 'GDPR policy explaining data controller details, collected personal data, legal bases, data sharing, international transfers, retention, security and privacy rights.'],
+        es: ['Política de privacidad RGPD', 'Política RGPD sobre responsable del tratamiento, datos personales, bases legales, cesión de datos, transferencias internacionales, conservación, seguridad y derechos.'],
+        pt: ['Política de privacidade RGPD', 'Política RGPD sobre controlador de dados, dados pessoais recolhidos, bases legais, partilha de dados, transferências internacionais, retenção, segurança e direitos.'],
+        cn: ['GDPR 隐私政策', '说明数据控制者、收集的个人信息、法律依据、数据共享、国际传输、保存期限、安全措施以及隐私权利。']
       }
     },
     consent: {
