@@ -182,6 +182,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Cookie notice': 'Cookie',
       'Accept': 'Принять',
       'Privacy Policy': 'Политика конфиденциальности'
+      ,'Cookie Policy': 'Политика cookie'
       ,'User Agreement': 'Пользовательское соглашение'
       ,'Public Offer': 'Публичная оферта'
       ,'Payment Rules': 'Правила оплаты'
@@ -799,6 +800,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Chieasy School': 'Chieasy School',
       'Cookie notice': 'Aviso de cookies',
       'Privacy Policy': 'Política de privacidad',
+      'Cookie Policy': 'Política de cookies',
       'User Agreement': 'Acuerdo de usuario',
       'Public Offer': 'Oferta pública',
       'Payment Rules': 'Reglas de pago',
@@ -925,6 +927,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Chieasy School': 'Chieasy School',
       'Cookie notice': 'Aviso de cookies',
       'Privacy Policy': 'Política de privacidade',
+      'Cookie Policy': 'Política de cookies',
       'User Agreement': 'Acordo do usuário',
       'Public Offer': 'Oferta pública',
       'Payment Rules': 'Regras de pagamento',
@@ -1051,6 +1054,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Chieasy School': 'Chieasy 学校',
       'Cookie notice': 'Cookie 提示',
       'Privacy Policy': '隐私政策',
+      'Cookie Policy': 'Cookie 政策',
       'User Agreement': '用户协议',
       'Public Offer': '公开报价',
       'Payment Rules': '付款规则',
@@ -1520,6 +1524,18 @@ document.addEventListener('DOMContentLoaded', () => {
         es: ['Política de privacidad', 'Cómo se procesan datos personales, cookies, solicitudes y comunicación al usar los servicios de Chieasy.'],
         pt: ['Política de privacidade', 'Como dados pessoais, cookies, pedidos e comunicações são tratados ao usar os serviços Chieasy.'],
         cn: ['隐私政策', '说明使用 Chieasy 服务时，个人信息、Cookie、咨询请求和沟通内容如何被处理。']
+      }
+    },
+    cookies: {
+      localDocs: {
+        ru: 'assets/legal/cookie-ru.html'
+      },
+      content: {
+        en: ['Cookie Policy', 'How Chieasy Travel uses essential, analytics and marketing cookies on the website.'],
+        ru: ['Политика использования cookie', 'Какие cookie используются на сайте Chieasy Travel, зачем они нужны и как ими управлять.'],
+        es: ['Política de cookies', 'Cómo Chieasy Travel utiliza cookies esenciales, analíticas y de marketing en el sitio web.'],
+        pt: ['Política de cookies', 'Como a Chieasy Travel utiliza cookies essenciais, analíticas e de marketing no site.'],
+        cn: ['Cookie 政策', '说明 Chieasy Travel 网站如何使用必要、分析和营销 Cookie。']
       }
     },
     agreement: {
