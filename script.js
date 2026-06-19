@@ -193,6 +193,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ,'Refund Policy': 'Политика возвратов'
       ,'Responsibility': 'Ответственность'
       ,'Disclaimer': 'Disclaimer'
+      ,'Travel Participation & Risk Waiver Agreement': 'Соглашение об участии и принятии рисков'
       ,'Legal Documents': 'Юридические документы'
       ,'Open full document': 'Открыть полный документ'
       ,'Close': 'Закрыть'
@@ -818,6 +819,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Refund Policy': 'Política de reembolso',
       'Responsibility': 'Responsabilidad',
       'Disclaimer': 'Aviso legal',
+      'Travel Participation & Risk Waiver Agreement': 'Acuerdo de participación y exención de riesgos',
       'Legal Documents': 'Documentos legales',
       'Open full document': 'Abrir documento completo',
       'Close': 'Cerrar',
@@ -952,6 +954,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Refund Policy': 'Política de reembolso',
       'Responsibility': 'Responsabilidade',
       'Disclaimer': 'Aviso legal',
+      'Travel Participation & Risk Waiver Agreement': 'Acordo de participação e assunção de riscos',
       'Legal Documents': 'Documentos legais',
       'Open full document': 'Abrir documento completo',
       'Close': 'Fechar',
@@ -1086,6 +1089,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Refund Policy': '退款政策',
       'Responsibility': '责任说明',
       'Disclaimer': '免责声明',
+      'Travel Participation & Risk Waiver Agreement': '旅行参与及风险豁免协议',
       'Legal Documents': '法律文件',
       'Open full document': '打开完整文件',
       'Close': '关闭',
@@ -1683,6 +1687,20 @@ document.addEventListener('DOMContentLoaded', () => {
         es: ['Aviso legal', 'Aviso legal sobre la información del sitio, condiciones de viaje en China, proveedores externos, visados, riesgos, uso de medios y límites de responsabilidad.'],
         pt: ['Aviso legal', 'Aviso legal sobre informações do site, condições de viagem na China, fornecedores terceiros, vistos, riscos, uso de mídia e limites de responsabilidade.'],
         cn: ['免责声明', '关于网站信息、中国旅行条件、第三方供应商、签证、风险、媒体使用及责任限制的法律免责声明。']
+      }
+    },
+    riskWaiver: {
+      localDocs: {
+        en: 'assets/legal/risk-waiver-eu.html',
+        es: 'assets/legal/risk-waiver-eu.html',
+        pt: 'assets/legal/risk-waiver-eu.html',
+        cn: 'assets/legal/risk-waiver-eu.html'
+      },
+      content: {
+        en: ['Travel Participation & Risk Waiver Agreement', 'Participation agreement covering voluntary travel, assumed risks, China-specific conditions, physical activities, medical fitness, suppliers, emergencies and governing law.'],
+        es: ['Acuerdo de participación y exención de riesgos', 'Acuerdo sobre participación voluntaria, riesgos asumidos, condiciones específicas de China, actividades físicas, aptitud médica, proveedores, emergencias y ley aplicable.'],
+        pt: ['Acordo de participação e assunção de riscos', 'Acordo sobre participação voluntária, riscos assumidos, condições específicas da China, atividades físicas, aptidão médica, fornecedores, emergências e lei aplicável.'],
+        cn: ['旅行参与及风险豁免协议', '关于自愿参与旅行、风险承担、中国特定条件、体力活动、健康状况、第三方供应商、紧急情况及适用法律的协议。']
       }
     }
   };
