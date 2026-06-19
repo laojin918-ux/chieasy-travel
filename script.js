@@ -1428,7 +1428,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     ru: {
       school: 'https://www.chieasy.online/ru',
-      payment: 'https://wa.me/79173679853?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%BF%D0%BB%D0%B0%D1%82%D0%B8%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8E%20%D0%BF%D0%BE%20%D0%9A%D0%B8%D1%82%D0%B0%D1%8E%20%D0%B7%D0%B0%2012%20999%20%E2%82%BD%20%D0%BF%D0%BE%20%D0%A1%D0%91%D0%9F',
+      payment: 'https://qr.nspk.ru/AS1A002LE87O4UOF8HER8G3P1V62598V?type=01&bank=100000000008&crc=9612',
       video: 'https://youtu.be/4837e_teFuw?si=GmO4Z7-1Qh7ztrIw'
     }
   };
