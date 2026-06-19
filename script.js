@@ -194,8 +194,8 @@ document.addEventListener('DOMContentLoaded', () => {
       ,'Refund Policy': 'Политика возвратов'
       ,'Responsibility': 'Ответственность'
       ,'Disclaimer': 'Disclaimer'
-      ,'Travel Participation & Risk Waiver': 'Соглашение об участии и принятии рисков'
-      ,'Travel Participation & Risk Waiver Agreement': 'Соглашение об участии и принятии рисков'
+      ,'Travel Participation & Risk Waiver': 'Соглашение о принятии рисков путешествия'
+      ,'Travel Participation & Risk Waiver Agreement': 'Соглашение о принятии рисков путешествия'
       ,'Legal Documents': 'Юридические документы'
       ,'Close': 'Закрыть'
       ,'Close legal popup': 'Закрыть юридический попап'
@@ -1605,7 +1605,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ru: 'assets/legal/personal-data-policy-ru.html'
       },
       content: {
-        ru: ['Политика обработки персональных данных', 'Порядок обработки и защиты персональных данных пользователей сайта, клиентов и иных лиц в соответствии с 152-ФЗ.']
+        ru: ['Политика обработки персональных данных (ФЗ-152)', 'Порядок обработки и защиты персональных данных пользователей сайта, клиентов и иных лиц в соответствии с 152-ФЗ.']
       }
     },
     cookies: {
@@ -1696,10 +1696,12 @@ document.addEventListener('DOMContentLoaded', () => {
         en: 'assets/legal/disclaimer-eu.html',
         es: 'assets/legal/disclaimer-eu.html',
         pt: 'assets/legal/disclaimer-eu.html',
-        cn: 'assets/legal/disclaimer-eu.html'
+        cn: 'assets/legal/disclaimer-eu.html',
+        ru: 'assets/legal/liability-ru.html'
       },
       content: {
         en: ['Disclaimer', 'Legal disclaimer for website information, China-specific travel conditions, third-party suppliers, visas, risks, media use and liability limits.'],
+        ru: ['Disclaimer', 'Отказ от ответственности: статус компании, независимые поставщики, визовые вопросы, транспортные риски, ограничения ответственности и форс-мажор.'],
         es: ['Aviso legal', 'Aviso legal sobre la información del sitio, condiciones de viaje en China, proveedores externos, visados, riesgos, uso de medios y límites de responsabilidad.'],
         pt: ['Aviso legal', 'Aviso legal sobre informações do site, condições de viagem na China, fornecedores terceiros, vistos, riscos, uso de mídia e limites de responsabilidade.'],
         cn: ['免责声明', '关于网站信息、中国旅行条件、第三方供应商、签证、风险、媒体使用及责任限制的法律免责声明。']
@@ -1710,10 +1712,12 @@ document.addEventListener('DOMContentLoaded', () => {
         en: 'assets/legal/risk-waiver-eu.html',
         es: 'assets/legal/risk-waiver-eu.html',
         pt: 'assets/legal/risk-waiver-eu.html',
-        cn: 'assets/legal/risk-waiver-eu.html'
+        cn: 'assets/legal/risk-waiver-eu.html',
+        ru: 'assets/legal/risk-waiver-ru.html'
       },
       content: {
         en: ['Travel Participation & Risk Waiver', 'Participation agreement covering voluntary travel, assumed risks, China-specific conditions, physical activities, medical fitness, suppliers, emergencies and governing law.'],
+        ru: ['Соглашение о принятии рисков путешествия', 'Соглашение о добровольном участии, принятии дорожных рисков, особенностях поездок по Китаю, физических активностях, поставщиках услуг и экстренных ситуациях.'],
         es: ['Participación y exención de riesgos', 'Acuerdo sobre participación voluntaria, riesgos asumidos, condiciones específicas de China, actividades físicas, aptitud médica, proveedores, emergencias y ley aplicable.'],
         pt: ['Participação e assunção de riscos', 'Acordo sobre participação voluntária, riscos assumidos, condições específicas da China, atividades físicas, aptidão médica, fornecedores, emergências e lei aplicável.'],
         cn: ['旅行参与及风险豁免', '关于自愿参与旅行、风险承担、中国特定条件、体力活动、健康状况、第三方供应商、紧急情况及适用法律的协议。']
