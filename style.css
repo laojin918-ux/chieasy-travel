@@ -851,6 +851,17 @@ body.modal-open{
   font-size:13px;
   font-weight:950;
 }
+.consultation-copy .pricing-note{
+  margin-top:22px;
+  max-width:720px;
+  padding:16px 18px;
+  border-radius:18px;
+  background:rgba(255,255,255,.72);
+  border:1px solid var(--line);
+  color:var(--muted);
+  font-size:15px;
+  line-height:1.55;
+}
 .consultation-price{
   display:flex;
   flex-direction:column;
@@ -890,6 +901,12 @@ body.modal-open{
   .consultation-card{
     padding:18px;
     border-radius:28px;
+  }
+  .consultation-copy .pricing-note{
+    margin-top:16px;
+    padding:14px 15px;
+    border-radius:16px;
+    font-size:14px;
   }
   .consultation-price{
     padding:24px;
