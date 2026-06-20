@@ -1975,27 +1975,183 @@ document.addEventListener('DOMContentLoaded', () => {
   const routeModalTitle = document.getElementById('routeModalTitle');
   const routeModalText = document.getElementById('routeModalText');
   const routePlaceGrid = document.getElementById('routePlaceGrid');
-  const localizedRouteModalCards = {
-    ru: [
-      ['Маршрут', 'Логика поездки', 'Города, порядок, темп и транспорт адаптируем под ваши даты и стиль.'],
-      ['Места', 'Что посмотреть', 'Главные точки, красивые остановки и локации, которые действительно подходят маршруту.'],
-      ['Опции', 'Что можно добавить', 'Водитель, лодки, вертолёт, особенные отели, съёмки или локальная поддержка — только там, где это уместно.']
-    ],
-    es: [
-      ['Ruta', 'Estructura del viaje', 'Adaptamos ciudades, orden, ritmo y transporte a tus fechas y estilo.'],
-      ['Lugares', 'Qué ver', 'Puntos clave, paradas bonitas y lugares que realmente encajan con la ruta.'],
-      ['Extras', 'Cómo elevarlo', 'Conductor privado, barcos, helicóptero, hoteles especiales, rodajes o apoyo local.']
-    ],
-    pt: [
-      ['Roteiro', 'Estrutura da viagem', 'Adaptamos cidades, ordem, ritmo e transporte às suas datas e estilo.'],
-      ['Lugares', 'O que ver', 'Pontos principais, paradas bonitas e lugares que realmente combinam com o roteiro.'],
-      ['Extras', 'Como elevar', 'Motorista privado, barcos, helicóptero, hotéis especiais, filmagens ou apoio local.']
-    ],
-    cn: [
-      ['路线', '行程逻辑', '根据你的日期和旅行风格调整城市、顺序、节奏和交通。'],
-      ['地点', '值得看什么', '选择主要景点、好看的停留点，以及真正适合路线的补充地点。'],
-      ['升级', '如何提升体验', '加入私人司机、船只、直升机、特色酒店、拍摄安排或本地支持。']
-    ]
+  const routeModalLabels = {
+    en: ['Route', 'Trip logic', 'Places', 'What to see', 'Options', 'What to add'],
+    ru: ['Маршрут', 'Логика поездки', 'Места', 'Что посмотреть', 'Опции', 'Что можно добавить'],
+    es: ['Ruta', 'Estructura del viaje', 'Lugares', 'Qué ver', 'Extras', 'Qué añadir'],
+    pt: ['Roteiro', 'Estrutura da viagem', 'Lugares', 'O que ver', 'Extras', 'O que adicionar'],
+    cn: ['路线', '行程逻辑', '地点', '值得看什么', '升级', '可添加内容']
+  };
+
+  const routeModalCopy = {
+    'first-time': {
+      en: {
+        why: 'For a first China trip that does not feel random: one elegant megacity, one surreal nature stop and one unforgettable cyber-city.',
+        logic: 'Start softly in Shanghai, move to Zhangjiajie for nature, then finish in Chongqing when you already understand the rhythm of China.',
+        see: 'The Bund, Lujiazui, French Concession, Zhangjiajie National Forest Park, Tianmen Mountain, Furong and Chongqing night viewpoints.',
+        add: 'River cruise in Chongqing, private driver around Zhangjiajie, food route in Shanghai, hotpot night, hotel upgrades or a photo-focused day.'
+      },
+      ru: {
+        why: 'Для первого путешествия по Китаю без хаоса: один сильный мегаполис, одна сюрреалистичная природа и один город, который запоминается надолго.',
+        logic: 'Сначала мягкий вход через Шанхай, затем природа Чжанцзяцзе, после этого Чунцин, когда вы уже привыкли к темпу Китая.',
+        see: 'Бунд, Луцзяцзуй, Французская концессия, парк Чжанцзяцзе, Тяньмэньшань, Фужун и ночные виды Чунцина.',
+        add: 'Ночной круиз в Чунцине, водителя в Чжанцзяцзе, гастро-вечер в Шанхае, hotpot, отель с видом или день под фото.'
+      }
+    },
+    avatar: {
+      en: {
+        why: 'For the most dramatic “Avatar mountains” feeling in a compact route: cliffs, pillars, cable cars, waterfalls and high viewpoints.',
+        logic: 'Keep the route concentrated around Zhangjiajie so time goes into viewpoints, mountain transfers and the right weather windows.',
+        see: 'Zhangjiajie National Forest Park, Tianmen Mountain, Heaven’s Gate, glass walkways, Furong Ancient Town and Baofeng Lake.',
+        add: 'Helicopter flight when available, cliffside hotel, private transfer, early sunrise timing, glass bridge or a cinematic photo route.'
+      },
+      ru: {
+        why: 'Для тех, кто летит за эффектом “гор Аватара”: скалы, каменные колонны, канатные дороги, водопады и мощные обзорные точки.',
+        logic: 'Маршрут лучше держать вокруг Чжанцзяцзе, чтобы не терять время на лишние переезды и ловить правильные окна по погоде.',
+        see: 'Национальный парк Чжанцзяцзе, Тяньмэньшань, Небесные ворота, стеклянные тропы, Фужун и озеро Баофэн.',
+        add: 'Вертолёт при доступности, отель у скал, приватный трансфер, рассветный выезд, стеклянный мост или маршрут для съёмки.'
+      }
+    },
+    nature: {
+      en: {
+        why: 'For travelers who want China through rivers, karst mountains, old towns and soft landscapes rather than only big cities.',
+        logic: 'Combine Yangshuo’s river scenery, Zhangjiajie’s cliffs and Yunnan’s slower towns into one nature-first route.',
+        see: 'Li River, Yangshuo countryside, Guilin caves, Zhangjiajie viewpoints, Dali, Lijiang and Jade Dragon Snow Mountain.',
+        add: 'Private Li River boat, cycling in Yangshuo, boutique stays in Yunnan, light hiking, tea experience or sunrise viewpoints.'
+      },
+      ru: {
+        why: 'Для путешествия, где Китай раскрывается через реки, карстовые горы, старые города и мягкие пейзажи, а не только через мегаполисы.',
+        logic: 'Соединяем реку в Яншо, скалы Чжанцзяцзе и более спокойный Юньнань, чтобы маршрут ощущался природным, но не утомительным.',
+        see: 'Реку Ли, окрестности Яншо, пещеры Гуйлиня, обзорные точки Чжанцзяцзе, Дали, Лицзян и Снежную гору Юйлун.',
+        add: 'Частную лодку по реке, велосипедный день в Яншо, бутик-отели в Юньнани, лёгкий хайкинг, чайную церемонию или рассвет.'
+      }
+    },
+    'golden-triangle': {
+      en: {
+        why: 'For South China in one polished route: Hong Kong energy, Macau contrast, Guangzhou food and Shenzhen’s future-facing side.',
+        logic: 'Move through the Pearl River Delta by short transfers, keeping the trip dense, urban and easy to adapt for business or leisure.',
+        see: 'Hong Kong harbor, Macau old streets, Guangzhou food districts, Canton Tower, Shenzhen creative parks and coastal viewpoints.',
+        add: 'Premium dining, business meetings, skyline shoots, theme parks, private driver between cities or a Macau evening extension.'
+      },
+      ru: {
+        why: 'Чтобы увидеть юг Китая в одном маршруте: энергию Гонконга, контраст Макао, еду Гуанчжоу и футуризм Шэньчжэня.',
+        logic: 'Передвигаемся по дельте Жемчужной реки короткими переездами, чтобы поездка была насыщенной, но без тяжелой логистики.',
+        see: 'Гавань Гонконга, старые улицы Макао, гастро-районы Гуанчжоу, Canton Tower, креативные парки Шэньчжэня и виды у моря.',
+        add: 'Премиальные рестораны, деловые встречи, skyline-съёмки, парки развлечений, водителя между городами или вечер в Макао.'
+      }
+    },
+    historical: {
+      en: {
+        why: 'For China through old capitals, imperial scale, city walls, temples and the places that shaped the country’s story.',
+        logic: 'Build the route from Beijing into ancient capitals and cultural cities, balancing big monuments with atmospheric local districts.',
+        see: 'Forbidden City, Great Wall options, Xi’an city wall, Terracotta Warriors, Nanjing heritage sites and Changsha cultural stops.',
+        add: 'Private history-focused guide where required, museum planning, traditional hotel areas, food streets or Luoyang grottoes extension.'
+      },
+      ru: {
+        why: 'Чтобы увидеть Китай через древние столицы, императорский масштаб, стены, храмы и места, которые формировали историю страны.',
+        logic: 'Строим маршрут от Пекина к старым столицам и культурным городам, чередуя большие памятники с живыми городскими районами.',
+        see: 'Запретный город, варианты Великой стены, стену Сианя, Терракотовую армию, исторические точки Нанкина и культурный Чанша.',
+        add: 'Исторического гида там, где нужен, музейную логику, традиционные районы отелей, гастро-улицы или Лунмэнь как расширение.'
+      }
+    },
+    'sacred-mountains': {
+      en: {
+        why: 'For active travelers who want sacred peaks, temple routes, sunrise climbs and China’s mountain culture.',
+        logic: 'This route needs careful pacing: mountain days, rest days and transfers are planned so the trip feels powerful, not exhausting.',
+        see: 'Taishan sunrise, Huashan cliffs, Songshan and Shaolin area, Hengshan temples and optional Hanging Temple landscapes.',
+        add: 'Sunrise timing, private transfers between mountain bases, lighter scenic alternatives, recovery hotels or a photo-focused hiking day.'
+      },
+      ru: {
+        why: 'Для активного путешествия через священные горы, храмовые маршруты, рассветы и китайскую культуру восхождений.',
+        logic: 'Здесь особенно важен темп: горные дни, отдых и переезды нужно собрать так, чтобы маршрут был сильным, но не выматывающим.',
+        see: 'Рассвет на Тайшане, скалы Хуашаня, Суншань и район Шаолиня, храмы Хэншаня и при желании Висячий храм.',
+        add: 'Рассветные выезды, трансферы между базами гор, более лёгкие scenic-дни, отели для восстановления или день под фото.'
+      }
+    },
+    megacities: {
+      en: {
+        why: 'For travelers who want China as a futuristic night city: neon, layered roads, skyscrapers, bridges and dense urban energy.',
+        logic: 'The route is built around night viewpoints and strong city contrasts, so each stop has a different visual role.',
+        see: 'Chongqing night skyline, Hongya Cave, Liziba, Shenzhen tech districts, Hong Kong harbor and Qingdao coastal contrast.',
+        add: 'Night driver, rooftop shoots, hotpot evening, drone-style viewpoints where permitted, premium hotels or a business layer.'
+      },
+      ru: {
+        why: 'Для тех, кто хочет увидеть Китай как футуристичный ночной город: неон, многоуровневые дороги, небоскрёбы, мосты и плотную энергию.',
+        logic: 'Маршрут строится вокруг вечерних видов и сильных городских контрастов, чтобы каждая остановка давала другой визуальный эффект.',
+        see: 'Ночной Чунцин, Хунъя洞, Лицзыба, tech-районы Шэньчжэня, гавань Гонконга и морской контраст Циндао.',
+        add: 'Ночного водителя, rooftop-съёмку, hotpot-вечер, точки для дрон-кадров где разрешено, премиальный отель или бизнес-блок.'
+      }
+    },
+    xinjiang: {
+      en: {
+        why: 'For a real road-trip feeling: long horizons, desert roads, turquoise lakes, mountains, bazaars and Central Asian atmosphere.',
+        logic: 'The route needs fewer stops and smarter driving days, because the distances are big and the landscapes are the main event.',
+        see: 'Urumqi, Kashgar, Sayram Lake, Kanas, Tianshan roads, Turpan, bazaars, desert edges and mountain passes.',
+        add: 'Private driver, scenic picnic stops, drone-style viewpoints where allowed, special stays, food markets or a longer Silk Road extension.'
+      },
+      ru: {
+        why: 'Для настоящего road trip: длинные горизонты, пустынные дороги, бирюзовые озёра, горы, базары и атмосфера Центральной Азии.',
+        logic: 'Здесь важно меньше случайных остановок и умнее дни в дороге: расстояния большие, а сами переезды — часть впечатления.',
+        see: 'Урумчи, Кашгар, озеро Сайрам, Канас, дороги Тяньшаня, Турфан, базары, пустынные участки и горные перевалы.',
+        add: 'Приватного водителя, пикники на красивых точках, дрон-локации где разрешено, особенные отели, рынки еды или Silk Road extension.'
+      }
+    },
+    mongolia: {
+      en: {
+        why: 'For open space, grasslands, horses, yurts, huge skies and a calmer northern China that feels far from the megacities.',
+        logic: 'Keep the route slow and scenic: one base city, grassland transfers, sunset timing and enough space for weather changes.',
+        see: 'Hohhot, Xilamuren or Hulunbuir grasslands, yurts, riding areas, Erguna wetlands, desert add-ons and border-town scenery.',
+        add: 'Horse riding, yurt stay, sunset dinner, private driver, light desert extension or a photographer-friendly countryside day.'
+      },
+      ru: {
+        why: 'Для простора, степей, лошадей, юрт, огромного неба и более спокойного северного Китая, совсем не похожего на мегаполисы.',
+        logic: 'Маршрут лучше делать медленным и scenic: базовый город, степные переезды, правильное время заката и запас под погоду.',
+        see: 'Хух-Хото, степи Силамужэнь или Хулунбуир, юрты, места для верховой езды, Эргуна, пустынное расширение и border-town атмосферу.',
+        add: 'Катание на лошадях, ночь в юрте, ужин на закате, водителя, лёгкое расширение в пустыню или день для красивой съёмки.'
+      }
+    },
+    creator: {
+      en: {
+        why: 'For creators who need locations that work on camera: cyber nights, rooftops, mountains, rivers, old towns and visual contrast.',
+        logic: 'The route is planned around light, timing, movement and backup locations, not just a list of cities.',
+        see: 'Chongqing neon scenes, Zhangjiajie cliffs, Yangshuo river landscapes, Shanghai contrast, old towns and strong night viewpoints.',
+        add: 'Local production support, private driver, early-morning access, styling-friendly hotels, drone-style route planning or vertical-video shot lists.'
+      },
+      ru: {
+        why: 'Для тех, кому нужны локации, которые работают в кадре: кибер-ночи, rooftop-точки, горы, реки, старые города и контрасты.',
+        logic: 'Маршрут планируется вокруг света, времени, перемещений и запасных локаций, а не просто вокруг списка городов.',
+        see: 'Неоновый Чунцин, скалы Чжанцзяцзе, реку Яншо, контраст Шанхая, старые города и сильные ночные viewpoints.',
+        add: 'Локальную production-поддержку, водителя, ранние выезды, отели под образ, planning под drone-style кадры или shot list для reels.'
+      }
+    },
+    'food-culture': {
+      en: {
+        why: 'For travelers who want to understand China through food: dim sum, hotpot, noodles, markets, tea houses and regional habits.',
+        logic: 'Move between regions with different flavor systems, so every city changes the table, not just the skyline.',
+        see: 'Guangzhou dim sum, Chengdu hotpot and teahouses, Xi’an Muslim Quarter, food markets, local snacks and regional restaurants.',
+        add: 'Private food walk, premium dinner, market morning, tea experience, cooking class or hotel areas selected around food districts.'
+      },
+      ru: {
+        why: 'Чтобы понять Китай через еду: dim sum, hotpot, лапшу, рынки, чайные дома и привычки разных регионов.',
+        logic: 'Собираем города с разными гастро-системами, чтобы в каждом месте менялся не только skyline, но и сам стол.',
+        see: 'Dim sum в Гуанчжоу, hotpot и чайные Чэнду, мусульманский квартал Сианя, рынки, локальные закуски и региональные рестораны.',
+        add: 'Гастро-прогулку, премиальный ужин, утренний рынок, чайный опыт, cooking class или отели рядом с сильными food districts.'
+      }
+    },
+    yunnan: {
+      en: {
+        why: 'For a softer, deeper China: old towns, lakes, snow mountains, Tibetan atmosphere, tea culture and slower travel.',
+        logic: 'The route should rise gradually in altitude and tempo, from Dali and Lijiang toward Shangri-La and mountain landscapes.',
+        see: 'Dali, Erhai Lake, Lijiang old town, Jade Dragon Snow Mountain, Shangri-La monasteries and Tiger Leaping Gorge.',
+        add: 'Boutique stays, tea experience, private driver, light hiking, photographer timing, hot springs or Xishuangbanna/Pu’er extension.'
+      },
+      ru: {
+        why: 'Для более мягкого и глубокого Китая: старые города, озёра, снежные горы, тибетская атмосфера, чай и медленный темп.',
+        logic: 'Маршрут лучше поднимать постепенно по высоте и настроению: от Дали и Лицзяна к Шангри-Ла и горным пейзажам.',
+        see: 'Дали, озеро Эрхай, старый город Лицзян, Снежную гору Юйлун, монастыри Шангри-Ла и Ущелье Прыгающего Тигра.',
+        add: 'Бутик-отели, чайный опыт, приватного водителя, лёгкий хайкинг, правильное время для фото, горячие источники или Пуэр/Сишуанбаньна.'
+      }
+    }
   };
 
   function closeRouteModal() {
@@ -2009,28 +2165,28 @@ document.addEventListener('DOMContentLoaded', () => {
     const data = routeDetails[routeKey];
     if (!routeModal || !data) return;
     const activeLang = localStorage.getItem('chieasyLanguage') || 'en';
+    const copyLang = routeModalCopy[routeKey]?.[activeLang] ? activeLang : (activeLang === 'ru' ? 'ru' : 'en');
+    const copy = routeModalCopy[routeKey]?.[copyLang] || {
+      why: data.text,
+      logic: 'Cities, order, pace and transport are adapted to your dates and travel style.',
+      see: data.places.slice(0, 4).map(place => place[0]).join(', '),
+      add: 'Private driver, special stays, scenic timing and local support where it fits the route.'
+    };
+    const labels = routeModalLabels[activeLang] || routeModalLabels.en;
     closeLegalModal();
     routeModalTitle.textContent = translateString(data.title, activeLang);
-    if (activeLang === 'en') {
-      routeModalText.textContent = data.text;
-      routePlaceGrid.innerHTML = data.places.map(([name, tag, description]) => `
-        <article class="route-place">
-          <span>${tag}</span>
-          <h4>${name}</h4>
-          <p>${description}</p>
-        </article>
-      `).join('');
-    } else {
-      const cards = localizedRouteModalCards[activeLang] || localizedRouteModalCards.ru;
-      routeModalText.textContent = translateString('These are sample route concepts. Dates, hotel areas, transport logic, trusted local partners and experience options are adjusted to your travel style.', activeLang);
-      routePlaceGrid.innerHTML = cards.map(([tag, title, description]) => `
-        <article class="route-place">
-          <span>${tag}</span>
-          <h4>${title}</h4>
-          <p>${description}</p>
-        </article>
-      `).join('');
-    }
+    routeModalText.textContent = copy.why;
+    routePlaceGrid.innerHTML = [
+      [labels[0], labels[1], copy.logic],
+      [labels[2], labels[3], copy.see],
+      [labels[4], labels[5], copy.add]
+    ].map(([tag, title, description]) => `
+      <article class="route-place">
+        <span>${tag}</span>
+        <h4>${title}</h4>
+        <p>${description}</p>
+      </article>
+    `).join('');
     routeModal.classList.add('open');
     routeModal.setAttribute('aria-hidden', 'false');
     document.body.classList.add('modal-open');
