@@ -2076,3 +2076,148 @@ html[lang="zh-CN"] .partner-logo{
     gap:10px;
   }
 }
+
+/* Final launch polish */
+.menu-toggle{
+  touch-action:manipulation;
+}
+.video-embed{
+  isolation:isolate;
+}
+.video-embed iframe{
+  position:relative;
+  z-index:1;
+}
+.video-fallback{
+  position:absolute;
+  left:18px;
+  right:18px;
+  bottom:18px;
+  z-index:2;
+  display:inline-flex;
+  justify-content:center;
+  padding:10px 14px;
+  border-radius:999px;
+  background:rgba(255,255,255,.88);
+  color:var(--ink);
+  font-size:13px;
+  font-weight:900;
+  text-decoration:none;
+  opacity:.04;
+  transform:translateY(8px);
+  transition:opacity .2s ease,transform .2s ease;
+}
+.video-embed:hover .video-fallback,
+.video-embed:focus-within .video-fallback{
+  opacity:1;
+  transform:translateY(0);
+}
+.legal-tabs .legal-tab{
+  cursor:pointer;
+}
+.legal-modal-close{
+  z-index:3;
+}
+.legal-modal-panel{
+  overscroll-behavior:contain;
+}
+.legal-modal-frame{
+  display:block;
+}
+.quiz-form.submitted{
+  background:linear-gradient(135deg,#fff,#fff7ef);
+}
+.quiz-success{
+  text-align:left;
+}
+.quiz-success .step-label{
+  background:rgba(216,74,42,.1);
+  padding:9px 12px;
+  border-radius:999px;
+}
+.thanks-page{
+  background:
+    linear-gradient(90deg,rgba(251,244,232,.96),rgba(255,255,255,.98)),
+    url('assets/images/IMG_1286.JPG');
+  background-size:cover;
+  background-position:center;
+}
+.thanks-shell{
+  min-height:100svh;
+}
+.thanks-card{
+  display:grid;
+  gap:0;
+  max-width:760px;
+}
+.thanks-card h1{
+  letter-spacing:0;
+}
+.thanks-summary{
+  align-items:stretch;
+}
+.thanks-summary span{
+  box-shadow:0 12px 30px rgba(30,23,19,.05);
+}
+body.menu-open{
+  overflow:hidden;
+}
+@media(max-width:980px){
+  body.menu-open .cookie-banner,
+  body.menu-open .floating-actions{
+    display:none!important;
+  }
+  .nav.open{
+    z-index:220;
+  }
+}
+@media(max-width:640px){
+  .nav.open{
+    position:fixed;
+    top:88px;
+    left:5vw;
+    right:5vw;
+    max-height:calc(100svh - 108px);
+    padding:18px;
+    border-radius:28px;
+  }
+  .video-fallback{
+    opacity:1;
+    transform:none;
+    font-size:12px;
+  }
+  .quiz-success{
+    text-align:center;
+  }
+  .quiz-success-mark{
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .thanks-page{
+    background:
+      linear-gradient(180deg,rgba(251,244,232,.98),rgba(255,255,255,.98)),
+      url('assets/images/IMG_1286.JPG');
+  }
+  .thanks-shell{
+    align-content:start;
+    gap:18px;
+    padding-top:24px;
+  }
+  .thanks-card{
+    padding:24px 18px;
+  }
+  .thanks-mark{
+    width:50px;
+    height:50px;
+    margin-bottom:18px;
+    font-size:26px;
+  }
+  .thanks-card h1{
+    font-size:clamp(31px,9vw,42px);
+    line-height:1.08;
+  }
+  .thanks-card p{
+    margin-top:14px;
+    font-size:16px;
+  }
+}

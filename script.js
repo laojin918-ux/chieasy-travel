@@ -2,8 +2,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const toggle = document.querySelector('.menu-toggle');
   const nav = document.querySelector('.nav');
   if (toggle && nav) {
-    toggle.addEventListener('click', () => nav.classList.toggle('open'));
-    nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => nav.classList.remove('open')));
+    const setMenuOpen = (isOpen) => {
+      nav.classList.toggle('open', isOpen);
+      document.body.classList.toggle('menu-open', isOpen);
+      toggle.setAttribute('aria-expanded', String(isOpen));
+    };
+    toggle.addEventListener('click', () => setMenuOpen(!nav.classList.contains('open')));
+    nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => setMenuOpen(false)));
   }
 
   const cookieBanner = document.getElementById('cookieBanner');
@@ -81,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Swipe sideways': 'Листайте карточки',
       'Ready-Made Trip Ideas': 'Готовые идеи маршрутов',
       'Start with a route. Then we customize it.': 'Начните с маршрута. Потом мы адаптируем его под вас.',
-      'These are sample route concepts. Dates, hotels, transport, qualified local support partners where required, local partners and experiences are adjusted to your travel style.': 'Это примеры маршрутов. Даты, районы отелей, транспорт, локальные партнёры, квалифицированные специалисты при необходимости и впечатления настраиваются под ваш стиль поездки.',
+      'These are sample route concepts. Dates, hotel areas, transport logic, trusted local partners and experience options are adjusted to your travel style.': 'Это примеры маршрутов. Даты, районы отелей, логика транспорта, проверенные локальные партнёры и варианты впечатлений настраиваются под ваш стиль поездки.',
       'View popular places': 'Популярные места',
       'First Time in China': 'Первый раз в Китае',
       'Avatar Mountains Route': 'Маршрут “Горы Аватара”',
@@ -247,6 +252,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ,'See how we talk about China before you travel with us.': 'Посмотрите, как мы говорим о Китае до вашей поездки.'
       ,'Direct, practical and based on real experience living, studying and traveling across China.': 'Прямо, практично и на основе реального опыта жизни, учёбы и путешествий по Китаю.'
       ,'Watch the video here on the site. No YouTube jump, just press play.': 'Смотрите видео прямо на сайте. Без перехода на YouTube, просто нажмите play.'
+      ,'Open video if the player is blocked': 'Открыть видео, если плеер заблокирован'
       ,'Plan after watching': 'Спланировать после просмотра'
       ,'First China Trip': 'Первая поездка в Китай'
       ,'“China looks incredible, but online information feels scattered. I need a route that makes sense, not just a list of cities.”': '«Китай выглядит невероятно, но информация в интернете разрозненная. Мне нужен маршрут с логикой, а не просто список городов».'
@@ -277,7 +283,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Consultation': 'Consulta',
       'Routes': 'Rutas',
       'Experiences': 'Experiencias',
-      'Video': 'Video',
+      'Video': 'Vídeo',
       'FAQ': 'Preguntas',
       'Custom China Travel Planning & Private Experiences': 'Planificación de China y experiencias privadas',
       'Discover the China Most Travelers Never See': 'Descubre la China que la mayoría de viajeros no ve',
@@ -378,6 +384,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Privacy': 'Privacidad',
       'Terms': 'Términos',
       'Accept': 'Aceptar'
+      ,'Open video if the player is blocked': 'Abrir el vídeo si el reproductor está bloqueado'
     },
     pt: {
       'Home': 'Início',
@@ -485,6 +492,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Privacy': 'Privacidade',
       'Terms': 'Termos',
       'Accept': 'Aceitar'
+      ,'Open video if the player is blocked': 'Abrir vídeo se o player estiver bloqueado'
     },
     cn: {
       'Home': '首页',
@@ -501,6 +509,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Explore Routes': '查看路线',
       'Not a standard group trip. A smarter China route.': '不是统一模板行程，而是更聪明的中国路线。',
       'Book now': '预约',
+      'Open video if the player is blocked': '如果播放器被阻止，请打开视频',
       'Years of China experience': '年中国经验',
       'Cities explored': '探索过的城市',
       'Languages: EN / RU / ES / PT / CN': '语言：EN / RU / ES / PT / CN',
@@ -601,7 +610,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Book a focused 45-minute consultation and leave with a realistic China plan: where to go, what to avoid, which apps to prepare, how to think about transport, hotels, payments and timing.': 'Забронируйте 45-минутную консультацию и получите реалистичный план по Китаю: куда ехать, чего избегать, какие приложения подготовить, как думать о транспорте, отелях, оплате и тайминге.',
       'Online call. Secure booking via Stripe.': 'Онлайн-консультация. Оплата по СБП для русскоязычной версии.',
       'After payment, message us on WhatsApp to choose a time for the call.': 'После оплаты напишите нам в WhatsApp, чтобы выбрать время звонка.',
-      'These are sample route concepts. Dates, hotels, transport, qualified local support partners where required, local partners and experiences are adjusted to your travel style.': 'Это примеры маршрутов. Даты, районы отелей, транспорт, локальные партнёры, квалифицированные специалисты при необходимости и впечатления адаптируются под ваш стиль поездки.',
+      'These are sample route concepts. Dates, hotel areas, transport logic, trusted local partners and experience options are adjusted to your travel style.': 'Это не фиксированные групповые поездки, а сильные концепции маршрутов. Мы настраиваем города, темп, районы отелей, транспорт, локальных партнёров и впечатления под ваш стиль поездки.',
       'Shanghai → Zhangjiajie → Chongqing. A powerful first route mixing modern China, nature and a crazy megacity.': 'Шанхай → Чжанцзяцзе → Чунцин. Сильный первый маршрут: современный Китай, природа и безумный мегаполис.',
       'Zhangjiajie → Tianmen Mountain → Furong. Nature, cliffs, waterfalls and optional helicopter experiences.': 'Чжанцзяцзе → Тяньмэнь → Фужун. Природа, скалы, водопады и опциональные полёты на вертолёте.',
       'Yangshuo → Zhangjiajie → Yunnan. Rivers, karst mountains, ancient towns and dramatic scenery.': 'Яншо → Чжанцзяцзе → Юньнань. Реки, карстовые горы, древние города и драматичные виды.',
@@ -643,7 +652,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Book a focused 45-minute consultation and leave with a realistic China plan: where to go, what to avoid, which apps to prepare, how to think about transport, hotels, payments and timing.': 'Reserva una consulta de 45 minutos y sal con un plan realista para China: dónde ir, qué evitar, qué apps preparar y cómo pensar en transporte, hoteles, pagos y tiempos.',
       'Online call. Secure booking via Stripe.': 'Llamada online. Reserva segura por Stripe.',
       'After payment, message us on WhatsApp to choose a time for the call.': 'Después del pago, escríbenos por WhatsApp para elegir la hora de la llamada.',
-      'These are sample route concepts. Dates, hotels, transport, qualified local support partners where required, local partners and experiences are adjusted to your travel style.': 'Son conceptos de ruta. Fechas, zonas de hotel, transporte, apoyo local cualificado cuando haga falta, socios locales y experiencias se ajustan a tu forma de viajar.',
+      'These are sample route concepts. Dates, hotel areas, transport logic, trusted local partners and experience options are adjusted to your travel style.': 'Son conceptos de ruta. Fechas, zonas de hotel, lógica de transporte, socios locales de confianza y experiencias se ajustan a tu forma de viajar.',
       'Shanghai → Zhangjiajie → Chongqing. A powerful first route mixing modern China, nature and a crazy megacity.': 'Shanghái → Zhangjiajie → Chongqing. Una primera ruta potente con China moderna, naturaleza y una megaciudad increíble.',
       'Zhangjiajie → Tianmen Mountain → Furong. Nature, cliffs, waterfalls and optional helicopter experiences.': 'Zhangjiajie → Tianmen → Furong. Naturaleza, acantilados, cascadas y experiencias opcionales en helicóptero.',
       'Yangshuo → Zhangjiajie → Yunnan. Rivers, karst mountains, ancient towns and dramatic scenery.': 'Yangshuo → Zhangjiajie → Yunnan. Ríos, montañas kársticas, pueblos antiguos y paisajes dramáticos.',
@@ -667,7 +676,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Book a focused 45-minute consultation and leave with a realistic China plan: where to go, what to avoid, which apps to prepare, how to think about transport, hotels, payments and timing.': 'Reserve uma consultoria de 45 minutos e saia com um plano realista para a China: onde ir, o que evitar, quais apps preparar e como pensar em transporte, hotéis, pagamentos e timing.',
       'Online call. Secure booking via Stripe.': 'Chamada online. Reserva segura via Stripe.',
       'After payment, message us on WhatsApp to choose a time for the call.': 'Depois do pagamento, envie mensagem no WhatsApp para escolher o horário da chamada.',
-      'These are sample route concepts. Dates, hotels, transport, qualified local support partners where required, local partners and experiences are adjusted to your travel style.': 'São ideias de roteiro. Datas, zonas de hotel, transporte, apoio local qualificado quando necessário, parceiros locais e experiências são ajustados ao seu estilo de viagem.',
+      'These are sample route concepts. Dates, hotel areas, transport logic, trusted local partners and experience options are adjusted to your travel style.': 'São ideias de roteiro. Datas, zonas de hotel, lógica de transporte, parceiros locais de confiança e experiências são ajustados ao seu estilo de viagem.',
       'Shanghai → Zhangjiajie → Chongqing. A powerful first route mixing modern China, nature and a crazy megacity.': 'Xangai → Zhangjiajie → Chongqing. Uma primeira rota forte com China moderna, natureza e uma megacidade intensa.',
       'Zhangjiajie → Tianmen Mountain → Furong. Nature, cliffs, waterfalls and optional helicopter experiences.': 'Zhangjiajie → Tianmen → Furong. Natureza, penhascos, cachoeiras e experiências opcionais de helicóptero.',
       'Yangshuo → Zhangjiajie → Yunnan. Rivers, karst mountains, ancient towns and dramatic scenery.': 'Yangshuo → Zhangjiajie → Yunnan. Rios, montanhas cársticas, vilas antigas e cenários dramáticos.',
@@ -691,7 +700,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Book a focused 45-minute consultation and leave with a realistic China plan: where to go, what to avoid, which apps to prepare, how to think about transport, hotels, payments and timing.': '预订 45 分钟专注咨询，获得一份现实可行的中国旅行计划：去哪里、避开什么、准备哪些应用，以及如何安排交通、酒店、支付和时间。',
       'Online call. Secure booking via Stripe.': '线上咨询。通过 Stripe 安全预订。',
       'After payment, message us on WhatsApp to choose a time for the call.': '付款后请在 WhatsApp 联系我们选择通话时间。',
-      'These are sample route concepts. Dates, hotels, transport, qualified local support partners where required, local partners and experiences are adjusted to your travel style.': '这些是路线示例。日期、酒店区域、交通、本地伙伴、必要时的本地专业支持和体验都会根据你的旅行风格调整。',
+      'These are sample route concepts. Dates, hotel areas, transport logic, trusted local partners and experience options are adjusted to your travel style.': '这些是路线示例。日期、酒店区域、交通逻辑、可信赖的本地伙伴和体验选项都会根据你的旅行风格调整。',
       'Shanghai → Zhangjiajie → Chongqing. A powerful first route mixing modern China, nature and a crazy megacity.': '上海 → 张家界 → 重庆。第一次来中国的强路线：现代城市、自然景观和震撼山城。',
       'Zhangjiajie → Tianmen Mountain → Furong. Nature, cliffs, waterfalls and optional helicopter experiences.': '张家界 → 天门山 → 芙蓉镇。自然、悬崖、瀑布和可选直升机体验。',
       'Yangshuo → Zhangjiajie → Yunnan. Rivers, karst mountains, ancient towns and dramatic scenery.': '阳朔 → 张家界 → 云南。河流、喀斯特山水、古镇和震撼风景。',
@@ -1165,7 +1174,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'First-trip strategy': 'Стратегия первой поездки',
       'Ready-Made Trip Ideas': 'Маршруты как отправная точка',
       'Start with a route. Then we customize it.': 'Выберите направление.\nМы соберём частную поездку.',
-      'These are sample route concepts. Dates, hotels, transport, qualified local support partners where required, local partners and experiences are adjusted to your travel style.': 'Это не фиксированные групповые поездки, а сильные концепции маршрутов. Мы настраиваем города, темп, районы отелей, транспорт, локальных партнёров и впечатления под ваш стиль поездки.',
+      'These are sample route concepts. Dates, hotel areas, transport logic, trusted local partners and experience options are adjusted to your travel style.': 'Это не фиксированные групповые поездки, а сильные концепции маршрутов. Мы настраиваем города, темп, районы отелей, транспорт, локальных партнёров и впечатления под ваш стиль поездки.',
       'View popular places': 'Открыть детали',
       'China Bucket List Experiences': 'Впечатления, ради которых Китай запоминается',
       'Not just places. Experiences people remember.': 'Не просто места.\nВпечатления, которые помнят.',
@@ -1232,7 +1241,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'First-trip strategy': 'Estrategia de primera visita',
       'Ready-Made Trip Ideas': 'Rutas como punto de partida',
       'Start with a route. Then we customize it.': 'Elige una dirección. La convertimos en tu viaje privado.',
-      'These are sample route concepts. Dates, hotels, transport, qualified local support partners where required, local partners and experiences are adjusted to your travel style.': 'No son viajes grupales cerrados, sino conceptos sólidos de ruta. Ajustamos ciudades, ritmo, zonas de hotel, transporte, socios locales y experiencias a tu forma de viajar.',
+      'These are sample route concepts. Dates, hotel areas, transport logic, trusted local partners and experience options are adjusted to your travel style.': 'No son viajes grupales cerrados, sino conceptos sólidos de ruta. Ajustamos ciudades, ritmo, zonas de hotel, transporte, socios locales y experiencias a tu forma de viajar.',
       'View popular places': 'Ver detalles',
       'China Bucket List Experiences': 'Experiencias que hacen que China se recuerde',
       'Not just places. Experiences people remember.': 'No solo lugares: momentos diseñados para convertirse en el recuerdo principal del viaje.',
@@ -1298,7 +1307,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'First-trip strategy': 'Estratégia da primeira visita',
       'Ready-Made Trip Ideas': 'Roteiros como ponto de partida',
       'Start with a route. Then we customize it.': 'Escolha uma direção. Nós transformamos em uma viagem privada.',
-      'These are sample route concepts. Dates, hotels, transport, qualified local support partners where required, local partners and experiences are adjusted to your travel style.': 'Não são viagens em grupo fechadas, mas conceitos fortes de roteiro. Ajustamos cidades, ritmo, zonas de hotel, transporte, parceiros locais e experiências ao seu modo de viajar.',
+      'These are sample route concepts. Dates, hotel areas, transport logic, trusted local partners and experience options are adjusted to your travel style.': 'Não são viagens em grupo fechadas, mas conceitos fortes de roteiro. Ajustamos cidades, ritmo, zonas de hotel, transporte, parceiros locais e experiências ao seu modo de viajar.',
       'View popular places': 'Ver detalhes',
       'China Bucket List Experiences': 'Experiências que fazem a China ficar na memória',
       'Not just places. Experiences people remember.': 'Não apenas lugares: momentos desenhados para se tornarem a principal lembrança da viagem.',
@@ -1361,7 +1370,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'First-trip strategy': '首次来华策略',
       'Ready-Made Trip Ideas': '路线灵感起点',
       'Start with a route. Then we customize it.': '先选择方向，再把它变成你的私人路线。',
-      'These are sample route concepts. Dates, hotels, transport, qualified local support partners where required, local partners and experiences are adjusted to your travel style.': '这些不是统一模板行程，而是经过筛选的路线概念。城市、节奏、酒店区域、交通、本地伙伴和体验都会按你的旅行方式调整。',
+      'These are sample route concepts. Dates, hotel areas, transport logic, trusted local partners and experience options are adjusted to your travel style.': '这些不是统一模板行程，而是经过筛选的路线概念。城市、节奏、酒店区域、交通、本地伙伴和体验都会按你的旅行方式调整。',
       'View popular places': '查看详情',
       'China Bucket List Experiences': '让中国旅行真正被记住的体验',
       'Not just places. Experiences people remember.': '不只是地点，而是会成为旅行核心记忆的时刻。',
@@ -1758,7 +1767,10 @@ document.addEventListener('DOMContentLoaded', () => {
       const documentData = legalDocuments[link.dataset.legalKey];
       if (!documentData) return;
       const localDoc = documentData.localDocs?.[activeLang] || documentData.localDocs?.en || '#';
-      link.setAttribute('href', localDoc);
+      link.dataset.legalSrc = localDoc;
+      link.setAttribute('href', `#legal-${link.dataset.legalKey}`);
+      link.removeAttribute('target');
+      link.removeAttribute('rel');
     });
   }
 
@@ -2010,7 +2022,7 @@ document.addEventListener('DOMContentLoaded', () => {
       `).join('');
     } else {
       const cards = localizedRouteModalCards[activeLang] || localizedRouteModalCards.ru;
-      routeModalText.textContent = translateString('These are sample route concepts. Dates, hotels, transport, qualified local support partners where required, local partners and experiences are adjusted to your travel style.', activeLang);
+      routeModalText.textContent = translateString('These are sample route concepts. Dates, hotel areas, transport logic, trusted local partners and experience options are adjusted to your travel style.', activeLang);
       routePlaceGrid.innerHTML = cards.map(([tag, title, description]) => `
         <article class="route-place">
           <span>${tag}</span>
@@ -2153,7 +2165,19 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
         `;
       } catch (error) {
-        quizForm.submit();
+        const activeLang = localStorage.getItem('chieasyLanguage') || 'en';
+        const copy = successCopy[activeLang] || successCopy.en;
+        quizForm.classList.add('submitted');
+        quizForm.innerHTML = `
+          <div class="quiz-success">
+            <div class="quiz-success-mark" aria-hidden="true">!</div>
+            <span class="step-label">${copy.eyebrow}</span>
+            <h3>${copy.title}</h3>
+            <p>${copy.text}</p>
+            <p>${copy.note}</p>
+            <a class="btn primary" href="https://wa.me/79173679853" target="_blank" rel="noopener">${copy.button}</a>
+          </div>
+        `;
       }
     });
   }
