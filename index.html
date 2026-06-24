@@ -142,16 +142,16 @@
 
     <div class="route-grid mobile-carousel">
       <article class="route-card featured-route-card shenzhen-signature-card" data-route="shenzhen-guide" role="button" tabindex="0" style="--bg:url('assets/images/inside-shenzhen-founder.jpg')">
+        <div class="signature-program" aria-hidden="true">
+          <div class="signature-stop"><b>Start</b><em>Shekou, Sea World, reform-era story</em></div>
+          <div class="signature-stop"><b>Context</b><em>Old Shenzhen, urban villages, tech and business logic</em></div>
+          <div class="signature-stop"><b>Finale</b><em>Talent Park, Bay Area skyline, light and drone-show windows</em></div>
+        </div>
         <div class="signature-copy">
           <span>Founder-led city day</span>
           <h3>Inside Shenzhen</h3>
           <p>One day of personal city accompaniment: reform-era Shekou, old Shenzhen, tech districts, skyline waterfront, light show and drone-show timing.</p>
           <strong>Open the Shenzhen day</strong>
-        </div>
-        <div class="signature-program" aria-hidden="true">
-          <b>Start</b><em>Shekou, Sea World, reform-era story</em>
-          <b>Context</b><em>Old Shenzhen, urban villages, tech and business logic</em>
-          <b>Finale</b><em>Talent Park, Bay Area skyline, light and drone-show windows</em>
         </div>
       </article>
       <article class="route-card" data-route="first-time" role="button" tabindex="0" style="--bg:url('https://images.unsplash.com/photo-1538428494232-9c0d8a3ab403?auto=format&fit=crop&w=1600&q=85')">
@@ -200,8 +200,27 @@
         <h3 id="routeModalTitle">Route highlights</h3>
         <p id="routeModalText"></p>
         <div class="route-place-grid" id="routePlaceGrid"></div>
+        <form name="route-booking-request" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="bot-field" class="route-booking-form" id="routeBookingForm" hidden>
+          <input type="hidden" name="form-name" value="route-booking-request" />
+          <input type="hidden" name="route" id="routeBookingRoute" value="" />
+          <p class="hidden"><label>Do not fill this field <input name="bot-field" /></label></p>
+          <div class="route-booking-grid">
+            <label><span>Name</span><input type="text" name="name" autocomplete="name" required /></label>
+            <label><span>Phone</span><input type="tel" name="phone" autocomplete="tel" required /></label>
+            <label><span>Email</span><input type="email" name="email" autocomplete="email" required /></label>
+            <label><span>Preferred date</span><input type="date" name="date" required /></label>
+          </div>
+          <div class="route-booking-submit">
+            <button class="btn primary" type="submit">Send booking request</button>
+            <p>We will contact you to confirm details.</p>
+          </div>
+        </form>
+        <div class="route-booking-thanks" id="routeBookingThanks" hidden>
+          <strong>Thank you. We will contact you.</strong>
+          <p>Your route request has been sent.</p>
+        </div>
         <div class="route-modal-actions">
-          <a class="btn primary" href="#quiz" data-close-route-modal>Plan this route</a>
+          <button class="btn primary" type="button" id="routeBookingToggle">Book this route</button>
           <button class="btn secondary" type="button" data-close-route-modal>Keep exploring</button>
         </div>
       </div>

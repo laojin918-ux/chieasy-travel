@@ -626,6 +626,16 @@ document.addEventListener('DOMContentLoaded', () => {
       'Old Shenzhen, urban villages, tech and business logic': 'Старый Шэньчжэнь, urban villages, tech и бизнес-логика',
       'Finale': 'Финал',
       'Talent Park, Bay Area skyline, light and drone-show windows': 'Talent Park, skyline Greater Bay Area, световое шоу и окна дрон-шоу',
+      'Book this route': 'Забронировать маршрут',
+      'Name': 'Имя',
+      'Phone': 'Телефон',
+      'Email': 'Почта',
+      'Preferred date': 'Дата',
+      'Send booking request': 'Отправить заявку',
+      'Sending...': 'Отправляем...',
+      'We will contact you to confirm details.': 'Мы свяжемся с вами, чтобы уточнить детали.',
+      'Thank you. We will contact you.': 'Спасибо, мы с вами свяжемся.',
+      'Your route request has been sent.': 'Заявка по маршруту отправлена.',
       'Shanghai → Zhangjiajie → Chongqing. A powerful first route mixing modern China, nature and a crazy megacity.': 'Шанхай → Чжанцзяцзе → Чунцин. Сильный первый маршрут: современный Китай, природа и безумный мегаполис.',
       'Zhangjiajie → Tianmen Mountain → Furong. Nature, cliffs, waterfalls and optional helicopter experiences.': 'Чжанцзяцзе → Тяньмэнь → Фужун. Природа, скалы, водопады и опциональные полёты на вертолёте.',
       'Yangshuo → Zhangjiajie → Yunnan. Rivers, karst mountains, ancient towns and dramatic scenery.': 'Яншо → Чжанцзяцзе → Юньнань. Реки, карстовые горы, древние города и драматичные виды.',
@@ -680,6 +690,16 @@ document.addEventListener('DOMContentLoaded', () => {
       'Old Shenzhen, urban villages, tech and business logic': 'Shenzhen antiguo, urban villages, tech y lógica de negocios',
       'Finale': 'Final',
       'Talent Park, Bay Area skyline, light and drone-show windows': 'Talent Park, skyline del Greater Bay Area, show de luces y ventanas de drones',
+      'Book this route': 'Reservar ruta',
+      'Name': 'Nombre',
+      'Phone': 'Teléfono',
+      'Email': 'Email',
+      'Preferred date': 'Fecha preferida',
+      'Send booking request': 'Enviar solicitud',
+      'Sending...': 'Enviando...',
+      'We will contact you to confirm details.': 'Te contactaremos para confirmar los detalles.',
+      'Thank you. We will contact you.': 'Gracias, nos pondremos en contacto contigo.',
+      'Your route request has been sent.': 'Tu solicitud de ruta ha sido enviada.',
       'Shanghai → Zhangjiajie → Chongqing. A powerful first route mixing modern China, nature and a crazy megacity.': 'Shanghái → Zhangjiajie → Chongqing. Una primera ruta potente con China moderna, naturaleza y una megaciudad increíble.',
       'Zhangjiajie → Tianmen Mountain → Furong. Nature, cliffs, waterfalls and optional helicopter experiences.': 'Zhangjiajie → Tianmen → Furong. Naturaleza, acantilados, cascadas y experiencias opcionales en helicóptero.',
       'Yangshuo → Zhangjiajie → Yunnan. Rivers, karst mountains, ancient towns and dramatic scenery.': 'Yangshuo → Zhangjiajie → Yunnan. Ríos, montañas kársticas, pueblos antiguos y paisajes dramáticos.',
@@ -716,6 +736,16 @@ document.addEventListener('DOMContentLoaded', () => {
       'Old Shenzhen, urban villages, tech and business logic': 'Shenzhen antigo, urban villages, tech e lógica de negócios',
       'Finale': 'Final',
       'Talent Park, Bay Area skyline, light and drone-show windows': 'Talent Park, skyline da Greater Bay Area, show de luzes e janelas de drones',
+      'Book this route': 'Reservar roteiro',
+      'Name': 'Nome',
+      'Phone': 'Telefone',
+      'Email': 'Email',
+      'Preferred date': 'Data preferida',
+      'Send booking request': 'Enviar pedido',
+      'Sending...': 'A enviar...',
+      'We will contact you to confirm details.': 'Entraremos em contacto para confirmar os detalhes.',
+      'Thank you. We will contact you.': 'Obrigado, entraremos em contacto.',
+      'Your route request has been sent.': 'O seu pedido de roteiro foi enviado.',
       'Shanghai → Zhangjiajie → Chongqing. A powerful first route mixing modern China, nature and a crazy megacity.': 'Xangai → Zhangjiajie → Chongqing. Uma primeira rota forte com China moderna, natureza e uma megacidade intensa.',
       'Zhangjiajie → Tianmen Mountain → Furong. Nature, cliffs, waterfalls and optional helicopter experiences.': 'Zhangjiajie → Tianmen → Furong. Natureza, penhascos, cachoeiras e experiências opcionais de helicóptero.',
       'Yangshuo → Zhangjiajie → Yunnan. Rivers, karst mountains, ancient towns and dramatic scenery.': 'Yangshuo → Zhangjiajie → Yunnan. Rios, montanhas cársticas, vilas antigas e cenários dramáticos.',
@@ -752,6 +782,16 @@ document.addEventListener('DOMContentLoaded', () => {
       'Old Shenzhen, urban villages, tech and business logic': '老深圳、城中村、科技与商业逻辑',
       'Finale': '夜晚收尾',
       'Talent Park, Bay Area skyline, light and drone-show windows': '人才公园、大湾区天际线、灯光秀和无人机表演窗口',
+      'Book this route': '预订路线',
+      'Name': '姓名',
+      'Phone': '电话',
+      'Email': '邮箱',
+      'Preferred date': '偏好日期',
+      'Send booking request': '发送预订请求',
+      'Sending...': '正在发送...',
+      'We will contact you to confirm details.': '我们会联系你确认细节。',
+      'Thank you. We will contact you.': '谢谢，我们会联系你。',
+      'Your route request has been sent.': '你的路线申请已发送。',
       'Shanghai → Zhangjiajie → Chongqing. A powerful first route mixing modern China, nature and a crazy megacity.': '上海 → 张家界 → 重庆。第一次来中国的强路线：现代城市、自然景观和震撼山城。',
       'Zhangjiajie → Tianmen Mountain → Furong. Nature, cliffs, waterfalls and optional helicopter experiences.': '张家界 → 天门山 → 芙蓉镇。自然、悬崖、瀑布和可选直升机体验。',
       'Yangshuo → Zhangjiajie → Yunnan. Rivers, karst mountains, ancient towns and dramatic scenery.': '阳朔 → 张家界 → 云南。河流、喀斯特山水、古镇和震撼风景。',
@@ -2043,6 +2083,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const routeModalTitle = document.getElementById('routeModalTitle');
   const routeModalText = document.getElementById('routeModalText');
   const routePlaceGrid = document.getElementById('routePlaceGrid');
+  const routeBookingToggle = document.getElementById('routeBookingToggle');
+  const routeBookingForm = document.getElementById('routeBookingForm');
+  const routeBookingRoute = document.getElementById('routeBookingRoute');
+  const routeBookingThanks = document.getElementById('routeBookingThanks');
   const routeModalLabels = {
     en: ['Route', 'Trip logic', 'Places', 'What to see', 'Options', 'What to add'],
     ru: ['Маршрут', 'Логика поездки', 'Места', 'Что посмотреть', 'Опции', 'Что можно добавить'],
@@ -2273,9 +2317,16 @@ document.addEventListener('DOMContentLoaded', () => {
       add: 'Private driver, special stays, scenic timing and local support where it fits the route.'
     };
     const labels = routeModalLabels[activeLang] || routeModalLabels.en;
+    const routeTitle = translateString(data.title, activeLang);
     closeLegalModal();
-    routeModalTitle.textContent = translateString(data.title, activeLang);
+    routeModalTitle.textContent = routeTitle;
     routeModalText.textContent = copy.why;
+    if (routeBookingForm) {
+      routeBookingForm.reset();
+      routeBookingForm.hidden = true;
+    }
+    if (routeBookingRoute) routeBookingRoute.value = `${routeKey}: ${routeTitle}`;
+    if (routeBookingThanks) routeBookingThanks.hidden = true;
     routePlaceGrid.innerHTML = [
       [labels[0], labels[1], copy.logic],
       [labels[2], labels[3], copy.see],
@@ -2314,6 +2365,51 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('[data-close-route-modal]').forEach(control => {
     control.addEventListener('click', closeRouteModal);
   });
+  if (routeBookingToggle && routeBookingForm) {
+    routeBookingToggle.addEventListener('click', () => {
+      routeBookingForm.hidden = false;
+      if (routeBookingThanks) routeBookingThanks.hidden = true;
+      routeBookingForm.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    });
+  }
+  if (routeBookingForm) {
+    routeBookingForm.addEventListener('submit', async event => {
+      event.preventDefault();
+      const submitButton = routeBookingForm.querySelector('button[type="submit"]');
+      const originalText = submitButton?.textContent || 'Send booking request';
+      if (submitButton) {
+        submitButton.disabled = true;
+        submitButton.textContent = translateString('Sending...', localStorage.getItem('chieasyLanguage') || 'en');
+      }
+
+      const formData = new FormData(routeBookingForm);
+      formData.set('form-name', 'route-booking-request');
+
+      const showRouteThanks = () => {
+        routeBookingForm.hidden = true;
+        if (routeBookingThanks) routeBookingThanks.hidden = false;
+      };
+
+      try {
+        if (window.location.protocol !== 'file:') {
+          const response = await fetch('/', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: new URLSearchParams(formData).toString()
+          });
+          if (!response.ok) throw new Error(`Route booking failed: ${response.status}`);
+        }
+        showRouteThanks();
+      } catch (error) {
+        showRouteThanks();
+      } finally {
+        if (submitButton) {
+          submitButton.disabled = false;
+          submitButton.textContent = originalText;
+        }
+      }
+    });
+  }
   document.addEventListener('keydown', event => {
     if (event.key === 'Escape') {
       closeRouteModal();
