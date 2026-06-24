@@ -616,8 +616,16 @@ document.addEventListener('DOMContentLoaded', () => {
       'After payment, message us on WhatsApp to choose a time for the call.': 'После оплаты напишите нам в WhatsApp, чтобы выбрать время звонка.',
       'These are sample route concepts. Dates, hotel areas, transport logic, trusted local partners and experience options are adjusted to your travel style.': 'Это не фиксированные групповые поездки, а сильные концепции маршрутов. Мы настраиваем города, темп, районы отелей, транспорт, локальных партнёров и впечатления под ваш стиль поездки.',
       '1 day': '1 день',
+      'Signature day': 'Авторский день',
       'Shenzhen With Ilya': 'Шэньчжэнь с Ильёй',
-      'Shekou → Talent Park → old city roots → light show and drone show. A personal city walkthrough from history to future.': 'Шэкоу → Talent Park → старый городской слой → световое и дрон-шоу. Личный city walkthrough от истории к будущему.',
+      'One day with personal accompaniment: Shekou, old city roots, Talent Park, tech districts, waterfront, light show and drone-show timing.': 'Один день с личным сопровождением: Шэкоу, старые городские слои, Talent Park, tech-районы, waterfront, световое шоу и тайминг дрон-шоу.',
+      'Open Shenzhen program': 'Открыть программу по Шэньчжэню',
+      'Morning': 'Утро',
+      'Shekou, reform-era story, Sea World': 'Шэкоу, история реформ, Sea World',
+      'Day': 'День',
+      'Old Shenzhen, urban roots, tech and business context': 'Старый Шэньчжэнь, городские корни, tech и business context',
+      'Evening': 'Вечер',
+      'Talent Park, skyline, light show, drone-show windows': 'Talent Park, skyline, световое шоу и окна дрон-шоу',
       'Shanghai → Zhangjiajie → Chongqing. A powerful first route mixing modern China, nature and a crazy megacity.': 'Шанхай → Чжанцзяцзе → Чунцин. Сильный первый маршрут: современный Китай, природа и безумный мегаполис.',
       'Zhangjiajie → Tianmen Mountain → Furong. Nature, cliffs, waterfalls and optional helicopter experiences.': 'Чжанцзяцзе → Тяньмэнь → Фужун. Природа, скалы, водопады и опциональные полёты на вертолёте.',
       'Yangshuo → Zhangjiajie → Yunnan. Rivers, karst mountains, ancient towns and dramatic scenery.': 'Яншо → Чжанцзяцзе → Юньнань. Реки, карстовые горы, древние города и драматичные виды.',
@@ -662,8 +670,16 @@ document.addEventListener('DOMContentLoaded', () => {
       'After payment, message us on WhatsApp to choose a time for the call.': 'Después del pago, escríbenos por WhatsApp para elegir la hora de la llamada.',
       'These are sample route concepts. Dates, hotel areas, transport logic, trusted local partners and experience options are adjusted to your travel style.': 'Son conceptos de ruta. Fechas, zonas de hotel, lógica de transporte, socios locales de confianza y experiencias se ajustan a tu forma de viajar.',
       '1 day': '1 día',
+      'Signature day': 'Día de autor',
       'Shenzhen With Ilya': 'Shenzhen con Ilya',
-      'Shekou → Talent Park → old city roots → light show and drone show. A personal city walkthrough from history to future.': 'Shekou → Talent Park → raíces antiguas → show de luces y drones. Un recorrido personal de la historia al futuro.',
+      'One day with personal accompaniment: Shekou, old city roots, Talent Park, tech districts, waterfront, light show and drone-show timing.': 'Un día con acompañamiento personal: Shekou, raíces urbanas, Talent Park, zonas tech, waterfront, show de luces y timing de drones.',
+      'Open Shenzhen program': 'Abrir programa de Shenzhen',
+      'Morning': 'Mañana',
+      'Shekou, reform-era story, Sea World': 'Shekou, historia de reformas, Sea World',
+      'Day': 'Día',
+      'Old Shenzhen, urban roots, tech and business context': 'Shenzhen antiguo, raíces urbanas, tech y contexto business',
+      'Evening': 'Noche',
+      'Talent Park, skyline, light show, drone-show windows': 'Talent Park, skyline, show de luces y ventanas de drones',
       'Shanghai → Zhangjiajie → Chongqing. A powerful first route mixing modern China, nature and a crazy megacity.': 'Shanghái → Zhangjiajie → Chongqing. Una primera ruta potente con China moderna, naturaleza y una megaciudad increíble.',
       'Zhangjiajie → Tianmen Mountain → Furong. Nature, cliffs, waterfalls and optional helicopter experiences.': 'Zhangjiajie → Tianmen → Furong. Naturaleza, acantilados, cascadas y experiencias opcionales en helicóptero.',
       'Yangshuo → Zhangjiajie → Yunnan. Rivers, karst mountains, ancient towns and dramatic scenery.': 'Yangshuo → Zhangjiajie → Yunnan. Ríos, montañas kársticas, pueblos antiguos y paisajes dramáticos.',
@@ -690,8 +706,16 @@ document.addEventListener('DOMContentLoaded', () => {
       'After payment, message us on WhatsApp to choose a time for the call.': 'Depois do pagamento, envie mensagem no WhatsApp para escolher o horário da chamada.',
       'These are sample route concepts. Dates, hotel areas, transport logic, trusted local partners and experience options are adjusted to your travel style.': 'São ideias de roteiro. Datas, zonas de hotel, lógica de transporte, parceiros locais de confiança e experiências são ajustados ao seu estilo de viagem.',
       '1 day': '1 dia',
+      'Signature day': 'Dia autoral',
       'Shenzhen With Ilya': 'Shenzhen com Ilya',
-      'Shekou → Talent Park → old city roots → light show and drone show. A personal city walkthrough from history to future.': 'Shekou → Talent Park → raízes antigas → show de luzes e drones. Um walkthrough pessoal da história ao futuro.',
+      'One day with personal accompaniment: Shekou, old city roots, Talent Park, tech districts, waterfront, light show and drone-show timing.': 'Um dia com acompanhamento pessoal: Shekou, raízes urbanas, Talent Park, zonas tech, waterfront, show de luzes e timing de drones.',
+      'Open Shenzhen program': 'Abrir programa de Shenzhen',
+      'Morning': 'Manhã',
+      'Shekou, reform-era story, Sea World': 'Shekou, história das reformas, Sea World',
+      'Day': 'Dia',
+      'Old Shenzhen, urban roots, tech and business context': 'Shenzhen antigo, raízes urbanas, tech e contexto business',
+      'Evening': 'Noite',
+      'Talent Park, skyline, light show, drone-show windows': 'Talent Park, skyline, show de luzes e janelas de drones',
       'Shanghai → Zhangjiajie → Chongqing. A powerful first route mixing modern China, nature and a crazy megacity.': 'Xangai → Zhangjiajie → Chongqing. Uma primeira rota forte com China moderna, natureza e uma megacidade intensa.',
       'Zhangjiajie → Tianmen Mountain → Furong. Nature, cliffs, waterfalls and optional helicopter experiences.': 'Zhangjiajie → Tianmen → Furong. Natureza, penhascos, cachoeiras e experiências opcionais de helicóptero.',
       'Yangshuo → Zhangjiajie → Yunnan. Rivers, karst mountains, ancient towns and dramatic scenery.': 'Yangshuo → Zhangjiajie → Yunnan. Rios, montanhas cársticas, vilas antigas e cenários dramáticos.',
@@ -718,8 +742,16 @@ document.addEventListener('DOMContentLoaded', () => {
       'After payment, message us on WhatsApp to choose a time for the call.': '付款后请在 WhatsApp 联系我们选择通话时间。',
       'These are sample route concepts. Dates, hotel areas, transport logic, trusted local partners and experience options are adjusted to your travel style.': '这些是路线示例。日期、酒店区域、交通逻辑、可信赖的本地伙伴和体验选项都会根据你的旅行风格调整。',
       '1 day': '1 天',
+      'Signature day': '主理人一日',
       'Shenzhen With Ilya': '和 Ilya 看深圳',
-      'Shekou → Talent Park → old city roots → light show and drone show. A personal city walkthrough from history to future.': '蛇口 → 人才公园 → 老城脉络 → 灯光秀与无人机表演。从历史到未来的个人城市 walkthrough。',
+      'One day with personal accompaniment: Shekou, old city roots, Talent Park, tech districts, waterfront, light show and drone-show timing.': 'Ilya 陪同的一天：蛇口、老城脉络、人才公园、科技区、海岸线、灯光秀和无人机表演时间。',
+      'Open Shenzhen program': '打开深圳行程',
+      'Morning': '上午',
+      'Shekou, reform-era story, Sea World': '蛇口、改革故事、海上世界',
+      'Day': '白天',
+      'Old Shenzhen, urban roots, tech and business context': '老深圳、城市根源、科技与商务语境',
+      'Evening': '晚上',
+      'Talent Park, skyline, light show, drone-show windows': '人才公园、天际线、灯光秀和无人机表演窗口',
       'Shanghai → Zhangjiajie → Chongqing. A powerful first route mixing modern China, nature and a crazy megacity.': '上海 → 张家界 → 重庆。第一次来中国的强路线：现代城市、自然景观和震撼山城。',
       'Zhangjiajie → Tianmen Mountain → Furong. Nature, cliffs, waterfalls and optional helicopter experiences.': '张家界 → 天门山 → 芙蓉镇。自然、悬崖、瀑布和可选直升机体验。',
       'Yangshuo → Zhangjiajie → Yunnan. Rivers, karst mountains, ancient towns and dramatic scenery.': '阳朔 → 张家界 → 云南。河流、喀斯特山水、古镇和震撼风景。',
@@ -1851,14 +1883,14 @@ document.addEventListener('DOMContentLoaded', () => {
   const routeDetails = {
     'shenzhen-guide': {
       title: 'Shenzhen With Ilya',
-      text: 'A one-day hosted Shenzhen walkthrough with Ilya: from the city’s early story to its tech, waterfront, light shows and modern know-how.',
+      text: 'A signature Shenzhen day with Ilya: the city’s origin story, Shekou, old urban layers, tech districts, waterfront planning, evening skyline and show timing.',
       places: [
-        ['Shekou', 'Port Roots', 'Sea World, waterfront walks, international Shenzhen and the city’s early reform-era energy.'],
-        ['Talent Park', 'Modern Waterfront', 'Skyline views, architecture, Bay Area atmosphere and a softer evening route.'],
-        ['Old City Layers', 'Local Context', 'Older streets and the story of how a fishing-town border area became a global city.'],
-        ['Construction Origin', 'City Story', 'The symbolic places connected with the beginning of modern Shenzhen’s rapid development.'],
-        ['Light Show', 'Evening Highlight', 'Civic Center and skyline lights when the schedule and weather work.'],
-        ['Drone Show', 'Premium Timing', 'Drone-show evenings when available, plus the best nearby viewpoints and timing.']
+        ['Shekou', 'Reform-Era Start', 'Sea World, port history, international Shenzhen and the first layer of the city’s opening-up story.'],
+        ['Nantou / Old Shenzhen', 'Old City Layer', 'Older streets, local neighborhoods and the contrast between village roots and megacity scale.'],
+        ['Construction Origin', 'City Story', 'The symbolic points connected with Shenzhen’s rapid development, early planning and reform-era speed.'],
+        ['Tech & Design Districts', 'Modern Know-How', 'How Shenzhen became a hardware, design, startup and cross-border business city.'],
+        ['Talent Park & Shenzhen Bay', 'Waterfront Skyline', 'Bay Area views, architecture, urban planning and a calmer golden-hour route.'],
+        ['Light & Drone Shows', 'Evening Finale', 'Civic Center lights, skyline viewpoints and drone-show timing when the schedule makes it possible.']
       ]
     },
     'first-time': {
@@ -2022,34 +2054,34 @@ document.addEventListener('DOMContentLoaded', () => {
   const routeModalCopy = {
     'shenzhen-guide': {
       en: {
-        why: 'For travelers who want to understand Shenzhen as a living city, not just a tech skyline: Shekou, old city roots, waterfront planning, light shows, drone shows and Ilya’s personal China context.',
-        logic: 'Usually built as a one-day private city walkthrough with Ilya: start with the story of how modern Shenzhen began, move through Shekou and the older urban layer, continue to Talent Park and finish with evening lights when available.',
-        see: 'Shekou, Talent Park, old city layers, the place connected with the beginning of modern Shenzhen’s rapid development, waterfront views, Civic Center light show, drone-show areas, tech districts and business districts when timing fits.',
-        add: 'Personal accompaniment by Ilya, photo stops, restaurant or rooftop with a view, transfer, on-site translation support, business context or an add-on to Guangzhou/Hong Kong.'
+        why: 'For travelers who want to understand Shenzhen from the inside: not only skyscrapers, but the reform story, port culture, urban villages, tech logic, Bay Area ambition and the evening city show.',
+        logic: 'We build it as a signature hosted city day with Ilya. Morning: Shekou and the opening-up story. Midday: old Shenzhen, Nantou or local urban layers. Afternoon: tech, design and business context. Evening: Talent Park, Shenzhen Bay, light show and drone-show timing when available.',
+        see: 'Shekou, Sea World, old city layers, Nantou or another historical urban stop, the place associated with Shenzhen’s rapid development, tech/design districts, Talent Park, Shenzhen Bay, Civic Center light show and drone-show viewpoints.',
+        add: 'Rooftop dinner, premium car transfer, photographer-style route, business/innovation angle, translation support on site, restaurant booking, Hong Kong/Guangzhou continuation or a deeper tech-market extension.'
       },
       ru: {
-        why: 'Для тех, кто хочет понять Шэньчжэнь не как “город небоскрёбов”, а как живой феномен: Шэкоу, старые городские слои, waterfront, световое шоу, дрон-шоу и мой личный контекст жизни в Китае.',
-        logic: 'Обычно это однодневный city walkthrough с сопровождением Ильи: начинаем с истории современного Шэньчжэня, идём через Шэкоу и старый городской слой, продолжаем в Talent Park и заканчиваем вечерними огнями, если позволяет расписание.',
-        see: 'Шэкоу, Talent Park, старый город, место, связанное с началом быстрого строительства современного Шэньчжэня, waterfront, световое шоу у Civic Center, зоны дрон-шоу, tech-районы и business districts по таймингу.',
-        add: 'Личное сопровождение Ильи, фото-точки, ресторан или rooftop с видом, трансфер, поддержка с переводом на месте, деловой контекст или продолжение в Гуанчжоу/Гонконг.'
+        why: 'Для тех, кто хочет понять Шэньчжэнь изнутри: не только небоскрёбы, а историю реформ, портовую культуру, urban villages, технологическую логику, амбицию Greater Bay Area и вечерний город-шоу.',
+        logic: 'Это авторский день с сопровождением Ильи. Утро: Шэкоу и история открытия Китая. День: старый Шэньчжэнь, Наньтоу или другой городской слой. После обеда: tech, дизайн и бизнес-контекст. Вечер: Talent Park, Shenzhen Bay, световое шоу и дрон-шоу, если подходит расписание.',
+        see: 'Шэкоу, Sea World, старые городские слои, Наньтоу или другой исторический городской район, точки, связанные с быстрым строительством Шэньчжэня, tech/design districts, Talent Park, Shenzhen Bay, световое шоу у Civic Center и видовые точки для дрон-шоу.',
+        add: 'Ужин на rooftop или в ресторане с видом, премиальный трансфер, маршрут под фото/видео, бизнес- и innovation-акцент, поддержка с переводом на месте, бронирование ресторана, продолжение в Гонконг/Гуанчжоу или deeper tech-market extension.'
       },
       es: {
-        why: 'Para entender Shenzhen como una ciudad viva, no solo como un skyline tecnológico: Shekou, capas antiguas de la ciudad, waterfront, show de luces, drones y el contexto personal de Ilya viviendo en China.',
-        logic: 'Normalmente se plantea como un recorrido privado de un día con Ilya: empezar con la historia de cómo nació el Shenzhen moderno, pasar por Shekou y capas urbanas antiguas, seguir por Talent Park y terminar con luces nocturnas si el horario lo permite.',
-        see: 'Shekou, Talent Park, capas antiguas de la ciudad, el punto vinculado al inicio del desarrollo moderno de Shenzhen, waterfront, show de luces del Civic Center, zonas de drones, distritos tech y business districts según el timing.',
-        add: 'Acompañamiento personal de Ilya, paradas para fotos, restaurante o rooftop con vistas, transfer, apoyo de traducción in situ, contexto de negocios o extensión a Guangzhou/Hong Kong.'
+        why: 'Para entender Shenzhen desde dentro: no solo rascacielos, sino historia de reformas, cultura portuaria, urban villages, lógica tecnológica, ambición del Greater Bay Area y la ciudad-espectáculo de noche.',
+        logic: 'Un día signature con Ilya. Mañana: Shekou y la historia de apertura. Mediodía: Shenzhen antiguo, Nantou u otra capa urbana. Tarde: contexto tech, diseño y negocios. Noche: Talent Park, Shenzhen Bay, show de luces y ventanas de drones cuando sea posible.',
+        see: 'Shekou, Sea World, capas antiguas, Nantou u otro punto histórico urbano, lugares vinculados al desarrollo acelerado de Shenzhen, distritos tech/design, Talent Park, Shenzhen Bay, show de luces del Civic Center y miradores para drones.',
+        add: 'Cena en rooftop, transfer premium, ruta para foto/video, enfoque business/innovation, apoyo de traducción en sitio, reserva de restaurante, extensión a Hong Kong/Guangzhou o un bloque más profundo de tech markets.'
       },
       pt: {
-        why: 'Para entender Shenzhen como uma cidade viva, não apenas como um skyline tecnológico: Shekou, camadas antigas da cidade, waterfront, show de luzes, drones e o contexto pessoal de Ilya vivendo na China.',
-        logic: 'Normalmente funciona como um walkthrough privado de um dia com Ilya: começar pela história do Shenzhen moderno, passar por Shekou e camadas urbanas antigas, seguir para Talent Park e terminar com luzes noturnas quando o horário permite.',
-        see: 'Shekou, Talent Park, camadas antigas da cidade, o local ligado ao início do desenvolvimento moderno de Shenzhen, waterfront, show de luzes do Civic Center, áreas de drones, distritos tech e business districts conforme o timing.',
-        add: 'Acompanhamento pessoal de Ilya, paradas para fotos, restaurante ou rooftop com vista, transfer, apoio de tradução no local, contexto de negócios ou extensão para Guangzhou/Hong Kong.'
+        why: 'Para entender Shenzhen por dentro: não apenas arranha-céus, mas história das reformas, cultura portuária, urban villages, lógica tecnológica, ambição da Greater Bay Area e a cidade-espetáculo à noite.',
+        logic: 'Um dia signature com Ilya. Manhã: Shekou e a história da abertura. Meio do dia: Shenzhen antigo, Nantou ou outra camada urbana. Tarde: contexto tech, design e negócios. Noite: Talent Park, Shenzhen Bay, show de luzes e janelas de drones quando possível.',
+        see: 'Shekou, Sea World, camadas antigas, Nantou ou outro ponto histórico urbano, locais ligados ao desenvolvimento acelerado de Shenzhen, distritos tech/design, Talent Park, Shenzhen Bay, show de luzes do Civic Center e pontos para drones.',
+        add: 'Jantar em rooftop, transfer premium, rota para foto/vídeo, foco business/innovation, apoio de tradução no local, reserva de restaurante, extensão para Hong Kong/Guangzhou ou um bloco mais profundo de tech markets.'
       },
       cn: {
-        why: '适合想真正理解深圳的人：不只是科技天际线，而是蛇口、城市早期层次、海岸线规划、灯光秀、无人机表演，以及 Ilya 在中国生活的个人视角。',
-        logic: '通常设计为 Ilya 陪同的一日城市 walkthrough：从现代深圳如何开始讲起，经过蛇口和更老的城市层次，再到人才公园，最后在时间合适时安排夜景灯光。',
-        see: '蛇口、人才公园、老城区层次、与现代深圳快速发展起点相关的地点、海岸线视角、市民中心灯光秀、无人机表演区域、科技区和商务区。',
-        add: 'Ilya 个人陪同、拍照点、景观餐厅或 rooftop、接送、现场翻译支持、商务背景讲解，或延伸到广州/香港。'
+        why: '适合想从内部理解深圳的人：不只是高楼，而是改革故事、港口文化、城中村、科技逻辑、大湾区野心和夜晚的城市秀。',
+        logic: 'Ilya 陪同的 signature city day。上午：蛇口与开放故事。中午：老深圳、南头或其他城市层次。下午：科技、设计和商务语境。晚上：人才公园、深圳湾、灯光秀和无人机表演时间。',
+        see: '蛇口、海上世界、老城层次、南头或其他历史城市点、与深圳高速发展相关的地点、科技/设计区、人才公园、深圳湾、市民中心灯光秀和无人机表演观景点。',
+        add: 'Rooftop 晚餐、高端接送、拍照/视频路线、商务/创新角度、现场翻译支持、餐厅预订、延伸到香港/广州，或更深入的 tech market 模块。'
       }
     },
     'first-time': {
