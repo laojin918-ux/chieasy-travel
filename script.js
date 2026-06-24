@@ -615,6 +615,9 @@ document.addEventListener('DOMContentLoaded', () => {
       'Online call. Secure booking via Stripe.': 'Онлайн-консультация. Оплата по СБП для русскоязычной версии.',
       'After payment, message us on WhatsApp to choose a time for the call.': 'После оплаты напишите нам в WhatsApp, чтобы выбрать время звонка.',
       'These are sample route concepts. Dates, hotel areas, transport logic, trusted local partners and experience options are adjusted to your travel style.': 'Это не фиксированные групповые поездки, а сильные концепции маршрутов. Мы настраиваем города, темп, районы отелей, транспорт, локальных партнёров и впечатления под ваш стиль поездки.',
+      '1 day': '1 день',
+      'Shenzhen With Ilya': 'Шэньчжэнь с Ильёй',
+      'Shekou → Talent Park → old city roots → light show and drone show. A personal city walkthrough from history to future.': 'Шэкоу → Talent Park → старый городской слой → световое и дрон-шоу. Личный city walkthrough от истории к будущему.',
       'Shanghai → Zhangjiajie → Chongqing. A powerful first route mixing modern China, nature and a crazy megacity.': 'Шанхай → Чжанцзяцзе → Чунцин. Сильный первый маршрут: современный Китай, природа и безумный мегаполис.',
       'Zhangjiajie → Tianmen Mountain → Furong. Nature, cliffs, waterfalls and optional helicopter experiences.': 'Чжанцзяцзе → Тяньмэнь → Фужун. Природа, скалы, водопады и опциональные полёты на вертолёте.',
       'Yangshuo → Zhangjiajie → Yunnan. Rivers, karst mountains, ancient towns and dramatic scenery.': 'Яншо → Чжанцзяцзе → Юньнань. Реки, карстовые горы, древние города и драматичные виды.',
@@ -658,6 +661,9 @@ document.addEventListener('DOMContentLoaded', () => {
       'Online call. Secure booking via Stripe.': 'Llamada online. Reserva segura por Stripe.',
       'After payment, message us on WhatsApp to choose a time for the call.': 'Después del pago, escríbenos por WhatsApp para elegir la hora de la llamada.',
       'These are sample route concepts. Dates, hotel areas, transport logic, trusted local partners and experience options are adjusted to your travel style.': 'Son conceptos de ruta. Fechas, zonas de hotel, lógica de transporte, socios locales de confianza y experiencias se ajustan a tu forma de viajar.',
+      '1 day': '1 día',
+      'Shenzhen With Ilya': 'Shenzhen con Ilya',
+      'Shekou → Talent Park → old city roots → light show and drone show. A personal city walkthrough from history to future.': 'Shekou → Talent Park → raíces antiguas → show de luces y drones. Un recorrido personal de la historia al futuro.',
       'Shanghai → Zhangjiajie → Chongqing. A powerful first route mixing modern China, nature and a crazy megacity.': 'Shanghái → Zhangjiajie → Chongqing. Una primera ruta potente con China moderna, naturaleza y una megaciudad increíble.',
       'Zhangjiajie → Tianmen Mountain → Furong. Nature, cliffs, waterfalls and optional helicopter experiences.': 'Zhangjiajie → Tianmen → Furong. Naturaleza, acantilados, cascadas y experiencias opcionales en helicóptero.',
       'Yangshuo → Zhangjiajie → Yunnan. Rivers, karst mountains, ancient towns and dramatic scenery.': 'Yangshuo → Zhangjiajie → Yunnan. Ríos, montañas kársticas, pueblos antiguos y paisajes dramáticos.',
@@ -683,6 +689,9 @@ document.addEventListener('DOMContentLoaded', () => {
       'Online call. Secure booking via Stripe.': 'Chamada online. Reserva segura via Stripe.',
       'After payment, message us on WhatsApp to choose a time for the call.': 'Depois do pagamento, envie mensagem no WhatsApp para escolher o horário da chamada.',
       'These are sample route concepts. Dates, hotel areas, transport logic, trusted local partners and experience options are adjusted to your travel style.': 'São ideias de roteiro. Datas, zonas de hotel, lógica de transporte, parceiros locais de confiança e experiências são ajustados ao seu estilo de viagem.',
+      '1 day': '1 dia',
+      'Shenzhen With Ilya': 'Shenzhen com Ilya',
+      'Shekou → Talent Park → old city roots → light show and drone show. A personal city walkthrough from history to future.': 'Shekou → Talent Park → raízes antigas → show de luzes e drones. Um walkthrough pessoal da história ao futuro.',
       'Shanghai → Zhangjiajie → Chongqing. A powerful first route mixing modern China, nature and a crazy megacity.': 'Xangai → Zhangjiajie → Chongqing. Uma primeira rota forte com China moderna, natureza e uma megacidade intensa.',
       'Zhangjiajie → Tianmen Mountain → Furong. Nature, cliffs, waterfalls and optional helicopter experiences.': 'Zhangjiajie → Tianmen → Furong. Natureza, penhascos, cachoeiras e experiências opcionais de helicóptero.',
       'Yangshuo → Zhangjiajie → Yunnan. Rivers, karst mountains, ancient towns and dramatic scenery.': 'Yangshuo → Zhangjiajie → Yunnan. Rios, montanhas cársticas, vilas antigas e cenários dramáticos.',
@@ -708,6 +717,9 @@ document.addEventListener('DOMContentLoaded', () => {
       'Online call. Secure booking via Stripe.': '线上咨询。通过 Stripe 安全预订。',
       'After payment, message us on WhatsApp to choose a time for the call.': '付款后请在 WhatsApp 联系我们选择通话时间。',
       'These are sample route concepts. Dates, hotel areas, transport logic, trusted local partners and experience options are adjusted to your travel style.': '这些是路线示例。日期、酒店区域、交通逻辑、可信赖的本地伙伴和体验选项都会根据你的旅行风格调整。',
+      '1 day': '1 天',
+      'Shenzhen With Ilya': '和 Ilya 看深圳',
+      'Shekou → Talent Park → old city roots → light show and drone show. A personal city walkthrough from history to future.': '蛇口 → 人才公园 → 老城脉络 → 灯光秀与无人机表演。从历史到未来的个人城市 walkthrough。',
       'Shanghai → Zhangjiajie → Chongqing. A powerful first route mixing modern China, nature and a crazy megacity.': '上海 → 张家界 → 重庆。第一次来中国的强路线：现代城市、自然景观和震撼山城。',
       'Zhangjiajie → Tianmen Mountain → Furong. Nature, cliffs, waterfalls and optional helicopter experiences.': '张家界 → 天门山 → 芙蓉镇。自然、悬崖、瀑布和可选直升机体验。',
       'Yangshuo → Zhangjiajie → Yunnan. Rivers, karst mountains, ancient towns and dramatic scenery.': '阳朔 → 张家界 → 云南。河流、喀斯特山水、古镇和震撼风景。',
@@ -1837,6 +1849,18 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   const routeDetails = {
+    'shenzhen-guide': {
+      title: 'Shenzhen With Ilya',
+      text: 'A one-day hosted Shenzhen walkthrough with Ilya: from the city’s early story to its tech, waterfront, light shows and modern know-how.',
+      places: [
+        ['Shekou', 'Port Roots', 'Sea World, waterfront walks, international Shenzhen and the city’s early reform-era energy.'],
+        ['Talent Park', 'Modern Waterfront', 'Skyline views, architecture, Bay Area atmosphere and a softer evening route.'],
+        ['Old City Layers', 'Local Context', 'Older streets and the story of how a fishing-town border area became a global city.'],
+        ['Construction Origin', 'City Story', 'The symbolic places connected with the beginning of modern Shenzhen’s rapid development.'],
+        ['Light Show', 'Evening Highlight', 'Civic Center and skyline lights when the schedule and weather work.'],
+        ['Drone Show', 'Premium Timing', 'Drone-show evenings when available, plus the best nearby viewpoints and timing.']
+      ]
+    },
     'first-time': {
       title: 'First Time in China',
       text: 'A strong first route with classic skyline views, cinematic nature and one of China’s most unusual megacities.',
@@ -1996,6 +2020,38 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const routeModalCopy = {
+    'shenzhen-guide': {
+      en: {
+        why: 'For travelers who want to understand Shenzhen as a living city, not just a tech skyline: Shekou, old city roots, waterfront planning, light shows, drone shows and Ilya’s personal China context.',
+        logic: 'Usually built as a one-day private city walkthrough with Ilya: start with the story of how modern Shenzhen began, move through Shekou and the older urban layer, continue to Talent Park and finish with evening lights when available.',
+        see: 'Shekou, Talent Park, old city layers, the place connected with the beginning of modern Shenzhen’s rapid development, waterfront views, Civic Center light show, drone-show areas, tech districts and business districts when timing fits.',
+        add: 'Personal accompaniment by Ilya, photo stops, restaurant or rooftop with a view, transfer, on-site translation support, business context or an add-on to Guangzhou/Hong Kong.'
+      },
+      ru: {
+        why: 'Для тех, кто хочет понять Шэньчжэнь не как “город небоскрёбов”, а как живой феномен: Шэкоу, старые городские слои, waterfront, световое шоу, дрон-шоу и мой личный контекст жизни в Китае.',
+        logic: 'Обычно это однодневный city walkthrough с сопровождением Ильи: начинаем с истории современного Шэньчжэня, идём через Шэкоу и старый городской слой, продолжаем в Talent Park и заканчиваем вечерними огнями, если позволяет расписание.',
+        see: 'Шэкоу, Talent Park, старый город, место, связанное с началом быстрого строительства современного Шэньчжэня, waterfront, световое шоу у Civic Center, зоны дрон-шоу, tech-районы и business districts по таймингу.',
+        add: 'Личное сопровождение Ильи, фото-точки, ресторан или rooftop с видом, трансфер, поддержка с переводом на месте, деловой контекст или продолжение в Гуанчжоу/Гонконг.'
+      },
+      es: {
+        why: 'Para entender Shenzhen como una ciudad viva, no solo como un skyline tecnológico: Shekou, capas antiguas de la ciudad, waterfront, show de luces, drones y el contexto personal de Ilya viviendo en China.',
+        logic: 'Normalmente se plantea como un recorrido privado de un día con Ilya: empezar con la historia de cómo nació el Shenzhen moderno, pasar por Shekou y capas urbanas antiguas, seguir por Talent Park y terminar con luces nocturnas si el horario lo permite.',
+        see: 'Shekou, Talent Park, capas antiguas de la ciudad, el punto vinculado al inicio del desarrollo moderno de Shenzhen, waterfront, show de luces del Civic Center, zonas de drones, distritos tech y business districts según el timing.',
+        add: 'Acompañamiento personal de Ilya, paradas para fotos, restaurante o rooftop con vistas, transfer, apoyo de traducción in situ, contexto de negocios o extensión a Guangzhou/Hong Kong.'
+      },
+      pt: {
+        why: 'Para entender Shenzhen como uma cidade viva, não apenas como um skyline tecnológico: Shekou, camadas antigas da cidade, waterfront, show de luzes, drones e o contexto pessoal de Ilya vivendo na China.',
+        logic: 'Normalmente funciona como um walkthrough privado de um dia com Ilya: começar pela história do Shenzhen moderno, passar por Shekou e camadas urbanas antigas, seguir para Talent Park e terminar com luzes noturnas quando o horário permite.',
+        see: 'Shekou, Talent Park, camadas antigas da cidade, o local ligado ao início do desenvolvimento moderno de Shenzhen, waterfront, show de luzes do Civic Center, áreas de drones, distritos tech e business districts conforme o timing.',
+        add: 'Acompanhamento pessoal de Ilya, paradas para fotos, restaurante ou rooftop com vista, transfer, apoio de tradução no local, contexto de negócios ou extensão para Guangzhou/Hong Kong.'
+      },
+      cn: {
+        why: '适合想真正理解深圳的人：不只是科技天际线，而是蛇口、城市早期层次、海岸线规划、灯光秀、无人机表演，以及 Ilya 在中国生活的个人视角。',
+        logic: '通常设计为 Ilya 陪同的一日城市 walkthrough：从现代深圳如何开始讲起，经过蛇口和更老的城市层次，再到人才公园，最后在时间合适时安排夜景灯光。',
+        see: '蛇口、人才公园、老城区层次、与现代深圳快速发展起点相关的地点、海岸线视角、市民中心灯光秀、无人机表演区域、科技区和商务区。',
+        add: 'Ilya 个人陪同、拍照点、景观餐厅或 rooftop、接送、现场翻译支持、商务背景讲解，或延伸到广州/香港。'
+      }
+    },
     'first-time': {
       en: {
         why: 'For a first China trip that does not feel random: one elegant megacity, one surreal nature stop and one unforgettable cyber-city.',
