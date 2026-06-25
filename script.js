@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     ru: {
       title: 'Chieasy Travel — планирование путешествий и премиум-впечатления в Китае',
-      description: 'Персональные маршруты по Китаю, частные впечатления и премиальная travel-поддержка через проверенных локальных партнёров.'
+      description: 'Персональные маршруты по Китаю, частные впечатления и премиальная поддержка в поездке через проверенных локальных партнёров.'
     },
     es: {
       title: 'Chieasy Travel — viajes personalizados y experiencias premium en China',
@@ -70,12 +70,14 @@ document.addEventListener('DOMContentLoaded', () => {
       'Custom routes': 'индивидуальные маршруты',
       'Personalized': 'Персональное',
       'route planning': 'планирование маршрута',
-      'Partners across China': 'партнёры по всему Китаю',
+      'Network': 'Сеть',
+      'Partners across China': 'партнёрская координация',
+      'Local partner coordination': 'партнёрская координация по Китаю',
       'Premium': 'Премиум',
-      'Premium experiences': 'премиум-впечатления',
+      'Premium experiences': 'премиальные впечатления через партнёров',
       'Experiences coordinated through local partners': 'впечатления через локальных партнёров',
       'Need clarity before booking the full route?': 'Нужна ясность перед бронированием маршрута?',
-      'Book a focused 45-minute consultation and leave with a realistic China plan: where to go, what to avoid, which apps to prepare, how to think about transport, hotels, payments and timing.': 'Забронируйте 45-минутную консультацию и получите реалистичный план по Китаю: куда ехать, чего избегать, какие приложения подготовить, как думать о транспорте, отелях, оплате и тайминге.',
+      'Book a focused 45-minute consultation and leave with a realistic China plan: where to go, what to avoid, which apps to prepare, how to think about transport, hotels, payments and timing.': 'Забронируйте 45-минутную консультацию и получите реалистичный план по Китаю: куда ехать, чего избегать, какие приложения подготовить, как продумать транспорт, отели, оплату и время на месте.',
       'Route review': 'Разбор маршрута',
       'Payments & apps': 'Оплата и приложения',
       'Hotels & transport': 'Отели и транспорт',
@@ -192,7 +194,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Cookie notice': 'Cookie',
       'Accept': 'Принять',
       'Privacy Policy': 'Политика конфиденциальности'
-      ,'GDPR Privacy Policy': 'GDPR Privacy Policy'
+      ,'GDPR Privacy Policy': 'Политика конфиденциальности GDPR'
       ,'GDPR Consent': 'Согласие на обработку персональных данных'
       ,'Consent to Personal Data Processing': 'Согласие на обработку персональных данных'
       ,'Personal Data Consent': 'Согласие на обработку персональных данных'
@@ -202,7 +204,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ,'Public Offer': 'Публичная оферта'
       ,'Refund Policy': 'Политика возвратов'
       ,'Responsibility': 'Ответственность'
-      ,'Disclaimer': 'Disclaimer'
+      ,'Disclaimer': 'Отказ от ответственности'
       ,'Travel Participation & Risk Waiver': 'Соглашение о принятии рисков путешествия'
       ,'Travel Participation & Risk Waiver Agreement': 'Соглашение о принятии рисков путешествия'
       ,'Legal Documents': 'Юридические документы'
@@ -222,10 +224,10 @@ document.addEventListener('DOMContentLoaded', () => {
       ,'Open menu': 'Открыть меню'
       ,'Language switcher': 'Переключатель языка'
       ,'Close route details': 'Закрыть детали маршрута'
-      ,'Education and travel network': 'Образовательная и travel-сеть'
+      ,'Education and travel network': 'Образовательная и партнёрская сеть'
       ,'China travel video': 'Видео о путешествиях по Китаю'
       ,'Ilya at a travel conference in China': 'Илья на travel-конференции в Китае'
-      ,'Local': 'Сеть'
+      ,'Local': 'Партнёры'
       ,'VIP': 'VIP'
       ,'Active': 'Активный маршрут'
       ,'Custom': 'Индивидуально'
@@ -252,14 +254,13 @@ document.addEventListener('DOMContentLoaded', () => {
       ,'Travel Network': 'Партнёрская сеть'
       ,'See how we talk about China before you travel with us.': 'Посмотрите, как мы говорим о Китае до вашей поездки.'
       ,'Direct, practical and based on real experience living, studying and traveling across China.': 'Прямо, практично и на основе реального опыта жизни, учёбы и путешествий по Китаю.'
-      ,'Watch the video here on the site. No YouTube jump, just press play.': 'Смотрите видео прямо на сайте. Без перехода на YouTube, просто нажмите play.'
       ,'Open video if the player is blocked': 'Открыть видео, если плеер заблокирован'
       ,'Plan after watching': 'Спланировать после просмотра'
       ,'First China Trip': 'Первая поездка в Китай'
       ,'“China looks incredible, but online information feels scattered. I need a route that makes sense, not just a list of cities.”': '«Китай выглядит невероятно, но информация в интернете разрозненная. Мне нужен маршрут с логикой, а не просто список городов».'
       ,'Route idea: Shanghai → Zhangjiajie → Chongqing': 'Идея маршрута: Шанхай → Чжанцзяцзе → Чунцин'
       ,'Creator Route': 'Маршрут для контента'
-      ,'“I want cinematic places, night views and nature, but I do not know where the best viewpoints and timing are.”': '«Мне нужны кинематографичные места, ночные виды и природа, но я не знаю лучшие точки и тайминг».'
+      ,'“I want cinematic places, night views and nature, but I do not know where the best viewpoints and timing are.”': '«Мне нужны кинематографичные места, ночные виды и природа, но я не понимаю, где лучшие точки и когда туда ехать».'
       ,'Route idea: Chongqing → Zhangjiajie → Yangshuo': 'Идея маршрута: Чунцин → Чжанцзяцзе → Яншо'
       ,'Premium Nature': 'Премиум-природа'
       ,'“We want beautiful landscapes, boutique stays and comfort, without turning the trip into a rushed checklist.”': '«Мы хотим красивые пейзажи, бутик-отели и комфорт, но без ощущения гонки по чеклисту».'
@@ -277,7 +278,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ,'Depending on location, season, availability and local provider conditions, we may help coordinate helicopter flights, horseback riding, private boat experiences, sunrise routes, special stays and creator-focused routes through local partners.': 'В зависимости от места, сезона, доступности и условий локальных провайдеров мы можем помочь с координацией полётов на вертолёте, верховой езды, частных лодочных впечатлений, маршрутов на рассвет, особенных отелей и маршрутов для контента через локальных партнёров.'
       ,'Can your team help before I arrive?': 'Может ли команда помочь до моего приезда?'
       ,'Yes. We can help with route planning, hotel areas, transport logic, WeChat and Alipay preparation, eSIM suggestions and general travel strategy.': 'Да. Мы можем помочь с маршрутом, районами отелей, транспортной логикой, подготовкой WeChat и Alipay, eSIM и общей стратегией поездки.'
-      ,'Custom China Travel Planning • Private China Experiences • Premium Travel Support • Local Partners Across China': 'Планирование путешествий по Китаю • Частные впечатления в Китае • Премиальная travel-поддержка • Локальные партнёры по всему Китаю'
+      ,'Custom China Travel Planning • Private China Experiences • Premium Travel Support • Local Partners Across China': 'Планирование путешествий по Китаю • Частные впечатления в Китае • Премиальная поддержка в поездке • Локальные партнёры по всему Китаю'
     },
     es: {
       'Home': 'Inicio',
@@ -301,6 +302,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Personalized': 'Planificación',
       'route planning': 'de ruta personalizada',
       'Partners across China': 'socios locales en China',
+      'Local partner coordination': 'coordinación con socios locales',
       'Premium': 'Premium',
       'Premium experiences': 'experiencias premium',
       'Experiences coordinated through local partners': 'experiencias coordinadas con socios locales',
@@ -410,6 +412,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Personalized': 'Planejamento',
       'route planning': 'de roteiro personalizado',
       'Partners across China': 'parceiros pela China',
+      'Local partner coordination': 'coordenação com parceiros locais',
       'Premium': 'Premium',
       'Premium experiences': 'experiências premium',
       'Experiences coordinated through local partners': 'experiências coordenadas com parceiros locais',
@@ -520,6 +523,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Personalized': '个性化',
       'route planning': '路线规划',
       'Partners across China': '中国本地合作伙伴',
+      'Local partner coordination': '本地伙伴协调',
       'Premium': '高端',
       'Premium experiences': '高端体验',
       'Experiences coordinated through local partners': '通过本地伙伴协调的体验',
@@ -611,21 +615,25 @@ document.addEventListener('DOMContentLoaded', () => {
   const EXTRA_TRANSLATIONS = {
     ru: {
       'We help travelers solve payments, routes, hotels, transport, local support and unique experiences before they arrive.': 'Мы помогаем путешественникам заранее решить вопросы оплаты, маршрута, отелей, транспорта, локальной поддержки и уникальных впечатлений.',
-      'Book a focused 45-minute consultation and leave with a realistic China plan: where to go, what to avoid, which apps to prepare, how to think about transport, hotels, payments and timing.': 'Забронируйте 45-минутную консультацию и получите реалистичный план по Китаю: куда ехать, чего избегать, какие приложения подготовить, как думать о транспорте, отелях, оплате и тайминге.',
+      'Book a focused 45-minute consultation and leave with a realistic China plan: where to go, what to avoid, which apps to prepare, how to think about transport, hotels, payments and timing.': 'Забронируйте 45-минутную консультацию и получите реалистичный план по Китаю: куда ехать, чего избегать, какие приложения подготовить, как продумать транспорт, отели, оплату и время на месте.',
       'Online call. Secure booking via Stripe.': 'Онлайн-консультация. Оплата по СБП для русскоязычной версии.',
       'After payment, message us on WhatsApp to choose a time for the call.': 'После оплаты напишите нам в WhatsApp, чтобы выбрать время звонка.',
       'These are sample route concepts. Dates, hotel areas, transport logic, trusted local partners and experience options are adjusted to your travel style.': 'Это не фиксированные групповые поездки, а сильные концепции маршрутов. Мы настраиваем города, темп, районы отелей, транспорт, локальных партнёров и впечатления под ваш стиль поездки.',
       '1 day': '1 день',
       'Founder-led city day': 'Авторский день',
       'Inside Shenzhen': 'Шэньчжэнь изнутри',
-      'One day of personal city accompaniment: reform-era Shekou, old Shenzhen, tech districts, skyline waterfront, light show and drone-show timing.': 'Авторский день по городу: Шэкоу и история реформ, старый Шэньчжэнь, технологические районы, набережные, световое шоу и расписание шоу дронов.',
+      'One day of personal city accompaniment: reform-era Shekou, old Shenzhen, tech districts, skyline waterfront, light show and drone-show timing.': 'Авторский день по городу: Шэкоу и история реформ, старый Шэньчжэнь, деловые районы, набережные, вечерние огни и шоу дронов, если оно проходит в выбранные даты.',
+      'One day of personal city accompaniment: reform-era Shekou, old Shenzhen, innovation districts, bay viewpoints, light show and drone-show schedule.': 'Авторский день по городу: Шэкоу и история реформ, старый Шэньчжэнь, деловые районы, видовые точки у залива, вечерние огни и шоу дронов, если оно проходит в выбранные даты.',
       'Open the Shenzhen day': 'Открыть программу',
       'Start': 'Старт',
       'Shekou, Sea World, reform-era story': 'Шэкоу, морской квартал и история реформ',
+      'Shekou waterfront and reform-era story': 'Шэкоу, морской квартал и история реформ',
       'Context': 'Контекст',
-      'Old Shenzhen, urban villages, tech and business logic': 'Старый Шэньчжэнь, городские деревни и логика технологического города',
+      'Old Shenzhen, urban villages, tech and business logic': 'Старый Шэньчжэнь, городские деревни и деловая логика города',
+      'Old Shenzhen, urban villages and innovation districts': 'Старый Шэньчжэнь, городские деревни и деловые районы',
       'Finale': 'Финал',
-      'Talent Park, Bay Area skyline, light and drone-show windows': 'Парк талантов, панорама Большого залива, световое шоу и возможное шоу дронов',
+      'Talent Park, Bay Area skyline, light and drone-show windows': 'Парк «Талантов», панорама Большого залива, вечерние огни и шоу дронов',
+      'Bay views, light show and drone-show schedule': 'Виды на залив, вечерние огни и шоу дронов',
       'Book this route': 'Забронировать маршрут',
       'Name': 'Имя',
       'Phone': 'Телефон',
@@ -645,7 +653,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Qingdao → Chongqing → Shenzhen → Hong Kong. Neon cities, layered roads and future-facing China.': 'Циндао → Чунцин → Шэньчжэнь → Гонконг. Неоновые города, многоуровневые дороги и Китай будущего.',
       'Deserts, mountains, bazaars and some of the most spectacular roads in Asia.': 'Пустыни, горы, базары и одни из самых зрелищных дорог Азии.',
       'Grasslands, horses, yurts, sunsets and a completely different side of China.': 'Степи, лошади, юрты, закаты и совершенно другой Китай.',
-      'Locations for reels, YouTube, photography, drone-style shots and cinematic travel content.': 'Локации для reels, YouTube, фотографии, дрон-кадров и кинематографичного travel-контента.',
+      'Locations for reels, YouTube, photography, drone-style shots and cinematic travel content.': 'Локации для коротких видео, YouTube, фотографии, кадров с высоты и кинематографичного контента о путешествии.',
       'Guangzhou → Chengdu → Xi\'an. Cantonese food, Sichuan spice, markets and unexpected flavors.': 'Гуанчжоу → Чэнду → Сиань. Кантонская кухня, сычуаньская острота, рынки и неожиданные вкусы.',
       'Dali → Lijiang → Shangri-La. Ancient towns, snow mountains, lakes, tea culture and slower China.': 'Дали → Лицзян → Шангри-Ла. Древние города, снежные горы, озёра, чай и более медленный Китай.',
       'Zhangjiajie helicopter flights on selected routes.': 'Вертолётные полёты в Чжанцзяцзе на выбранных маршрутах.',
@@ -896,7 +904,6 @@ document.addEventListener('DOMContentLoaded', () => {
       'Recent cooperation with Ctrip and travel conferences helps us see new routes, hotels and experience formats before they become obvious.': 'La cooperación reciente con Ctrip y conferencias de turismo nos ayuda a ver nuevas rutas, hoteles y formatos de experiencia antes de que sean obvios.',
       'See how we talk about China before you travel with us.': 'Mira cómo hablamos de China antes de viajar con nosotros.',
       'Direct, practical and based on real experience living, studying and traveling across China.': 'Directo, práctico y basado en experiencia real viviendo, estudiando y viajando por China.',
-      'Watch the video here on the site. No YouTube jump, just press play.': 'Mira el video aquí mismo, sin salir del sitio. Solo pulsa play.',
       'Plan after watching': 'Planificar después del video',
       'Open on YouTube': 'Abrir en YouTube',
       'First China Trip': 'Primer viaje a China',
@@ -1033,7 +1040,6 @@ document.addEventListener('DOMContentLoaded', () => {
       'Recent cooperation with Ctrip and travel conferences helps us see new routes, hotels and experience formats before they become obvious.': 'A cooperação recente com a Ctrip e conferências de turismo nos ajuda a ver novas rotas, hotéis e formatos de experiência antes de se tornarem óbvios.',
       'See how we talk about China before you travel with us.': 'Veja como falamos sobre a China antes de viajar conosco.',
       'Direct, practical and based on real experience living, studying and traveling across China.': 'Direto, prático e baseado em experiência real vivendo, estudando e viajando pela China.',
-      'Watch the video here on the site. No YouTube jump, just press play.': 'Veja o vídeo aqui mesmo, sem sair do site. Basta apertar play.',
       'Plan after watching': 'Planejar depois do vídeo',
       'Open on YouTube': 'Abrir no YouTube',
       'First China Trip': 'Primeira viagem à China',
@@ -1170,7 +1176,6 @@ document.addEventListener('DOMContentLoaded', () => {
       'Recent cooperation with Ctrip and travel conferences helps us see new routes, hotels and experience formats before they become obvious.': '近期与 Ctrip 的合作以及旅行会议让我们更早看到新的路线、酒店和体验形式。',
       'See how we talk about China before you travel with us.': '在和我们旅行前，先看看我们如何讲中国。',
       'Direct, practical and based on real experience living, studying and traveling across China.': '直接、实用，并基于在中国生活、学习和旅行的真实经验。',
-      'Watch the video here on the site. No YouTube jump, just press play.': '可以直接在网站内观看视频，不需要跳转到 YouTube，只需点击播放。',
       'Plan after watching': '看完后规划行程',
       'Open on YouTube': '在 YouTube 打开',
       'First China Trip': '第一次中国旅行',
@@ -1239,8 +1244,10 @@ document.addEventListener('DOMContentLoaded', () => {
     ru: {
       'Custom China Travel Planning & Private Experiences': 'Планирование маршрутов и частные впечатления в Китае',
       'FAQ': 'Вопросы',
-      'Local': 'Сеть',
-      'Partners across China': 'партнёров по Китаю',
+      'Local': 'Партнёры',
+      'Network': 'Сеть',
+      'Partners across China': 'партнёрская координация',
+      'Local partner coordination': 'партнёрская координация по Китаю',
       'Active': 'Активный маршрут',
       'Swipe sideways': 'Листайте карточки',
       'Chieasy Online School': 'Онлайн-школа Chieasy',
@@ -1251,7 +1258,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Discover the China Most Travelers Never See': 'Китай,\nкоторый не найти\nв шаблонном маршруте',
       'Custom routes, private China experiences and premium travel support across China — designed by a team with 12 years of real China experience and coordinated through trusted local partners.': 'Индивидуальные маршруты, частные впечатления и премиальная поддержка по Китаю — с командой, которая знает страну изнутри и координирует детали через проверенных локальных партнёров.',
       'Not a standard group trip. A smarter China route.': 'Не стандартная групповая поездка. Персональный маршрут с логикой, комфортом и вкусом.',
-      'We help travelers solve payments, routes, hotels, transport, local support and unique experiences before they arrive.': 'Мы заранее собираем всю систему поездки: маршрут, отели, транспорт, оплату, локальные контакты и впечатления, ради которых действительно стоит лететь в Китай.',
+      'We help travelers solve payments, routes, hotels, transport, local support and unique experiences before they arrive.': 'Мы заранее собираем всю систему поездки: маршрут, отели, транспорт, оплату, партнёрскую поддержку на местах и впечатления, ради которых действительно стоит лететь в Китай.',
       'China Consultation': 'Частная консультация по Китаю',
       'Route logic, apps, payments, hotels, transport and first-trip questions.': 'Маршрут, приложения, оплата, отели, транспорт и решения, которые экономят время и нервы до поездки.',
       'Book now': 'Оплатить по СБП',
@@ -1259,7 +1266,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'After payment, message us on WhatsApp to choose a time for the call.': 'После оплаты напишите нам в WhatsApp, чтобы выбрать удобное время консультации.',
       'Book consultation': 'Разбор поездки',
       'Need clarity before booking the full route?': 'Хотите понять Китай до того, как бронировать поездку?',
-      'Book a focused 45-minute consultation and leave with a realistic China plan: where to go, what to avoid, which apps to prepare, how to think about transport, hotels, payments and timing.': 'За 45 минут разберём вашу поездку как travel-консьерж: куда ехать, что исключить, какие приложения подготовить, где жить, как двигаться между городами и как не потерять время на месте.',
+      'Book a focused 45-minute consultation and leave with a realistic China plan: where to go, what to avoid, which apps to prepare, how to think about transport, hotels, payments and timing.': 'За 45 минут разберём вашу поездку как персональный маршрутный разбор: куда ехать, что исключить, какие приложения подготовить, где жить, как двигаться между городами и как не потерять время на месте.',
       'The consultation has a fixed price. Full route planning and premium experiences are quoted individually after dates, cities, hotel level and support needs are clear.': 'У консультации фиксированная стоимость. Полный маршрут и премиальные впечатления рассчитываются индивидуально после понимания дат, городов, уровня отелей и нужной поддержки.',
       'Route review': 'Аудит маршрута',
       'Payments & apps': 'Оплата и приложения',
@@ -1527,7 +1534,79 @@ document.addEventListener('DOMContentLoaded', () => {
       'Plan my China route': 'Спланировать маршрут',
       'View route ideas': 'Смотреть маршруты',
       'What happens next': 'Что будет дальше',
-      'We review your answers, suggest the next step and contact you to confirm the route format.': 'Мы посмотрим ответы, предложим следующий шаг и свяжемся с вами, чтобы уточнить формат маршрута.'
+      'We review your answers, suggest the next step and contact you to confirm the route format.': 'Мы посмотрим ответы, предложим следующий шаг и свяжемся с вами, чтобы уточнить формат маршрута.',
+      'Private China, designed carefully': 'Частный Китай, собранный с вниманием',
+      'China should feel cinematic, not confusing.': 'Китай должен ощущаться как большое кино, а не как хаос.',
+      'We turn the scale of China into a private route with rhythm, context and support, so every day feels intentional instead of improvised.': 'Мы превращаем масштаб Китая в частный маршрут с ритмом, контекстом и поддержкой, чтобы каждый день был продуман заранее.',
+      'Wake up above the Avatar Mountains.': 'Проснуться над горами Аватара.',
+      'Morning cliffs, glass bridges, waterfalls and quiet viewpoints arranged with realistic timing.': 'Утренние скалы, стеклянные мосты, водопады и видовые точки без гонки по расписанию.',
+      'Walk through cities that feel like the future.': 'Пройти по городам, которые выглядят как будущее.',
+      'Chongqing, Shenzhen and Shanghai with skyline routes, layered streets and night photography logic.': 'Чунцин, Шэньчжэнь и Шанхай: небоскрёбы, многоуровневые улицы и правильные точки для вечерних видов.',
+      'Taste China beyond tourist restaurants.': 'Попробовать Китай за пределами туристических ресторанов.',
+      'Regional food, markets and restaurants selected around the route instead of random stops.': 'Региональная кухня, рынки и рестораны, подобранные под маршрут, а не случайные остановки.',
+      'See places most travelers never reach.': 'Увидеть места, до которых большинство не доезжает.',
+      'Non-obvious towns, scenic transfers and slower days that make China feel personal.': 'Неочевидные города, красивые переезды и спокойные дни, где Китай становится личным.',
+      'Travel without stress, confusion or language barriers.': 'Путешествовать без стресса, путаницы и языкового барьера.',
+      'Apps, payments, hotels, transport logic and local coordination are prepared before they become problems.': 'Приложения, оплаты, отели, транспорт и координация на местах готовятся заранее.',
+      'Private China Route Atlas': 'Атлас частных маршрутов по Китаю',
+      'Choose the China you actually want to feel.': 'Выберите Китай, который хотите почувствовать.',
+      'Every direction has a different rhythm: futuristic megacities, karst rivers, Tibetan edges of Yunnan, grasslands, deserts, old capitals and high-speed city life.': 'У каждого направления свой ритм: мегаполисы будущего, карстовые реки, тибетские оттенки Юньнани, степи, пустыни, древние столицы и быстрый городской Китай.',
+      'Future China': 'Китай будущего',
+      'Shanghai · Shenzhen · Chongqing': 'Шанхай · Шэньчжэнь · Чунцин',
+      'Skylines, tech districts, neon viewpoints and the speed of modern China.': 'Небоскрёбы, технологические районы, неоновые виды и скорость современного Китая.',
+      'Nature China': 'Природный Китай',
+      'Zhangjiajie · Yangshuo · Yunnan': 'Чжанцзяцзе · Яншо · Юньнань',
+      'Cliffs, rivers, ancient towns, mountains and route timing that avoids turning beauty into a rush.': 'Скалы, реки, старые города, горы и маршрут без ощущения постоянной спешки.',
+      'Remote China': 'Дальний Китай',
+      'Xinjiang · Inner Mongolia': 'Синьцзян · Внутренняя Монголия',
+      'Open roads, grasslands, deserts and landscapes that need careful logistics and local coordination.': 'Открытые дороги, степи, пустыни и ландшафты, где особенно важны логистика и партнёрская координация.',
+      'Before / After': 'До / после',
+      'China rewards preparation. The right route can turn apps, payments, trains and language into a smooth journey instead of a daily puzzle.': 'Китай вознаграждает подготовку. Хороший маршрут превращает приложения, оплаты, поезда и язык из ежедневной головоломки в спокойную поездку.',
+      'Without planning': 'Без подготовки',
+      'China can feel harder than it should.': 'Китай может казаться сложнее, чем он есть.',
+      'Confusing Chinese apps and payment setup': 'Непонятные приложения и оплата',
+      'Wrong city order and wasted transfers': 'Нелогичный порядок городов и лишние переезды',
+      'Hotels booked in inconvenient areas': 'Отели в неудобных районах',
+      'Tourist traps and missed timing': 'Туристические ловушки и неудачно выбранное время',
+      'With Chieasy Travel': 'С Chieasy Travel',
+      'The route has rhythm before you arrive.': 'Маршрут получает ритм ещё до прилёта.',
+      'Curated route logic and realistic daily flow': 'Продуманная логика маршрута и реальный темп дней',
+      'Trusted local partners where support is needed': 'Проверенные партнёры там, где нужна поддержка',
+      'Better timing for views, food and transfers': 'Лучшее время для видов, еды и переездов',
+      'Confidence from arrival to departure': 'Спокойствие от прилёта до вылета',
+      'How We Design Your Route': 'Как мы собираем ваш маршрут',
+      'Behind every good China trip is a lot of invisible work.': 'За хорошей поездкой по Китаю всегда стоит невидимая работа.',
+      'We do the unglamorous planning before you arrive: interests, city order, hotel areas, transfers, restaurants, apps, backup options and the moments that make the trip worth remembering.': 'Мы заранее продумываем интересы, порядок городов, районы отелей, переезды, рестораны, приложения, запасные варианты и моменты, ради которых поездка запоминается.',
+      'We read your travel style.': 'Считываем ваш стиль поездки.',
+      'Nature, food, business, content, comfort level, pace and non-negotiables.': 'Природа, еда, бизнес, контент, уровень комфорта, темп и то, что нельзя упустить.',
+      'We build the route logic.': 'Собираем логику маршрута.',
+      'City order, transfer timing, hotel areas and days that do not collapse under logistics.': 'Порядок городов, переезды, районы отелей и дни, которые не разваливаются из-за логистики.',
+      'We coordinate locally.': 'Координируем на местах.',
+      'Where needed, details are arranged through independent local partners and providers.': 'Где нужно, детали организуются через независимых локальных партнёров и провайдеров.',
+      'We prepare the China layer.': 'Готовим китайскую практическую часть.',
+      'Apps, payments, tickets, communication and backup choices before the trip starts.': 'Приложения, оплаты, билеты, связь и запасные решения до начала поездки.',
+      'China Reality Check': 'Что важно знать о Китае',
+      'What nobody tells you before China.': 'О чём редко предупреждают перед Китаем.',
+      'China is one of the most rewarding countries to travel through, but it is not always intuitive. We prepare the practical layer before it becomes a problem on the ground.': 'Китай может быть невероятным, но не всегда интуитивным. Мы готовим практическую часть до того, как она станет проблемой на месте.',
+      'Some global services may not work normally.': 'Часть привычных международных сервисов может работать нестабильно.',
+      'Many bookings and payments depend on Chinese apps.': 'Многие бронирования и оплаты завязаны на китайские приложения.',
+      'English is limited outside major hotels and airports.': 'Английский ограничен за пределами крупных отелей и аэропортов.',
+      'The best experiences are often not obvious online.': 'Лучшие впечатления часто не лежат на поверхности в интернете.',
+      'Some attractions need advance planning and timing.': 'Некоторые места требуют бронирования и точного времени.',
+      'Bad route order can waste entire days.': 'Неправильный порядок городов может съесть целые дни.',
+      'Experience Gallery': 'Галерея впечатлений',
+      'China in moments, not checklists.': 'Китай в моментах, а не в чек-листах.',
+      'Founder-led Shenzhen': 'Авторский Шэньчжэнь',
+      'Aerial Zhangjiajie': 'Чжанцзяцзе с воздуха',
+      'Creator Route': 'Маршрут для контента',
+      'Remote Roads': 'Дальние дороги',
+      'Yangshuo River': 'Река в Яншо',
+      'Signature Stays': 'Особенные отели',
+      'Private China starts here': 'Частный Китай начинается здесь',
+      'Ready to experience the China most travelers never see?': 'Готовы увидеть Китай, который большинство путешественников не видит?',
+      'Send your dates and travel style. We will help shape the route, remove weak ideas and build the next step around what actually matters.': 'Отправьте даты и стиль поездки. Мы поможем собрать маршрут, убрать слабые идеи и предложить следующий шаг вокруг того, что действительно важно.',
+      'Start Trip Quiz': 'Заполнить заявку',
+      'WhatsApp Our Team': 'Написать в WhatsApp'
     },
     es: {
       'Route logic before bookings': 'Lógica de ruta antes de reservar',
@@ -1875,7 +1954,7 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       content: {
         en: ['Disclaimer', 'Legal disclaimer for website information, China-specific travel conditions, third-party suppliers, visas, risks, media use and liability limits.'],
-        ru: ['Disclaimer', 'Отказ от ответственности: статус компании, независимые поставщики, визовые вопросы, транспортные риски, ограничения ответственности и форс-мажор.'],
+        ru: ['Отказ от ответственности', 'Статус сервиса, независимые поставщики, визовые вопросы, транспортные риски, ограничения ответственности и форс-мажор.'],
         es: ['Aviso legal', 'Aviso legal sobre la información del sitio, condiciones de viaje en China, proveedores externos, visados, riesgos, uso de medios y límites de responsabilidad.'],
         pt: ['Aviso legal', 'Aviso legal sobre informações do site, condições de viagem na China, fornecedores terceiros, vistos, riscos, uso de mídia e limites de responsabilidade.'],
         cn: ['免责声明', '关于网站信息、中国旅行条件、第三方供应商、签证、风险、媒体使用及责任限制的法律免责声明。']
@@ -2152,22 +2231,22 @@ document.addEventListener('DOMContentLoaded', () => {
         add: 'Rooftop dinner or restaurant with a view|Premium car transfer|Photo/video focused timing|Business or innovation angle|On-site translation support|Hong Kong, Guangzhou or tech-market extension'
       },
       ru: {
-        why: 'Авторский день по Шэньчжэню для тех, кто хочет увидеть город с контекстом: реформы, старые районы, технологическую логику, набережные и вечерний город-шоу.',
-        logic: 'Шэкоу и морской квартал — спокойный старт у воды|Старый Шэньчжэнь или Наньтоу — город до небоскрёбов|Районы технологий, дизайна и бизнеса — как устроен современный Шэньчжэнь|Парк талантов, залив Шэньчжэня или Гражданский центр — закат, световое шоу и расписание шоу дронов',
-        see: 'Шэкоу и морской квартал|Наньтоу или другой исторический район|Места, связанные с реформами и быстрым строительством города|Районы технологий и дизайна с контекстом про инновации|Парк талантов, залив Шэньчжэня и видовые точки у Гражданского центра',
-        add: 'Ужин на террасе или в ресторане с видом|Комфортный трансфер на автомобиле|Маршрут под фото и видео|Деловой фокус или разбор инновационной среды|Поддержка с переводом на месте|Продолжение маршрута в Гонконг, Гуанчжоу или на рынок электроники'
+        why: 'Авторский день по Шэньчжэню для тех, кто хочет увидеть город глубже: реформы, старые районы, деловую среду, набережные и вечерние панорамы.',
+        logic: 'Шэкоу и морской квартал — мягкий старт у воды и история открытия Китая|Старый Шэньчжэнь или Наньтоу — город до небоскрёбов|Современные деловые районы — как Шэньчжэнь стал городом скорости, технологий и предпринимательства|Парк «Талантов», залив Шэньчжэня или Гражданский центр — закат, вечерние огни и шоу дронов, если оно проходит в выбранные даты',
+        see: 'Шэкоу и морской квартал|Наньтоу или другой исторический район|Точки, связанные с реформами и быстрым строительством города|Современные деловые кварталы с понятным контекстом|Парк «Талантов», залив Шэньчжэня и видовые точки у Гражданского центра',
+        add: 'Ужин в панорамном ресторане|Комфортный трансфер на автомобиле|Маршрут с акцентом на визуальную съёмку|Более глубокий разбор деловой среды города|Сопровождение с переводом на месте|Продолжение маршрута в Гонконг, Гуанчжоу или к профессиональным рынкам электроники'
       },
       es: {
         why: 'Un día de Shenzhen con contexto: reformas, capas antiguas, lógica tech, waterfront skyline y la ciudad-espectáculo de noche.',
         logic: 'Shekou y Sea World como inicio suave junto al agua|Shenzhen antiguo o Nantou para ver la ciudad antes del skyline|Distritos tech, diseño y negocios para entender el Shenzhen actual|Talent Park, Shenzhen Bay o Civic Center para atardecer, luces y drones',
         see: 'Shekou y Sea World|Nantou u otra capa urbana antigua|Puntos ligados a las reformas y al crecimiento rápido|Distritos tech/design y contexto de innovación|Talent Park, Shenzhen Bay y miradores del Civic Center',
-        add: 'Cena en rooftop o restaurante con vistas|Transfer premium|Timing para foto/video|Enfoque business/innovation|Apoyo de traducción en sitio|Extensión a Hong Kong, Guangzhou o tech-market'
+        add: 'Cena en terraza o restaurante con vistas|Transfer premium|Horario pensado para foto y video|Enfoque empresarial e innovación|Apoyo de traducción en sitio|Extensión a Hong Kong, Guangzhou o mercados tecnológicos'
       },
       pt: {
         why: 'Um dia em Shenzhen com contexto: reformas, camadas antigas, lógica tech, waterfront skyline e a cidade-espetáculo à noite.',
         logic: 'Shekou e Sea World como início leve junto à água|Shenzhen antigo ou Nantou para ver a cidade antes do skyline|Distritos tech, design e negócios para entender Shenzhen hoje|Talent Park, Shenzhen Bay ou Civic Center para pôr do sol, luzes e drones',
         see: 'Shekou e Sea World|Nantou ou outra camada urbana antiga|Pontos ligados às reformas e ao crescimento acelerado|Distritos tech/design e contexto de inovação|Talent Park, Shenzhen Bay e mirantes do Civic Center',
-        add: 'Jantar em rooftop ou restaurante com vista|Transfer premium|Timing para foto/vídeo|Foco business/innovation|Apoio de tradução no local|Extensão para Hong Kong, Guangzhou ou tech-market'
+        add: 'Jantar em terraço ou restaurante com vista|Transfer premium|Horário pensado para foto e vídeo|Foco em negócios e inovação|Apoio de tradução no local|Extensão para Hong Kong, Guangzhou ou mercados tecnológicos'
       },
       cn: {
         why: '适合想带着背景理解深圳的人：改革故事、老城层次、科技逻辑、湾区天际线和夜晚城市秀。',
@@ -2187,7 +2266,7 @@ document.addEventListener('DOMContentLoaded', () => {
         why: 'Для первого путешествия по Китаю без хаоса: один сильный мегаполис, одна сюрреалистичная природа и один город, который запоминается надолго.',
         logic: 'Сначала мягкий вход через Шанхай, затем природа Чжанцзяцзе, после этого Чунцин, когда вы уже привыкли к темпу Китая.',
         see: 'Бунд, Луцзяцзуй, Французская концессия, парк Чжанцзяцзе, Тяньмэньшань, Фужун и ночные виды Чунцина.',
-        add: 'Ночной круиз в Чунцине, водителя в Чжанцзяцзе, гастро-вечер в Шанхае, hotpot, отель с видом или день под фото.'
+        add: 'Ночной круиз в Чунцине, водителя в Чжанцзяцзе, гастро-вечер в Шанхае, китайский хотпот, отель с видом или день под фото.'
       }
     },
     avatar: {
@@ -2228,7 +2307,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ru: {
         why: 'Чтобы увидеть юг Китая в одном маршруте: энергию Гонконга, контраст Макао, еду Гуанчжоу и футуризм Шэньчжэня.',
         logic: 'Передвигаемся по дельте Жемчужной реки короткими переездами, чтобы поездка была насыщенной, но без тяжелой логистики.',
-        see: 'Гавань Гонконга, старые улицы Макао, гастро-районы Гуанчжоу, Canton Tower, креативные парки Шэньчжэня и виды у моря.',
+        see: 'Гавань Гонконга, старые улицы Макао, гастро-районы Гуанчжоу, Кантонская башня, креативные парки Шэньчжэня и виды у моря.',
         add: 'Премиальные рестораны, деловые встречи, съёмки на фоне городских панорам, парки развлечений, водителя между городами или вечер в Макао.'
       }
     },
@@ -2257,7 +2336,7 @@ document.addEventListener('DOMContentLoaded', () => {
         why: 'Для активного путешествия через священные горы, храмовые маршруты, рассветы и китайскую культуру восхождений.',
         logic: 'Здесь особенно важен темп: горные дни, отдых и переезды нужно собрать так, чтобы маршрут был сильным, но не выматывающим.',
         see: 'Рассвет на Тайшане, скалы Хуашаня, Суншань и район Шаолиня, храмы Хэншаня и при желании Висячий храм.',
-        add: 'Рассветные выезды, трансферы между базами гор, более лёгкие scenic-дни, отели для восстановления или день под фото.'
+        add: 'Рассветные выезды, трансферы между горными базами, более лёгкие обзорные дни, отели для восстановления или день под фото.'
       }
     },
     megacities: {
@@ -2271,7 +2350,7 @@ document.addEventListener('DOMContentLoaded', () => {
         why: 'Для тех, кто хочет увидеть Китай как футуристичный ночной город: неон, многоуровневые дороги, небоскрёбы, мосты и плотную энергию.',
         logic: 'Маршрут строится вокруг вечерних видов и сильных городских контрастов, чтобы каждая остановка давала другой визуальный эффект.',
         see: 'Ночной Чунцин, Хунъя Дун, Лицзыба, технологические районы Шэньчжэня, гавань Гонконга и морской контраст Циндао.',
-        add: 'Ночного водителя, rooftop-съёмку, hotpot-вечер, точки для дрон-кадров где разрешено, премиальный отель или бизнес-блок.'
+        add: 'Ночного водителя, съёмку на видовых террасах, вечер с китайским хотпотом, разрешённые точки для кадров с высоты, премиальный отель или деловой блок.'
       }
     },
     xinjiang: {
@@ -2282,10 +2361,10 @@ document.addEventListener('DOMContentLoaded', () => {
         add: 'Private driver, scenic picnic stops, drone-style viewpoints where allowed, special stays, food markets or a longer Silk Road extension.'
       },
       ru: {
-        why: 'Для настоящего road trip: длинные горизонты, пустынные дороги, бирюзовые озёра, горы, базары и атмосфера Центральной Азии.',
+        why: 'Для настоящего путешествия по дорогам: длинные горизонты, пустынные трассы, бирюзовые озёра, горы, базары и атмосфера Центральной Азии.',
         logic: 'Здесь важно меньше случайных остановок и умнее дни в дороге: расстояния большие, а сами переезды — часть впечатления.',
         see: 'Урумчи, Кашгар, озеро Сайрам, Канас, дороги Тяньшаня, Турфан, базары, пустынные участки и горные перевалы.',
-        add: 'Приватного водителя, пикники на красивых точках, дрон-локации где разрешено, особенные отели, рынки еды или Silk Road extension.'
+        add: 'Приватного водителя, пикники в красивых местах, разрешённые точки для съёмки с высоты, особенные отели, рынки еды или расширение по Шёлковому пути.'
       }
     },
     mongolia: {
@@ -2297,8 +2376,8 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       ru: {
         why: 'Для простора, степей, лошадей, юрт, огромного неба и более спокойного северного Китая, совсем не похожего на мегаполисы.',
-        logic: 'Маршрут лучше делать медленным и scenic: базовый город, степные переезды, правильное время заката и запас под погоду.',
-        see: 'Хух-Хото, степи Силамужэнь или Хулунбуир, юрты, места для верховой езды, Эргуна, пустынное расширение и border-town атмосферу.',
+        logic: 'Маршрут лучше делать медленным и обзорным: базовый город, степные переезды, правильное время заката и запас под погоду.',
+        see: 'Хух-Хото, степи Силамужэнь или Хулунбуир, юрты, места для верховой езды, Эргуна, пустынное расширение и атмосферу приграничных городов.',
         add: 'Катание на лошадях, ночь в юрте, ужин на закате, водителя, лёгкое расширение в пустыню или день для красивой съёмки.'
       }
     },
@@ -2310,10 +2389,10 @@ document.addEventListener('DOMContentLoaded', () => {
         add: 'Local production support, private driver, early-morning access, styling-friendly hotels, drone-style route planning or vertical-video shot lists.'
       },
       ru: {
-        why: 'Для тех, кому нужны локации, которые работают в кадре: кибер-ночи, rooftop-точки, горы, реки, старые города и контрасты.',
+        why: 'Для тех, кому нужны локации, которые работают в кадре: кибер-ночи, видовые террасы, горы, реки, старые города и контрасты.',
         logic: 'Маршрут планируется вокруг света, времени, перемещений и запасных локаций, а не просто вокруг списка городов.',
-        see: 'Неоновый Чунцин, скалы Чжанцзяцзе, реку Яншо, контраст Шанхая, старые города и сильные ночные viewpoints.',
-        add: 'Локальную production-поддержку, водителя, ранние выезды, отели под образ, planning под drone-style кадры или shot list для reels.'
+        see: 'Неоновый Чунцин, скалы Чжанцзяцзе, реку Яншо, контраст Шанхая, старые города и сильные ночные видовые точки.',
+        add: 'Локальную помощь со съёмкой, водителя, ранние выезды, отели под образ, план точек для кадров с высоты или список вертикальных кадров.'
       }
     },
     'food-culture': {
@@ -2324,10 +2403,10 @@ document.addEventListener('DOMContentLoaded', () => {
         add: 'Private food walk, premium dinner, market morning, tea experience, cooking class or hotel areas selected around food districts.'
       },
       ru: {
-        why: 'Чтобы понять Китай через еду: dim sum, hotpot, лапшу, рынки, чайные дома и привычки разных регионов.',
+        why: 'Чтобы понять Китай через еду: димсам, китайский хотпот, лапшу, рынки, чайные дома и привычки разных регионов.',
         logic: 'Собираем города с разными гастро-системами, чтобы в каждом месте менялась не только городская панорама, но и сам стол.',
-        see: 'Dim sum в Гуанчжоу, hotpot и чайные Чэнду, мусульманский квартал Сианя, рынки, локальные закуски и региональные рестораны.',
-        add: 'Гастро-прогулку, премиальный ужин, утренний рынок, чайный опыт, cooking class или отели рядом с сильными food districts.'
+        see: 'Димсам в Гуанчжоу, хотпот и чайные Чэнду, мусульманский квартал Сианя, рынки, локальные закуски и региональные рестораны.',
+        add: 'Гастро-прогулку, премиальный ужин, утренний рынок, чайный опыт, кулинарный мастер-класс или отели рядом с сильными гастро-районами.'
       }
     },
     yunnan: {
