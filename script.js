@@ -225,7 +225,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ,'Education and travel network': 'Образовательная и travel-сеть'
       ,'China travel video': 'Видео о путешествиях по Китаю'
       ,'Ilya at a travel conference in China': 'Илья на travel-конференции в Китае'
-      ,'Local': 'Свои'
+      ,'Local': 'Сеть'
       ,'VIP': 'VIP'
       ,'Active': 'Активный маршрут'
       ,'Custom': 'Индивидуально'
@@ -1239,8 +1239,8 @@ document.addEventListener('DOMContentLoaded', () => {
     ru: {
       'Custom China Travel Planning & Private Experiences': 'Планирование маршрутов и частные впечатления в Китае',
       'FAQ': 'Вопросы',
-      'Local': 'Свои',
-      'Partners across China': 'контакты по всему Китаю',
+      'Local': 'Сеть',
+      'Partners across China': 'партнёров по Китаю',
       'Active': 'Активный маршрут',
       'Swipe sideways': 'Листайте карточки',
       'Chieasy Online School': 'Онлайн-школа Chieasy',
