@@ -1518,6 +1518,53 @@ document.addEventListener('DOMContentLoaded', () => {
     Object.assign(TRANSLATIONS[lang], PREMIUM_COPY_TRANSLATIONS[lang]);
   });
 
+  const FINAL_POLISH_TRANSLATIONS = {
+    ru: {
+      'Route logic before bookings': 'Логика маршрута до бронирований',
+      'Local partner coordination': 'Координация через локальных партнёров',
+      'Premium support when needed': 'Премиум-поддержка там, где нужна',
+      'Planning highlights': 'Ключевые преимущества планирования',
+      'Plan my China route': 'Спланировать маршрут',
+      'View route ideas': 'Смотреть маршруты',
+      'What happens next': 'Что будет дальше',
+      'We review your answers, suggest the next step and contact you to confirm the route format.': 'Мы посмотрим ответы, предложим следующий шаг и свяжемся с вами, чтобы уточнить формат маршрута.'
+    },
+    es: {
+      'Route logic before bookings': 'Lógica de ruta antes de reservar',
+      'Local partner coordination': 'Coordinación con socios locales',
+      'Premium support when needed': 'Apoyo premium cuando hace falta',
+      'Planning highlights': 'Puntos clave de planificación',
+      'Plan my China route': 'Planificar mi ruta por China',
+      'View route ideas': 'Ver ideas de ruta',
+      'What happens next': 'Qué pasa después',
+      'We review your answers, suggest the next step and contact you to confirm the route format.': 'Revisamos tus respuestas, sugerimos el siguiente paso y te contactamos para confirmar el formato de la ruta.'
+    },
+    pt: {
+      'Route logic before bookings': 'Lógica do roteiro antes das reservas',
+      'Local partner coordination': 'Coordenação com parceiros locais',
+      'Premium support when needed': 'Apoio premium quando necessário',
+      'Planning highlights': 'Pontos-chave do planejamento',
+      'Plan my China route': 'Planejar minha rota pela China',
+      'View route ideas': 'Ver ideias de roteiro',
+      'What happens next': 'O que acontece depois',
+      'We review your answers, suggest the next step and contact you to confirm the route format.': 'Analisamos suas respostas, sugerimos o próximo passo e entramos em contacto para confirmar o formato do roteiro.'
+    },
+    cn: {
+      'Route logic before bookings': '预订前先理清路线逻辑',
+      'Local partner coordination': '通过本地伙伴协调',
+      'Premium support when needed': '需要时提供高端支持',
+      'Planning highlights': '规划亮点',
+      'Plan my China route': '规划我的中国路线',
+      'View route ideas': '查看路线灵感',
+      'What happens next': '接下来会怎样',
+      'We review your answers, suggest the next step and contact you to confirm the route format.': '我们会查看你的回答，建议下一步，并联系你确认路线形式。'
+    }
+  };
+
+  Object.keys(FINAL_POLISH_TRANSLATIONS).forEach(lang => {
+    Object.assign(TRANSLATIONS[lang], FINAL_POLISH_TRANSLATIONS[lang]);
+  });
+
   const PLACEHOLDER_TRANSLATIONS = {
     ru: {
       'Month / exact dates': 'Месяц / точные даты',
@@ -2082,6 +2129,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const routeModal = document.getElementById('routeModal');
   const routeModalTitle = document.getElementById('routeModalTitle');
   const routeModalText = document.getElementById('routeModalText');
+  const routeModalVisual = document.getElementById('routeModalVisual');
   const routePlaceGrid = document.getElementById('routePlaceGrid');
   const routeBookingToggle = document.getElementById('routeBookingToggle');
   const routeBookingForm = document.getElementById('routeBookingForm');
@@ -2321,6 +2369,11 @@ document.addEventListener('DOMContentLoaded', () => {
     closeLegalModal();
     routeModalTitle.textContent = routeTitle;
     routeModalText.textContent = copy.why;
+    if (routeModalVisual) {
+      const card = document.querySelector(`.route-card[data-route="${routeKey}"]`);
+      const cardImage = card?.style.getPropertyValue('--bg') || '';
+      routeModalVisual.style.setProperty('--route-modal-bg', cardImage || 'linear-gradient(135deg,#2b1a12,#d84a2a)');
+    }
     if (routeBookingForm) {
       routeBookingForm.reset();
       routeBookingForm.hidden = true;

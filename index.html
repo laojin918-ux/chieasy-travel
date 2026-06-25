@@ -78,10 +78,15 @@
         <p class="eyebrow light">Custom China Travel Planning & Private Experiences</p>
         <h1>Discover the China Most Travelers Never See</h1>
         <p class="lead">Custom routes, private China experiences and premium travel support across China — designed by a team with 12 years of real China experience and coordinated through trusted local partners.</p>
+        <div class="hero-proof-row" aria-label="Planning highlights">
+          <span>Route logic before bookings</span>
+          <span>Local partner coordination</span>
+          <span>Premium support when needed</span>
+        </div>
         <div class="hero-actions">
-          <a class="btn primary" href="#quiz">Plan My Trip</a>
+          <a class="btn primary" href="#quiz">Plan my China route</a>
           <a class="btn consult" href="#consultation" data-price-text="hero-cta">45-min Consultation · €149</a>
-          <a class="btn secondary" href="#routes">Explore Routes</a>
+          <a class="btn secondary" href="#routes">View route ideas</a>
         </div>
       </div>
 
@@ -196,9 +201,14 @@
       <div class="route-modal-backdrop" data-close-route-modal></div>
       <div class="route-modal-panel" role="dialog" aria-modal="true" aria-labelledby="routeModalTitle">
         <button class="route-modal-close" type="button" aria-label="Close route details" data-close-route-modal>×</button>
-        <p class="eyebrow">Popular Places</p>
-        <h3 id="routeModalTitle">Route highlights</h3>
-        <p id="routeModalText"></p>
+        <div class="route-modal-top">
+          <div class="route-modal-copy">
+            <p class="eyebrow">Popular Places</p>
+            <h3 id="routeModalTitle">Route highlights</h3>
+            <p id="routeModalText"></p>
+          </div>
+          <div class="route-modal-visual" id="routeModalVisual" aria-hidden="true"></div>
+        </div>
         <div class="route-place-grid" id="routePlaceGrid"></div>
         <form name="route-booking-request" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="bot-field" class="route-booking-form" id="routeBookingForm" hidden>
           <input type="hidden" name="form-name" value="route-booking-request" />
@@ -438,6 +448,10 @@
         <label>WhatsApp / Telegram<input type="text" name="messenger" placeholder="+1..., @username..."></label>
         <label class="consent-check"><input type="checkbox" name="personal-data-consent" value="yes" required><span>I consent to the processing of my personal data.</span></label>
         <a class="legal-inline-link" href="assets/legal/personal-data-consent-ru.html" data-legal-key="consent">Read personal data consent</a>
+        <div class="quiz-submit-note">
+          <strong>What happens next</strong>
+          <p>We review your answers, suggest the next step and contact you to confirm the route format.</p>
+        </div>
       </div>
 
       <div class="quiz-controls">
