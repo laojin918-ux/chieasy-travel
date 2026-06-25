@@ -2590,6 +2590,36 @@ body.menu-open{
   font-size:24px;
   line-height:1.08;
 }
+.route-place p{
+  font-size:17px;
+  line-height:1.52;
+}
+.route-place-list{
+  display:grid;
+  gap:11px;
+  margin:16px 0 0;
+  padding:0;
+  list-style:none;
+}
+.route-place-list li{
+  position:relative;
+  padding-left:18px;
+  color:var(--muted);
+  font-size:16.5px;
+  line-height:1.42;
+}
+.route-place-list li:before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:.68em;
+  width:7px;
+  height:7px;
+  border-radius:50%;
+  background:var(--orange);
+  box-shadow:0 0 0 5px rgba(216,74,42,.08);
+  transform:translateY(-50%);
+}
 .route-modal-actions .btn,
 .route-booking-submit .btn{
   min-width:190px;
@@ -2640,6 +2670,13 @@ body.menu-open{
   }
   .route-place{
     min-height:auto;
+    padding:20px;
+  }
+  .route-place-list{
+    gap:9px;
+  }
+  .route-place-list li{
+    font-size:15.5px;
   }
 }
 @media(max-width:640px){

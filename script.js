@@ -2146,34 +2146,34 @@ document.addEventListener('DOMContentLoaded', () => {
   const routeModalCopy = {
     'shenzhen-guide': {
       en: {
-        why: 'For travelers who want to understand Shenzhen from the inside: not only skyscrapers, but the reform story, port culture, urban villages, tech logic, Bay Area ambition and the evening city show.',
-        logic: 'A founder-led city day built around context, not a standard sightseeing loop. Start with Shekou and the opening-up story, move through old Shenzhen or Nantou, add tech, design and business context, then finish with Talent Park, Shenzhen Bay, light-show and drone-show timing when available.',
-        see: 'Shekou, Sea World, old city layers, Nantou or another historical urban stop, the place associated with Shenzhen’s rapid development, tech/design districts, Talent Park, Shenzhen Bay, Civic Center light show and drone-show viewpoints.',
-        add: 'Rooftop dinner, premium car transfer, photographer-style route, business/innovation angle, translation support on site, restaurant booking, Hong Kong/Guangzhou continuation or a deeper tech-market extension.'
+        why: 'A founder-led city day for travelers who want Shenzhen with context: reform history, old city layers, tech logic, waterfront skyline and the evening show.',
+        logic: 'Shekou and Sea World as a soft waterfront start|Old Shenzhen or Nantou for the city before the skyline|Tech, design and business districts to read modern Shenzhen|Talent Park, Shenzhen Bay or Civic Center for sunset, light show and drone-show timing',
+        see: 'Shekou and Sea World|Nantou or another old urban layer|A reform-era landmark or rapid-development viewpoint|Tech/design districts and innovation context|Talent Park, Shenzhen Bay and Civic Center viewpoints',
+        add: 'Rooftop dinner or restaurant with a view|Premium car transfer|Photo/video focused timing|Business or innovation angle|On-site translation support|Hong Kong, Guangzhou or tech-market extension'
       },
       ru: {
-        why: 'Для тех, кто хочет понять Шэньчжэнь изнутри: не только небоскрёбы, а историю реформ, портовую культуру, urban villages, технологическую логику, амбицию Greater Bay Area и вечерний город-шоу.',
-        logic: 'Авторский день в сопровождении основателя Chieasy, построенный вокруг контекста, а не стандартного осмотра. Начинаем с Шэкоу и истории открытия Китая, идём через старый Шэньчжэнь или Наньтоу, добавляем tech/design и бизнес-контекст, затем заканчиваем Talent Park, Shenzhen Bay, световым шоу и дрон-шоу, если подходит расписание.',
-        see: 'Шэкоу, Sea World, старые городские слои, Наньтоу или другой исторический городской район, точки, связанные с быстрым строительством Шэньчжэня, tech/design districts, Talent Park, Shenzhen Bay, световое шоу у Civic Center и видовые точки для дрон-шоу.',
-        add: 'Ужин на rooftop или в ресторане с видом, премиальный трансфер, маршрут под фото/видео, business/innovation-акцент, поддержка с переводом на месте, бронирование ресторана, продолжение в Гонконг/Гуанчжоу или более глубокий tech-market блок.'
+        why: 'Авторский день по Шэньчжэню для тех, кто хочет увидеть город с контекстом: реформы, старые районы, tech-логику, waterfront и вечерний город-шоу.',
+        logic: 'Шэкоу и Sea World — мягкий старт у воды|Старый Шэньчжэнь или Наньтоу — город до небоскрёбов|Tech, design и бизнес-районы — как устроен современный ШЖ|Talent Park, Shenzhen Bay или Civic Center — закат, световое шоу и тайминг дрон-шоу',
+        see: 'Шэкоу и Sea World|Наньтоу или другой старый городской слой|Точки, связанные с реформами и быстрым строительством|Tech/design districts и инновационный контекст|Talent Park, Shenzhen Bay и видовые точки Civic Center',
+        add: 'Rooftop-ужин или ресторан с видом|Премиальный трансфер|Маршрут под фото/видео|Business/innovation-акцент|Поддержка с переводом на месте|Продолжение в Гонконг, Гуанчжоу или tech-market'
       },
       es: {
-        why: 'Para entender Shenzhen desde dentro: no solo rascacielos, sino historia de reformas, cultura portuaria, urban villages, lógica tecnológica, ambición del Greater Bay Area y la ciudad-espectáculo de noche.',
-        logic: 'Un día de ciudad acompañado por el fundador, construido alrededor del contexto y no como una visita estándar. Empezamos por Shekou y la historia de apertura, seguimos por Shenzhen antiguo o Nantou, añadimos contexto tech, diseño y negocios, y terminamos con Talent Park, Shenzhen Bay, show de luces y ventanas de drones cuando sea posible.',
-        see: 'Shekou, Sea World, capas antiguas, Nantou u otro punto histórico urbano, lugares vinculados al desarrollo acelerado de Shenzhen, distritos tech/design, Talent Park, Shenzhen Bay, show de luces del Civic Center y miradores para drones.',
-        add: 'Cena en rooftop, transfer premium, ruta para foto/video, enfoque business/innovation, apoyo de traducción en sitio, reserva de restaurante, extensión a Hong Kong/Guangzhou o un bloque más profundo de tech markets.'
+        why: 'Un día de Shenzhen con contexto: reformas, capas antiguas, lógica tech, waterfront skyline y la ciudad-espectáculo de noche.',
+        logic: 'Shekou y Sea World como inicio suave junto al agua|Shenzhen antiguo o Nantou para ver la ciudad antes del skyline|Distritos tech, diseño y negocios para entender el Shenzhen actual|Talent Park, Shenzhen Bay o Civic Center para atardecer, luces y drones',
+        see: 'Shekou y Sea World|Nantou u otra capa urbana antigua|Puntos ligados a las reformas y al crecimiento rápido|Distritos tech/design y contexto de innovación|Talent Park, Shenzhen Bay y miradores del Civic Center',
+        add: 'Cena en rooftop o restaurante con vistas|Transfer premium|Timing para foto/video|Enfoque business/innovation|Apoyo de traducción en sitio|Extensión a Hong Kong, Guangzhou o tech-market'
       },
       pt: {
-        why: 'Para entender Shenzhen por dentro: não apenas arranha-céus, mas história das reformas, cultura portuária, urban villages, lógica tecnológica, ambição da Greater Bay Area e a cidade-espetáculo à noite.',
-        logic: 'Um dia de cidade acompanhado pelo fundador, construído em torno de contexto e não como um passeio padrão. Começamos por Shekou e a história da abertura, seguimos por Shenzhen antigo ou Nantou, adicionamos contexto tech, design e negócios, e terminamos com Talent Park, Shenzhen Bay, show de luzes e janelas de drones quando possível.',
-        see: 'Shekou, Sea World, camadas antigas, Nantou ou outro ponto histórico urbano, locais ligados ao desenvolvimento acelerado de Shenzhen, distritos tech/design, Talent Park, Shenzhen Bay, show de luzes do Civic Center e pontos para drones.',
-        add: 'Jantar em rooftop, transfer premium, rota para foto/vídeo, foco business/innovation, apoio de tradução no local, reserva de restaurante, extensão para Hong Kong/Guangzhou ou um bloco mais profundo de tech markets.'
+        why: 'Um dia em Shenzhen com contexto: reformas, camadas antigas, lógica tech, waterfront skyline e a cidade-espetáculo à noite.',
+        logic: 'Shekou e Sea World como início leve junto à água|Shenzhen antigo ou Nantou para ver a cidade antes do skyline|Distritos tech, design e negócios para entender Shenzhen hoje|Talent Park, Shenzhen Bay ou Civic Center para pôr do sol, luzes e drones',
+        see: 'Shekou e Sea World|Nantou ou outra camada urbana antiga|Pontos ligados às reformas e ao crescimento acelerado|Distritos tech/design e contexto de inovação|Talent Park, Shenzhen Bay e mirantes do Civic Center',
+        add: 'Jantar em rooftop ou restaurante com vista|Transfer premium|Timing para foto/vídeo|Foco business/innovation|Apoio de tradução no local|Extensão para Hong Kong, Guangzhou ou tech-market'
       },
       cn: {
-        why: '适合想从内部理解深圳的人：不只是高楼，而是改革故事、港口文化、城中村、科技逻辑、大湾区野心和夜晚的城市秀。',
-        logic: '由 Chieasy 创始人陪同的一日城市体验，重点不是普通打卡，而是理解深圳。先从蛇口和开放故事开始，再看老深圳或南头的城市层次，加入科技、设计和商务语境，最后以人才公园、深圳湾、灯光秀和无人机表演时间收尾。',
-        see: '蛇口、海上世界、老城层次、南头或其他历史城市点、与深圳高速发展相关的地点、科技/设计区、人才公园、深圳湾、市民中心灯光秀和无人机表演观景点。',
-        add: 'Rooftop 晚餐、高端接送、拍照/视频路线、商务/创新角度、现场翻译支持、餐厅预订、延伸到香港/广州，或更深入的 tech market 模块。'
+        why: '适合想带着背景理解深圳的人：改革故事、老城层次、科技逻辑、湾区天际线和夜晚城市秀。',
+        logic: '蛇口和海上世界：从海边轻松开始|老深圳或南头：看高楼之前的城市层次|科技、设计和商务区域：理解今天的深圳|人才公园、深圳湾或市民中心：日落、灯光秀和无人机时间',
+        see: '蛇口和海上世界|南头或其他老城层次|与改革和高速发展相关的地点|科技/设计区和创新语境|人才公园、深圳湾和市民中心观景点',
+        add: 'Rooftop 晚餐或景观餐厅|高端接送|适合拍照/视频的时间安排|商务/创新角度|现场翻译支持|延伸到香港、广州或 tech-market'
       }
     },
     'first-time': {
@@ -2380,6 +2380,18 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     if (routeBookingRoute) routeBookingRoute.value = `${routeKey}: ${routeTitle}`;
     if (routeBookingThanks) routeBookingThanks.hidden = true;
+    const renderRouteCardText = (description) => {
+      const escapeHtml = (value) => String(value || '').replace(/[&<>"']/g, (char) => ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#039;'
+      }[char]));
+      const items = String(description || '').split('|').map(item => item.trim()).filter(Boolean);
+      if (items.length <= 1) return `<p>${escapeHtml(description)}</p>`;
+      return `<ul class="route-place-list">${items.map(item => `<li>${escapeHtml(item)}</li>`).join('')}</ul>`;
+    };
     routePlaceGrid.innerHTML = [
       [labels[0], labels[1], copy.logic],
       [labels[2], labels[3], copy.see],
@@ -2388,7 +2400,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <article class="route-place">
         <span>${tag}</span>
         <h4>${title}</h4>
-        <p>${description}</p>
+        ${renderRouteCardText(description)}
       </article>
     `).join('');
     routeModal.classList.add('open');
