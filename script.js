@@ -70,12 +70,12 @@ document.addEventListener('DOMContentLoaded', () => {
       'Custom routes': 'индивидуальные маршруты',
       'Personalized': 'Персональное',
       'route planning': 'планирование маршрута',
-      'Network': 'Сеть',
-      'Partners across China': 'партнёрская координация',
-      'Local partner coordination': 'партнёрская координация по Китаю',
+      'Network': 'Партнёры',
+      'Partners across China': 'координация по Китаю',
+      'Local partner coordination': 'координация с местными партнёрами',
       'Premium': 'Премиум',
       'Premium experiences': 'премиальные впечатления через партнёров',
-      'Experiences coordinated through local partners': 'впечатления через локальных партнёров',
+      'Experiences coordinated through local partners': 'особенные впечатления через проверенных партнёров',
       'Need clarity before booking the full route?': 'Нужна ясность перед бронированием маршрута?',
       'Book a focused 45-minute consultation and leave with a realistic China plan: where to go, what to avoid, which apps to prepare, how to think about transport, hotels, payments and timing.': 'Забронируйте 45-минутную консультацию и получите реалистичный план по Китаю: куда ехать, чего избегать, какие приложения подготовить, как продумать транспорт, отели, оплату и время на месте.',
       'Route review': 'Разбор маршрута',
@@ -647,7 +647,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Shanghai → Zhangjiajie → Chongqing. A powerful first route mixing modern China, nature and a crazy megacity.': 'Шанхай → Чжанцзяцзе → Чунцин. Сильный первый маршрут: современный Китай, природа и безумный мегаполис.',
       'Zhangjiajie → Tianmen Mountain → Furong. Nature, cliffs, waterfalls and optional helicopter experiences.': 'Чжанцзяцзе → Тяньмэнь → Фужун. Природа, скалы, водопады и опциональные полёты на вертолёте.',
       'Yangshuo → Zhangjiajie → Yunnan. Rivers, karst mountains, ancient towns and dramatic scenery.': 'Яншо → Чжанцзяцзе → Юньнань. Реки, карстовые горы, древние города и драматичные виды.',
-      'Hong Kong → Macau → Guangzhou → Shenzhen. South China, skyline, food, business and history.': 'Гонконг → Макао → Гуанчжоу → Шэньчжэнь. Южный Китай: панорамы, еда, бизнес и история.',
+      'Hong Kong → Macau → Guangzhou → Shenzhen. South China, skyline, food, business and history.': 'Гонконг → Макао → Гуанчжоу → Шэньчжэнь. Южный Китай: городские панорамы, гастрономия, деловой контекст и история.',
       'Beijing → Nanjing → Changsha → Xi\'an. Ancient capitals, city walls, temples and big historical questions.': 'Пекин → Нанкин → Чанша → Сиань. Древние столицы, стены, храмы и большая история.',
       'Taishan → Huashan → Hengshan → Songshan. Cliffs, temples, sunrise routes and active China.': 'Тайшань → Хуашань → Хэншань → Суншань. Скалы, храмы, рассветы и активный Китай.',
       'Qingdao → Chongqing → Shenzhen → Hong Kong. Neon cities, layered roads and future-facing China.': 'Циндао → Чунцин → Шэньчжэнь → Гонконг. Неоновые города, многоуровневые дороги и Китай будущего.',
@@ -1245,9 +1245,9 @@ document.addEventListener('DOMContentLoaded', () => {
       'Custom China Travel Planning & Private Experiences': 'Планирование маршрутов и частные впечатления в Китае',
       'FAQ': 'Вопросы',
       'Local': 'Партнёры',
-      'Network': 'Сеть',
-      'Partners across China': 'партнёрская координация',
-      'Local partner coordination': 'партнёрская координация по Китаю',
+      'Network': 'Партнёры',
+      'Partners across China': 'координация по Китаю',
+      'Local partner coordination': 'координация с местными партнёрами',
       'Active': 'Активный маршрут',
       'Swipe sideways': 'Листайте карточки',
       'Chieasy Online School': 'Онлайн-школа Chieasy',
@@ -1528,8 +1528,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const FINAL_POLISH_TRANSLATIONS = {
     ru: {
       'Route logic before bookings': 'Логика маршрута до бронирований',
-      'Local partner coordination': 'Координация через локальных партнёров',
-      'Premium support when needed': 'Премиум-поддержка там, где нужна',
+      'Local partner coordination': 'Координация с проверенными партнёрами',
+      'Premium support when needed': 'Персональное сопровождение при необходимости',
       'Planning highlights': 'Ключевые преимущества планирования',
       'Plan my China route': 'Спланировать маршрут',
       'View route ideas': 'Смотреть маршруты',
@@ -2266,7 +2266,7 @@ document.addEventListener('DOMContentLoaded', () => {
         why: 'Для первого путешествия по Китаю без хаоса: один сильный мегаполис, одна сюрреалистичная природа и один город, который запоминается надолго.',
         logic: 'Сначала мягкий вход через Шанхай, затем природа Чжанцзяцзе, после этого Чунцин, когда вы уже привыкли к темпу Китая.',
         see: 'Бунд, Луцзяцзуй, Французская концессия, парк Чжанцзяцзе, Тяньмэньшань, Фужун и ночные виды Чунцина.',
-        add: 'Ночной круиз в Чунцине, водителя в Чжанцзяцзе, гастро-вечер в Шанхае, китайский хотпот, отель с видом или день под фото.'
+        add: 'Ночной круиз в Чунцине, водителя в Чжанцзяцзе, гастро-вечер в Шанхае, ужин с китайским фондю, отель с видом или день под фото.'
       }
     },
     avatar: {
@@ -2350,7 +2350,7 @@ document.addEventListener('DOMContentLoaded', () => {
         why: 'Для тех, кто хочет увидеть Китай как футуристичный ночной город: неон, многоуровневые дороги, небоскрёбы, мосты и плотную энергию.',
         logic: 'Маршрут строится вокруг вечерних видов и сильных городских контрастов, чтобы каждая остановка давала другой визуальный эффект.',
         see: 'Ночной Чунцин, Хунъя Дун, Лицзыба, технологические районы Шэньчжэня, гавань Гонконга и морской контраст Циндао.',
-        add: 'Ночного водителя, съёмку на видовых террасах, вечер с китайским хотпотом, разрешённые точки для кадров с высоты, премиальный отель или деловой блок.'
+        add: 'Ночного водителя, съёмку на видовых террасах, ужин с китайским фондю, разрешённые точки для кадров с высоты, отель с сильным видом или деловой блок.'
       }
     },
     xinjiang: {
@@ -2389,10 +2389,10 @@ document.addEventListener('DOMContentLoaded', () => {
         add: 'Local production support, private driver, early-morning access, styling-friendly hotels, drone-style route planning or vertical-video shot lists.'
       },
       ru: {
-        why: 'Для тех, кому нужны локации, которые работают в кадре: кибер-ночи, видовые террасы, горы, реки, старые города и контрасты.',
+        why: 'Для тех, кому нужны сильные кадры: ночной Чунцин, видовые террасы, горы, реки, старые города и резкие контрасты.',
         logic: 'Маршрут планируется вокруг света, времени, перемещений и запасных локаций, а не просто вокруг списка городов.',
         see: 'Неоновый Чунцин, скалы Чжанцзяцзе, реку Яншо, контраст Шанхая, старые города и сильные ночные видовые точки.',
-        add: 'Локальную помощь со съёмкой, водителя, ранние выезды, отели под образ, план точек для кадров с высоты или список вертикальных кадров.'
+        add: 'Организацию съёмки на месте, водителя, ранние выезды, отели под визуальный стиль, точки для кадров с высоты или список вертикальных кадров.'
       }
     },
     'food-culture': {
@@ -2403,9 +2403,9 @@ document.addEventListener('DOMContentLoaded', () => {
         add: 'Private food walk, premium dinner, market morning, tea experience, cooking class or hotel areas selected around food districts.'
       },
       ru: {
-        why: 'Чтобы понять Китай через еду: димсам, китайский хотпот, лапшу, рынки, чайные дома и привычки разных регионов.',
+        why: 'Чтобы понять Китай через еду: димсам, сычуаньский горячий котёл, лапшу, рынки, чайные дома и привычки разных регионов.',
         logic: 'Собираем города с разными гастро-системами, чтобы в каждом месте менялась не только городская панорама, но и сам стол.',
-        see: 'Димсам в Гуанчжоу, хотпот и чайные Чэнду, мусульманский квартал Сианя, рынки, локальные закуски и региональные рестораны.',
+        see: 'Димсам в Гуанчжоу, горячий котёл и чайные Чэнду, мусульманский квартал Сианя, рынки, локальные закуски и региональные рестораны.',
         add: 'Гастро-прогулку, премиальный ужин, утренний рынок, чайный опыт, кулинарный мастер-класс или отели рядом с сильными гастро-районами.'
       }
     },
